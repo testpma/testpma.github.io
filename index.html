@@ -16,42 +16,7 @@
     <!-- Create a div to hold the map -->
     <div id="map"></div>
 
-    <script>
-			// Coordinates for your desired center point
-var centerCoordinates = [41.492, 1.560];
-
-// Create a map centered on the specified coordinates
-var map = L.map('map').setView(centerCoordinates, 8); // You can adjust the zoom level as needed
-
-// Add a tile layer (you can choose a different provider if needed)
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-// Create a marker at the specified center point
-var marker = L.marker(centerCoordinates).addTo(map);
-
-// Function to fetch data from the API and set the popup content
-function setPopupContent() {
-    // Fetch data from the API
-    fetch('https://invarque.cultura.gencat.cat/api/Card/simple-info/21370')
-        .then(response => response.json())
-        .then(data => {
-            var name = data.name.trim();
-            marker.bindPopup(name); // Set the popup content to the fetched name
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-}
-
-// Call the setPopupContent function to set the initial popup content
-setPopupContent();
-
-// Open the popup by default when the map loads
-marker.openPopup();
-
-
-	</script>
+    <!-- Include your external script.js file -->
+    <script src="script.js"></script>
 </body>
 </html>
