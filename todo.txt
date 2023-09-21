@@ -1,0 +1,5 @@
+getIdentificationBySiteId
+
+getInterventionBySiteId
+getSourcesAndDocumentation
+getImagesBySiteId
