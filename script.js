@@ -1,93 +1,120 @@
-// Function to populate a <select> element with options from a JSON file
-function populateSelectFromJSON(selectId, jsonFile) {
-    const selectElement = document.getElementById(selectId);
+function filterDbfData(regionFilter, municipalityFilter, chronologyFilter, typeFilter) {
+  // Initialize an array to store matching IDs
+  const matchingIds = [];
 
-    // Fetch data from the JSON file
-    fetch(jsonFile)
-        .then(response => response.json())
-        .then(data => {
-            // Populate the <select> element with options
-            data.forEach(item => {
-                const option = document.createElement('option');
-                option.value = item.id; // Adjust to the appropriate property in your JSON data
-                option.textContent = item.description; // Adjust to the appropriate property in your JSON data
-                selectElement.appendChild(option);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
+  // Loop through each entry in the dbfData JSON
+  for (const entry of dbfData) {
+    // Check if the provided filters match the entry's data
+    if (
+      (regionFilter === '' || entry.region.includes(regionFilter)) &&
+      (municipalityFilter === '' || entry.municipality.includes(municipalityFilter)) &&
+      (chronologyFilter === '' || entry.chronology.includes(chronologyFilter)) &&
+      (typeFilter === '' || entry.type.includes(typeFilter))
+    ) {
+      // If all filters match, add the ID to the matchingIds array
+      matchingIds.push(entry.id);
+    }
+  }
+
+  // Return the list of matching IDs
+  return matchingIds;
 }
+// Define the function to load regions data and populate the "Regions" filter
+function loadRegions() {
+  // Select the filter-regions dropdown element
+  const regionsDropdown = document.getElementById('filter-regions');
 
-// Function to update markers on the map based on selected filter values
-function updateMarkers() {
-    // Get selected filter values
-    const selectedRegion = document.getElementById('filter-regions').value;
-    const selectedChronology = document.getElementById('filter-chronologies').value;
-    const selectedType = document.getElementById('filter-types').value;	
-    const selectedMunicipality = document.getElementById('filter-municipalities').value;
-
-    // Clear existing markers
-    map.eachLayer(function (layer) {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer);
-        }
+  // Make an AJAX request to fetch the regions.json data
+  fetch('regions.json')
+    .then((response) => response.json())
+    .then((data) => {
+      // Create an option element for each region and populate the select element
+      data.forEach((region) => {
+        const option = document.createElement('option');
+        option.value = region.id;
+        option.text = region.description;
+        regionsDropdown.appendChild(option);
+      });
+    })
+    .catch((error) => {
+      console.error('Error loading regions data:', error);
     });
 
-    // Fetch the coordinates from "markers.json" using fetch
-    fetch('markers.json')
-        .then(response => response.json())
-        .then(coordinates => {
-            // Fetch the filter criteria from "dbf.json" using fetch
-            fetch('dbf.json')
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Fetched data:', data);
-
-                    // Filter data based on selected filter values
-                    data = data.filter(item => {
-                        return (
-                            (selectedRegion === '' || item.region.includes(selectedRegion)) &&
-                            (selectedChronology === '' || item.chronology.includes(selectedChronology)) &&
-                            (selectedType === '' || item.type.includes(selectedType))
-                        );
-                    });
-
-                    // Create markers from the filtered data
-                    var markers = [];
-
-                    coordinates.forEach(coordinate => {
-                        var latitude = coordinate.latitude;
-                        var longitude = coordinate.longitude;
-                        markers.push(L.marker([latitude, longitude]).bindPopup('Marker ' + coordinate.id));
-                    });
-
-                    // Add markers to the map
-                    markers.forEach(marker => {
-                        marker.addTo(map);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching data:', error);
-                });
-        })
-        .catch(error => {
-            console.error('Error fetching coordinates:', error);
-        });
+  // Call the functions to load Chronologies, Types, and Municipalities
+  loadChronologies();
+  loadTypes();
+  loadMunicipalities();
 }
 
-// Event listeners for filter <select> elements
-document.getElementById('filter-regions').addEventListener('change', updateMarkers);
-document.getElementById('filter-chronologies').addEventListener('change', updateMarkers);
-document.getElementById('filter-types').addEventListener('change', updateMarkers);
-document.getElementById('filter-municipalities').addEventListener('change', updateMarkers);
+// Define the function to load chronologies data and populate the "Chronologies" filter
+function loadChronologies() {
+  // Select the chronologies-dropdowns container element
+  const chronologiesDropdowns = document.getElementById('chronologies-dropdowns');
 
-// Populate filter <select> elements with options from JSON files
-populateSelectFromJSON('filter-regions', 'regions.json');
-populateSelectFromJSON('filter-chronologies', 'chronologies.json');
-populateSelectFromJSON('filter-types', 'types.json');
+  // Make an AJAX request to fetch the chronologies.json data
+  fetch('chronologies.json')
+    .then((response) => response.json())
+    .then((data) => {
+      // Call a recursive function to build the hierarchical dropdown menus
+      const chronologiesMenus = buildDropdownMenus(data);
 
-populateSelectFromJSON('filter-municipalities', 'municipalities.json');
+      // Append the menus to the chronologies-dropdowns container
+      chronologiesMenus.forEach((menu) => {
+        chronologiesDropdowns.appendChild(menu);
+      });
+    })
+    .catch((error) => {
+      console.error('Error loading chronologies data:', error);
+    });
+}
 
-// Initial marker update
-updateMarkers();
+// Define the function to load types data and populate the "Types" filter
+function loadTypes() {
+  // Select the types-dropdowns container element
+  const typesDropdowns = document.getElementById('types-dropdowns');
+
+  // Make an AJAX request to fetch the types.json data
+  fetch('types.json')
+    .then((response) => response.json())
+    .then((data) => {
+      // Call a recursive function to build the hierarchical dropdown menus
+      const typesMenus = buildDropdownMenus(data);
+
+      // Append the menus to the types-dropdowns container
+      typesMenus.forEach((menu) => {
+        typesDropdowns.appendChild(menu);
+      });
+    })
+    .catch((error) => {
+      console.error('Error loading types data:', error);
+    });
+}
+
+// Define the function to load municipalities data and populate the "Municipalities" filter
+function loadMunicipalities() {
+  // Select the municipalities-dropdowns container element
+  const municipalitiesDropdowns = document.getElementById('municipalities-dropdowns');
+
+  // Make an AJAX request to fetch the markers.json data
+  fetch('markers.json')
+    .then((response) => response.json())
+    .then((data) => {
+      // Create an array to store unique municipality descriptions
+      const uniqueMunicipalities = [];
+
+      // Iterate through the data and collect unique municipality descriptions
+      data.forEach((marker) => {
+        if (marker.description && !uniqueMunicipalities.includes(marker.description)) {
+          uniqueMunicipalities.push(marker.description);
+        }
+      });
+
+      // Sort the unique municipality descriptions alphabetically
+      uniqueMunicipalities.sort();
+
+      // Create an option element for each unique municipality description and populate the select element
+      uniqueMunicipalities.forEach((municipality) => {
+        const option = document.createElement('option');
+        option.value = municipality;
+        option.text = municipality;
+        municipalitiesDropdowns.appendChild(option);

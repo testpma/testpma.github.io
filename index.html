@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Catalonia Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -32,14 +31,13 @@
 
         /* Style for filter labels */
         .filter-label {
-            flex-basis: 20%; /* Four columns */
+            flex-basis: 10%; /* Four columns */
             padding: 5px;
             box-sizing: border-box;
         }
     </style>
 </head>
-
-<body>
+<body onload="loadRegions()">
     <!-- Create a div to hold the map -->
     <div id="map"></div>
 
@@ -53,25 +51,24 @@
 
         <!-- Filter by Chronologies -->
         <label class="filter-label" for="filter-chronologies">Chronologies:</label>
-        <select id="filter-chronologies">
-            <option value="">All</option> <!-- Default option -->
-        </select>
+        <div id="chronologies-dropdowns">
+            <!-- Dropdown menus for hierarchical chronologies will be inserted here -->
+        </div>
 
         <!-- Filter by Types -->
         <label class="filter-label" for="filter-types">Types:</label>
-        <select id="filter-types">
-            <option value="">All</option> <!-- Default option -->
-        </select>
-		
-		<!-- Filter by Municipalities -->
-		<label class="filter-label" for="filter-municipalities">Municipalities:</label>
-		<select id="filter-municipalities">
-			<option value="">All</option> <!-- Default option -->
-		</select>
+        <div id="types-dropdowns">
+            <!-- Dropdown menus for hierarchical types will be inserted here -->
+        </div>
+
+        <!-- Filter by Municipalities -->
+        <label class="filter-label" for="filter-municipalities">Municipalities:</label>
+        <div id="municipalities-dropdowns">
+            <!-- Dropdown menus for municipalities will be inserted here -->
+        </div>
     </div>
 
     <!-- Include your external script.js file -->
     <script src="script.js"></script>
 </body>
-
 </html>
