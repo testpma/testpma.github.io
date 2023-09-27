@@ -1,47 +1,73 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalonia Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-	@@ -32,14 +31,13 @@
-
-        /* Style for filter labels */
-        .filter-label {
-            flex-basis: 20%; /* Four columns */
-            padding: 5px;
-            box-sizing: border-box;
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        /* Styling for the map and panel */
+        #map {
+            height: 75vh; /* 75% of the viewport height */
+            width: 100%;
+        }
+        #panel {
+            height: 25vh; /* 25% of the viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+        #panel-row1 {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        #panel-row2 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
-
 <body>
-    <!-- Create a div to hold the map -->
+    <!-- Map Container -->
     <div id="map"></div>
 
-	@@ -53,25 +51,24 @@
+    <!-- Panel -->
+    <div id="panel">
+        <!-- Row 1 - Titles -->
+        <div id="panel-row1">
+			<button id="btMunicipalities">Municipalities</button>
+            <div id="filterPopup" style="display: none;">
+                <!-- Populate this div with your filter content -->
+            </div>
+			<button id="btRegions">Regions</button>
+            <div id="filterPopup" style="display: none;">
+                <!-- Populate this div with your filter content -->
+            </div>
+			<button id="btChronologies">Chronologies</button>
+            <div id="filterPopup" style="display: none;">
+                <!-- Populate this div with your filter content -->
+            </div>
+			<button id="btTypes">Types</button>
+            <div id="filterPopup" style="display: none;">
+                <!-- Populate this div with your filter content -->
+            </div>
+        </div>
 
-        <!-- Filter by Chronologies -->
-        <label class="filter-label" for="filter-chronologies">Chronologies:</label>
-        <select id="filter-chronologies">
-            <option value="">All</option> <!-- Default option -->
-        </select>
-
-        <!-- Filter by Types -->
-        <label class="filter-label" for="filter-types">Types:</label>
-        <select id="filter-types">
-            <option value="">All</option> <!-- Default option -->
-        </select>
-		
-		<!-- Filter by Municipalities -->
-		<label class="filter-label" for="filter-municipalities">Municipalities:</label>
-		<select id="filter-municipalities">
-			<option value="">All</option> <!-- Default option -->
-		</select>
+        <!-- Row 2 - Filter Popup -->
+        <div id="panel-row2">
+            <button id="btFilter">Search</button>
+            <div id="filterPopup" style="display: none;">
+                <!-- Populate this div with your filter content -->
+            </div>
+        </div>
     </div>
 
-    <!-- Include your external script.js file -->
     <script src="script.js"></script>
 </body>
-
 </html>
