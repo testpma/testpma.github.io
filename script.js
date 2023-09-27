@@ -5,33 +5,46 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
 }).addTo(map);
 
-// Load data from markers.json
-fetch('markers.json')
-    .then((response) => response.json())
-    .then((data) => {
-        const listMu = document.getElementById('municipalityList');
+addMarkersFromJSON(map);
 
-        // Iterate through the data and create checkboxes
-        data.forEach((item) => {
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.name = 'municipality';
-            checkbox.value = item.description; // Use the Description value
-
-            const label = document.createElement('label');
-            label.appendChild(checkbox);
-            label.appendChild(document.createTextNode(item.description));
-
-            listMu.appendChild(label);
-        });
+function addMarkersFromJSON(map) {
+  fetch('markers.json')
+    .then(response => response.json())
+    .then(data => {
+      // Loop through the JSON data and add markers to the map
+      data.forEach(marker => {
+        const { latitude, longitude, description } = marker;
+        L.marker([latitude, longitude])
+          .addTo(map)
+          .bindPopup(description);
+      });
+    })
+    .catch(error => {
+      console.error('Error reading JSON file:', error);
     });
+}
+
+
+// Flag variable to track whether the popup has been opened
+let isPopupOpen = false;
+let popupWindow = null; // Store the reference to the popup window
+
 
 document.getElementById('btMu').addEventListener('click', function () {
+    // Check if the popup is already open, and do not open it again
+    if (isPopupOpen && popupWindow !== null && !popupWindow.closed) {
+        return;
+    }
+
+    // Set the flag to indicate that the popup is open
+    isPopupOpen = true;
+	
+
     // Open a new popup window with a specific size
-    const popupWindow = window.open('', '_blank', 'width=400,height=400');
+    popupWindow = window.open('', '_blank', 'width=400,height=400');
 
     // Define the content for your popup window here
-    const popupContent = `
+    popupContent = `
         <html>
         <head>
             <meta charset="UTF-8">
@@ -46,36 +59,63 @@ document.getElementById('btMu').addEventListener('click', function () {
 
             <script>
                 // JavaScript code for the popup window
-                fetch('markers.json')
-                    .then((response) => response.json())
-                    .then((data) => {
-                        // Create a container div for the list of checkboxes
-                        const checkboxContainer = document.getElementById('listMu');
-                        checkboxContainer.style.overflowY = 'scroll';
-                        checkboxContainer.style.maxHeight = '200px'; // Set the maximum height for scrollable content
+				fetch('markers.json')
+					.then((response) => response.json())
+					.then((data) => {
+						// Create a container div for the list of checkboxes
+						const checkboxContainer = document.getElementById('listMu');
+						const alphabetDropdown = document.getElementById('alphabetDropdown');
+						const applyFilterButton = document.getElementById('applyFilter');
 
-                        // Iterate through the data and create checkboxes
-                        data.forEach((item) => {
-                            const checkbox = document.createElement('input');
-                            checkbox.type = 'checkbox';
-                            checkbox.name = 'municipality';
-                            checkbox.value = item.description; // Use the Description value
+						checkboxContainer.style.overflowY = 'scroll';
+						checkboxContainer.style.maxHeight = '200px';
 
-                            const label = document.createElement('label');
-                            label.appendChild(checkbox);
-                            label.appendChild(document.createTextNode(item.description));
+						// Function to filter and display checkboxes based on the selected letter
+						function filterCheckboxes(letter) {
+							// Clear the previous checkboxes
+							checkboxContainer.innerHTML = '';
 
-                            checkboxContainer.appendChild(label);
-                        });
+							// Iterate through the data and create checkboxes for descriptions starting with the selected letter
+							data.forEach((item) => {
+								if (item.description.toUpperCase().startsWith(letter)) {
+									const checkbox = document.createElement('input');
+									checkbox.type = 'checkbox';
+									checkbox.name = 'municipality';
+									checkbox.value = item.description;
 
-                        // Create an "Apply Filter" button in the popup
-                        const applyFilterButton = document.getElementById('applyFilter');
+									const label = document.createElement('label');
+									label.appendChild(checkbox);
+									label.appendChild(document.createTextNode(item.description));
 
-                        // Close the popup window when the "Apply Filter" button is clicked
-                        applyFilterButton.addEventListener('click', function () {
-                            window.close();
-                        });
-                    });
+									checkboxContainer.appendChild(label);
+								}
+							});
+						}
+
+						// Populate the alphabet dropdown
+						const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+						alphabet.split('').forEach((letter) => {
+							const option = document.createElement('option');
+							option.value = letter;
+							option.textContent = letter;
+							alphabetDropdown.appendChild(option);
+						});
+
+						// Handle dropdown change event
+						alphabetDropdown.addEventListener('change', function () {
+							const selectedLetter = this.value;
+							filterCheckboxes(selectedLetter);
+						});
+
+						// Handle "Apply Filter" button click event
+						applyFilterButton.addEventListener('click', function () {
+							window.close();	
+						});
+					})
+					.catch((error) => {
+						console.error('Error fetching data:', error);
+					});
+
             </script>
         </body>
         </html>
@@ -84,5 +124,11 @@ document.getElementById('btMu').addEventListener('click', function () {
     // Write the popup content to the new window and close it after writing
     popupWindow.document.write(popupContent);
     popupWindow.document.close();
+	
+	// Handle the popup window close event
+    popupWindow.addEventListener('beforeunload', function () {
+		// Reset the flag when the popup is closed
+		isPopupOpen = false;
+		popupWindow = null; // Clear the reference to the closed window
+    });
 });
-
