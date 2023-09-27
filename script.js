@@ -79,11 +79,13 @@ function updateMarkers() {
 document.getElementById('filter-regions').addEventListener('change', updateMarkers);
 document.getElementById('filter-chronologies').addEventListener('change', updateMarkers);
 document.getElementById('filter-types').addEventListener('change', updateMarkers);
+document.getElementById('filter-municipalities').addEventListener('change', updateMarkers);
 
 // Populate filter <select> elements with options from JSON files
 populateSelectFromJSON('filter-regions', 'regions.json');
 populateSelectFromJSON('filter-chronologies', 'chronologies.json');
 populateSelectFromJSON('filter-types', 'types.json');
+populateSelectFromJSON('filter-municipalities', 'municipalities.json');
 
 // Initial marker update
 updateMarkers();
