@@ -9,9 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Example: Show the filter popup when the button is clicked
-document.getElementById('filterButton').addEventListener('click', function () {
-    var filterPopup = document.getElementById('filterPopup');
-    filterPopup.style.display = 'block';
-
+document.getElementById('btFilter').addEventListener('click', function () {
+    
     // You can populate the filterPopup with your filter options here, e.g., from a JSON file.
 });
