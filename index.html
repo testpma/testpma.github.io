@@ -45,17 +45,23 @@
 
     <!-- Create a div for the filters panel -->
     <div id="filters-panel">
-        <label class="filter-label" for="filter-markers">Markers</label>
-        <input type="checkbox" id="filter-markers" checked>
+        <!-- Filter by Regions -->
+        <label class="filter-label" for="filter-regions">Regions:</label>
+        <select id="filter-regions">
+            <option value="">All</option> <!-- Default option -->
+        </select>
 
-        <label class="filter-label" for="filter-regions">Regions</label>
-        <input type="checkbox" id="filter-regions" checked>
+        <!-- Filter by Chronologies -->
+        <label class="filter-label" for="filter-chronologies">Chronologies:</label>
+        <select id="filter-chronologies">
+            <option value="">All</option> <!-- Default option -->
+        </select>
 
-        <label class="filter-label" for="filter-chronologies">Chronologies</label>
-        <input type="checkbox" id="filter-chronologies" checked>
-
-        <label class="filter-label" for="filter-types">Types</label>
-        <input type="checkbox" id="filter-types" checked>
+        <!-- Filter by Types -->
+        <label class="filter-label" for="filter-types">Types:</label>
+        <select id="filter-types">
+            <option value="">All</option> <!-- Default option -->
+        </select>
     </div>
 
     <!-- Include your external script.js file -->

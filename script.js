@@ -1,5 +1,31 @@
-// Function to update markers on the map based on filters
+// Function to populate a <select> element with options from a JSON file
+function populateSelectFromJSON(selectId, jsonFile) {
+    const selectElement = document.getElementById(selectId);
+
+    // Fetch data from the JSON file
+    fetch(jsonFile)
+        .then(response => response.json())
+        .then(data => {
+            // Populate the <select> element with options
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.id; // Adjust to the appropriate property in your JSON data
+                option.textContent = item.description; // Adjust to the appropriate property in your JSON data
+                selectElement.appendChild(option);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+}
+
+// Function to update markers on the map based on selected filter values
 function updateMarkers() {
+    // Get selected filter values
+    const selectedRegion = document.getElementById('filter-regions').value;
+    const selectedChronology = document.getElementById('filter-chronologies').value;
+    const selectedType = document.getElementById('filter-types').value;
+
     // Clear existing markers
     map.eachLayer(function (layer) {
         if (layer instanceof L.Marker) {
@@ -17,35 +43,13 @@ function updateMarkers() {
                 .then(data => {
                     console.log('Fetched data:', data);
 
-                    // Filter data based on selected filters
+                    // Filter data based on selected filter values
                     data = data.filter(item => {
-                        // Filter by regions from regions.json
-                        if (filters.regions) {
-                            const regionIds = item.region.map(String);
-                            const regionFilterIds = ['1', '2']; // Replace with your selected region IDs from regions.json
-                            const regionMatch = regionIds.some(id => regionFilterIds.includes(id));
-                            if (!regionMatch) {
-                                return false;
-                            }
-                        }
-
-                        // Filter by chronologies from chronologies.json
-                        if (filters.chronologies) {
-                            const chronologyKey = '01.01.01.'; // Replace with your selected chronology key from chronologies.json
-                            if (!item.chronology.includes(chronologyKey)) {
-                                return false;
-                            }
-                        }
-
-                        // Filter by types from types.json
-                        if (filters.types) {
-                            const typeKey = '01.01.01.'; // Replace with your selected type key from types.json
-                            if (!item.type.includes(typeKey)) {
-                                return false;
-                            }
-                        }
-
-                        return true;
+                        return (
+                            (selectedRegion === '' || item.region.includes(selectedRegion)) &&
+                            (selectedChronology === '' || item.chronology.includes(selectedChronology)) &&
+                            (selectedType === '' || item.type.includes(selectedType))
+                        );
                     });
 
                     // Create markers from the filtered data
@@ -71,26 +75,15 @@ function updateMarkers() {
         });
 }
 
-// Event listeners for filter checkboxes
-document.getElementById('filter-markers').addEventListener('change', function () {
-    filters.markers = this.checked;
-    updateMarkers();
-});
+// Event listeners for filter <select> elements
+document.getElementById('filter-regions').addEventListener('change', updateMarkers);
+document.getElementById('filter-chronologies').addEventListener('change', updateMarkers);
+document.getElementById('filter-types').addEventListener('change', updateMarkers);
 
-document.getElementById('filter-regions').addEventListener('change', function () {
-    filters.regions = this.checked;
-    updateMarkers();
-});
-
-document.getElementById('filter-chronologies').addEventListener('change', function () {
-    filters.chronologies = this.checked;
-    updateMarkers();
-});
-
-document.getElementById('filter-types').addEventListener('change', function () {
-    filters.types = this.checked;
-    updateMarkers();
-});
+// Populate filter <select> elements with options from JSON files
+populateSelectFromJSON('filter-regions', 'regions.json');
+populateSelectFromJSON('filter-chronologies', 'chronologies.json');
+populateSelectFromJSON('filter-types', 'types.json');
 
 // Initial marker update
 updateMarkers();
