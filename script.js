@@ -24,7 +24,8 @@ function updateMarkers() {
     // Get selected filter values
     const selectedRegion = document.getElementById('filter-regions').value;
     const selectedChronology = document.getElementById('filter-chronologies').value;
-    const selectedType = document.getElementById('filter-types').value;
+    const selectedType = document.getElementById('filter-types').value;	
+    const selectedMunicipality = document.getElementById('filter-municipalities').value;
 
     // Clear existing markers
     map.eachLayer(function (layer) {
@@ -85,6 +86,7 @@ document.getElementById('filter-municipalities').addEventListener('change', upda
 populateSelectFromJSON('filter-regions', 'regions.json');
 populateSelectFromJSON('filter-chronologies', 'chronologies.json');
 populateSelectFromJSON('filter-types', 'types.json');
+
 populateSelectFromJSON('filter-municipalities', 'municipalities.json');
 
 // Initial marker update
