@@ -1,19 +1,3 @@
-// Define your map
-var map = L.map('map').setView([41.492, 1.560], 8);
-
-// Add a tile layer (you can choose a different provider if needed)
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-// Variables to store filter states
-var filters = {
-    markers: true,
-    regions: true,
-    chronologies: true,
-    types: true
-};
-
 // Function to update markers on the map based on filters
 function updateMarkers() {
     // Clear existing markers
@@ -35,10 +19,33 @@ function updateMarkers() {
 
                     // Filter data based on selected filters
                     data = data.filter(item => {
-                        return (filters.markers && item.region.includes('33')) ||
-                            (filters.regions && item.region.includes('33')) ||
-                            (filters.chronologies && item.chronology.includes('07.03.02.')) ||
-                            (filters.types && item.type.includes('01.02.02.02.03.'));
+                        // Filter by regions from regions.json
+                        if (filters.regions) {
+                            const regionIds = item.region.map(String);
+                            const regionFilterIds = ['1', '2']; // Replace with your selected region IDs from regions.json
+                            const regionMatch = regionIds.some(id => regionFilterIds.includes(id));
+                            if (!regionMatch) {
+                                return false;
+                            }
+                        }
+
+                        // Filter by chronologies from chronologies.json
+                        if (filters.chronologies) {
+                            const chronologyKey = '01.01.01.'; // Replace with your selected chronology key from chronologies.json
+                            if (!item.chronology.includes(chronologyKey)) {
+                                return false;
+                            }
+                        }
+
+                        // Filter by types from types.json
+                        if (filters.types) {
+                            const typeKey = '01.01.01.'; // Replace with your selected type key from types.json
+                            if (!item.type.includes(typeKey)) {
+                                return false;
+                            }
+                        }
+
+                        return true;
                     });
 
                     // Create markers from the filtered data
