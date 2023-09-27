@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Catalonia Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <style>
         /* Define the size of the map container */
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
         #map {
-            height: 700px;
+            flex: 1;
             width: 100%;
+        }
+
+        /* Style for filters panel */
+        #filters-panel {
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.2);
+            height: 25%; /* Set to use 25% of the screen height */
+            overflow-y: auto; /* Add scrollbar when content exceeds panel height */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Style for filter labels */
+        .filter-label {
+            flex-basis: 20%; /* Four columns */
+            padding: 5px;
+            box-sizing: border-box;
         }
     </style>
 </head>
+
 <body>
     <!-- Create a div to hold the map -->
     <div id="map"></div>
 
+    <!-- Create a div for the filters panel -->
+    <div id="filters-panel">
+        <label class="filter-label" for="filter-markers">Markers</label>
+        <input type="checkbox" id="filter-markers" checked>
+
+        <label class="filter-label" for="filter-regions">Regions</label>
+        <input type="checkbox" id="filter-regions" checked>
+
+        <label class="filter-label" for="filter-chronologies">Chronologies</label>
+        <input type="checkbox" id="filter-chronologies" checked>
+
+        <label class="filter-label" for="filter-types">Types</label>
+        <input type="checkbox" id="filter-types" checked>
+    </div>
+
     <!-- Include your external script.js file -->
     <script src="script.js"></script>
 </body>
+
 </html>

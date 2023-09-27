@@ -1,0 +1,7586 @@
+[
+    {
+        "id": "250019",
+        "description": "Abella de la Conca",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.1615074,
+        "longitude": 1.0919975
+    },
+    {
+        "id": "080018",
+        "description": "Abrera",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.5175266,
+        "longitude": 1.9017802
+    },
+    {
+        "id": "250024",
+        "description": "Àger",
+        "description_2": null,
+        "type": "23",
+        "latitude": 42.0007934,
+        "longitude": 0.7610053
+    },
+    {
+        "id": "250030",
+        "description": "Agramunt",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.78718689999999,
+        "longitude": 1.0979794
+    },
+    {
+        "id": "080023",
+        "description": "Aguilar de Segarra",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7392097,
+        "longitude": 1.627507
+    },
+    {
+        "id": "170010",
+        "description": "Agullana",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.393654,
+        "longitude": 2.8458672
+    },
+    {
+        "id": "080142",
+        "description": "Aiguafreda",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7683897,
+        "longitude": 2.2513784
+    },
+    {
+        "id": "430017",
+        "description": "Aiguamúrcia",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.3296224,
+        "longitude": 1.3586793
+    },
+    {
+        "id": "170025",
+        "description": "Aiguaviva",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9376629,
+        "longitude": 2.7620863
+    },
+    {
+        "id": "250387",
+        "description": "Aitona",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4934916,
+        "longitude": 0.4590822999999999
+    },
+    {
+        "id": "250045",
+        "description": "Alamús, els",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6150242,
+        "longitude": 0.7402122999999999
+    },
+    {
+        "id": "250058",
+        "description": "Alàs i Cerc",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3244874,
+        "longitude": 1.5402327
+    },
+    {
+        "id": "250061",
+        "description": "Albagés, l'",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4470074,
+        "longitude": 0.7408062999999999
+    },
+    {
+        "id": "170031",
+        "description": "Albanyà",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3047854,
+        "longitude": 2.7204483
+    },
+    {
+        "id": "250077",
+        "description": "Albatàrrec",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5733763,
+        "longitude": 0.607391
+    },
+    {
+        "id": "250083",
+        "description": "Albesa",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.752541,
+        "longitude": 0.6595184
+    },
+    {
+        "id": "250096",
+        "description": "Albi, l'",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4230658,
+        "longitude": 0.9360877000000001
+    },
+    {
+        "id": "430022",
+        "description": "Albinyana",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2449807,
+        "longitude": 1.486239
+    },
+    {
+        "id": "430038",
+        "description": "Albiol, l'",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2520305,
+        "longitude": 1.0896014
+    },
+    {
+        "id": "170046",
+        "description": "Albons",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.1048463,
+        "longitude": 3.08392
+    },
+    {
+        "id": "430043",
+        "description": "Alcanar",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.5430578,
+        "longitude": 0.4767476
+    },
+    {
+        "id": "250100",
+        "description": "Alcanó",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.46955519999999,
+        "longitude": 0.6298922
+    },
+    {
+        "id": "250117",
+        "description": "Alcarràs",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5632511,
+        "longitude": 0.5244194
+    },
+    {
+        "id": "250122",
+        "description": "Alcoletge",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.647636,
+        "longitude": 0.694722
+    },
+    {
+        "id": "430056",
+        "description": "Alcover",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.262476,
+        "longitude": 1.1709847
+    },
+    {
+        "id": "439044",
+        "description": "Aldea, l'",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.7455735,
+        "longitude": 0.6186663
+    },
+    {
+        "id": "430069",
+        "description": "Aldover",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.879942,
+        "longitude": 0.4992069
+    },
+    {
+        "id": "430075",
+        "description": "Aleixar, l'",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2010984,
+        "longitude": 1.0457461
+    },
+    {
+        "id": "080039",
+        "description": "Alella",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4919653,
+        "longitude": 2.2940817
+    },
+    {
+        "id": "430081",
+        "description": "Alfara de Carles",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.8469416,
+        "longitude": 0.3654204
+    },
+    {
+        "id": "250138",
+        "description": "Alfarràs",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.830647,
+        "longitude": 0.5687512
+    },
+    {
+        "id": "250143",
+        "description": "Alfés",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5208628,
+        "longitude": 0.6192322
+    },
+    {
+        "id": "430094",
+        "description": "Alforja",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2066087,
+        "longitude": 0.9533984
+    },
+    {
+        "id": "250156",
+        "description": "Algerri",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8148326,
+        "longitude": 0.6381854
+    },
+    {
+        "id": "250169",
+        "description": "Alguaire",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.7367673,
+        "longitude": 0.5849023999999999
+    },
+    {
+        "id": "250175",
+        "description": "Alins",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5486199,
+        "longitude": 1.3177031
+    },
+    {
+        "id": "430108",
+        "description": "Alió",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2985963,
+        "longitude": 1.3035514
+    },
+    {
+        "id": "250194",
+        "description": "Almacelles",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.72869120000001,
+        "longitude": 0.4419828
+    },
+    {
+        "id": "250208",
+        "description": "Almatret",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.3057999,
+        "longitude": 0.4237121
+    },
+    {
+        "id": "250215",
+        "description": "Almenar",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.7970523,
+        "longitude": 0.5680948
+    },
+    {
+        "id": "430115",
+        "description": "Almoster",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1970367,
+        "longitude": 1.1107223
+    },
+    {
+        "id": "250220",
+        "description": "Alòs de Balaguer",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9126559,
+        "longitude": 0.9600662
+    },
+    {
+        "id": "170062",
+        "description": "Alp",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3728449,
+        "longitude": 1.886116
+    },
+    {
+        "id": "080044",
+        "description": "Alpens",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.1189496,
+        "longitude": 2.1014619
+    },
+    {
+        "id": "250236",
+        "description": "Alpicat",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.669674,
+        "longitude": 0.554149
+    },
+    {
+        "id": "250241",
+        "description": "Alt Àneu",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.6830031,
+        "longitude": 1.0777723
+    },
+    {
+        "id": "430120",
+        "description": "Altafulla",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1408587,
+        "longitude": 1.3776889
+    },
+    {
+        "id": "170078",
+        "description": "Amer",
+        "description_2": null,
+        "type": "34",
+        "latitude": 42.0104174,
+        "longitude": 2.6028036
+    },
+    {
+        "id": "430136",
+        "description": "Ametlla de Mar, l'",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.8839435,
+        "longitude": 0.7996491
+    },
+    {
+        "id": "080057",
+        "description": "Ametlla del Vallès, l'",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6683251,
+        "longitude": 2.2605005
+    },
+    {
+        "id": "439060",
+        "description": "Ampolla, l'",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.805003,
+        "longitude": 0.6867939
+    },
+    {
+        "id": "430141",
+        "description": "Amposta",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.7067997,
+        "longitude": 0.5801695
+    },
+    {
+        "id": "170084",
+        "description": "Anglès",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.9392441,
+        "longitude": 2.6288523
+    },
+    {
+        "id": "250273",
+        "description": "Anglesola",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.65719139999999,
+        "longitude": 1.0837613
+    },
+    {
+        "id": "250292",
+        "description": "Arbeca",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.5426212,
+        "longitude": 0.9234723
+    },
+    {
+        "id": "430167",
+        "description": "Arboç, l'",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2659877,
+        "longitude": 1.6020337
+    },
+    {
+        "id": "430154",
+        "description": "Arbolí",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2426006,
+        "longitude": 0.9487716
+    },
+    {
+        "id": "170097",
+        "description": "Arbúcies",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8165773,
+        "longitude": 2.511129
+    },
+    {
+        "id": "080060",
+        "description": "Arenys de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5783288,
+        "longitude": 2.5346498
+    },
+    {
+        "id": "080076",
+        "description": "Arenys de Munt",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6093683,
+        "longitude": 2.5408414
+    },
+    {
+        "id": "170101",
+        "description": "Argelaguer",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2160996,
+        "longitude": 2.6415719
+    },
+    {
+        "id": "080082",
+        "description": "Argençola",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6020116,
+        "longitude": 1.4531355
+    },
+    {
+        "id": "430173",
+        "description": "Argentera, l'",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.13750599999999,
+        "longitude": 0.9089423999999999
+    },
+    {
+        "id": "080095",
+        "description": "Argentona",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5531639,
+        "longitude": 2.4008466
+    },
+    {
+        "id": "170118",
+        "description": "Armentera, l'",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1717603,
+        "longitude": 3.0738992
+    },
+    {
+        "id": "430189",
+        "description": "Arnes",
+        "description_2": null,
+        "type": "37",
+        "latitude": 40.9110458,
+        "longitude": 0.2614174
+    },
+    {
+        "id": "250313",
+        "description": "Arres",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.7591538,
+        "longitude": 0.7105267
+    },
+    {
+        "id": "250328",
+        "description": "Arsèguel",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3500537,
+        "longitude": 1.5829386
+    },
+    {
+        "id": "080109",
+        "description": "Artés",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.796354,
+        "longitude": 1.9514657
+    },
+    {
+        "id": "250334",
+        "description": "Artesa de Lleida",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.553054,
+        "longitude": 0.7033745
+    },
+    {
+        "id": "250349",
+        "description": "Artesa de Segre",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8956604,
+        "longitude": 1.0472421
+    },
+    {
+        "id": "430192",
+        "description": "Ascó",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.1827575,
+        "longitude": 0.5671571
+    },
+    {
+        "id": "250365",
+        "description": "Aspa",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4941515,
+        "longitude": 0.6743182999999999
+    },
+    {
+        "id": "250371",
+        "description": "Avellanes i Santa Linya, les",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9366402,
+        "longitude": 0.810357
+    },
+    {
+        "id": "080116",
+        "description": "Avià",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.07821010000001,
+        "longitude": 1.8202649
+    },
+    {
+        "id": "080121",
+        "description": "Avinyó",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.8641846,
+        "longitude": 1.9724136
+    },
+    {
+        "id": "170123",
+        "description": "Avinyonet de Puigventós",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2536062,
+        "longitude": 2.9126022
+    },
+    {
+        "id": "080137",
+        "description": "Avinyonet del Penedès",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3547538,
+        "longitude": 1.7858092
+    },
+    {
+        "id": "080155",
+        "description": "Badalona",
+        "description_2": null,
+        "type": "13",
+        "latitude": 41.446964,
+        "longitude": 2.2449607
+    },
+    {
+        "id": "089045",
+        "description": "Badia del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5081546,
+        "longitude": 2.1143422
+    },
+    {
+        "id": "080168",
+        "description": "Bagà",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.25262,
+        "longitude": 1.861711
+    },
+    {
+        "id": "250390",
+        "description": "Baix Pallars",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.3301006,
+        "longitude": 1.0394635
+    },
+    {
+        "id": "250404",
+        "description": "Balaguer",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7877143,
+        "longitude": 0.8008388
+    },
+    {
+        "id": "080174",
+        "description": "Balenyà",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8240086,
+        "longitude": 2.2089109
+    },
+    {
+        "id": "080180",
+        "description": "Balsareny",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.86345619999999,
+        "longitude": 1.8745219
+    },
+    {
+        "id": "430206",
+        "description": "Banyeres del Penedès",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2794548,
+        "longitude": 1.5808175
+    },
+    {
+        "id": "170157",
+        "description": "Banyoles",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1181833,
+        "longitude": 2.7651488
+    },
+    {
+        "id": "250411",
+        "description": "Barbens",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6775914,
+        "longitude": 1.016083
+    },
+    {
+        "id": "430213",
+        "description": "Barberà de la Conca",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4109456,
+        "longitude": 1.2277556
+    },
+    {
+        "id": "082520",
+        "description": "Barberà del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5136208,
+        "longitude": 2.1255553
+    },
+    {
+        "id": "080193",
+        "description": "Barcelona",
+        "description_2": null,
+        "type": "13",
+        "latitude": 41.3873974,
+        "longitude": 2.168568
+    },
+    {
+        "id": "250426",
+        "description": "Baronia de Rialb, la",
+        "description_2": null,
+        "type": "23",
+        "latitude": 42.0126088,
+        "longitude": 1.1929114
+    },
+    {
+        "id": "170160",
+        "description": "Bàscara",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1581166,
+        "longitude": 2.9107298
+    },
+    {
+        "id": "250447",
+        "description": "Bassella",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.0169127,
+        "longitude": 1.2958754
+    },
+    {
+        "id": "430228",
+        "description": "Batea",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0937776,
+        "longitude": 0.3119154
+    },
+    {
+        "id": "250450",
+        "description": "Bausen",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.8344383,
+        "longitude": 0.7167587999999999
+    },
+    {
+        "id": "080207",
+        "description": "Begues",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.33097480000001,
+        "longitude": 1.9226434
+    },
+    {
+        "id": "170139",
+        "description": "Begur",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9535511,
+        "longitude": 3.2025608
+    },
+    {
+        "id": "250463",
+        "description": "Belianes",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5605304,
+        "longitude": 1.0143426
+    },
+    {
+        "id": "250485",
+        "description": "Bell-lloc d'Urgell",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6303438,
+        "longitude": 0.7791283
+    },
+    {
+        "id": "251706",
+        "description": "Bellaguarda",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.32875689999999,
+        "longitude": 0.724773
+    },
+    {
+        "id": "170182",
+        "description": "Bellcaire d'Empordà",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0792042,
+        "longitude": 3.0958224
+    },
+    {
+        "id": "250479",
+        "description": "Bellcaire d'Urgell",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7583443,
+        "longitude": 0.9044696
+    },
+    {
+        "id": "250498",
+        "description": "Bellmunt d'Urgell",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7739942,
+        "longitude": 0.9519708
+    },
+    {
+        "id": "430234",
+        "description": "Bellmunt del Priorat",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1636991,
+        "longitude": 0.7654622999999999
+    },
+    {
+        "id": "080214",
+        "description": "Bellprat",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5170582,
+        "longitude": 1.4335027
+    },
+    {
+        "id": "250501",
+        "description": "Bellpuig",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.6254321,
+        "longitude": 1.0119509
+    },
+    {
+        "id": "430249",
+        "description": "Bellvei",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.23512119999999,
+        "longitude": 1.5644578
+    },
+    {
+        "id": "250518",
+        "description": "Bellver de Cerdanya",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3728624,
+        "longitude": 1.7749101
+    },
+    {
+        "id": "250523",
+        "description": "Bellvís",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6743299,
+        "longitude": 0.8186873
+    },
+    {
+        "id": "250539",
+        "description": "Benavent de Segrià",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.697298,
+        "longitude": 0.6328539
+    },
+    {
+        "id": "430252",
+        "description": "Benifallet",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.9733072,
+        "longitude": 0.5169218999999999
+    },
+    {
+        "id": "430265",
+        "description": "Benissanet",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.0584559,
+        "longitude": 0.6340386
+    },
+    {
+        "id": "080229",
+        "description": "Berga",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1012595,
+        "longitude": 1.8439221
+    },
+    {
+        "id": "170195",
+        "description": "Besalú",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2002357,
+        "longitude": 2.6953375
+    },
+    {
+        "id": "170209",
+        "description": "Bescanó",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9657629,
+        "longitude": 2.7400328
+    },
+    {
+        "id": "170216",
+        "description": "Beuda",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.237315,
+        "longitude": 2.7095744
+    },
+    {
+        "id": "080235",
+        "description": "Bigues i Riells del Fai",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6769259,
+        "longitude": 2.2259661
+    },
+    {
+        "id": "250557",
+        "description": "Biosca",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.8418319,
+        "longitude": 1.3580764
+    },
+    {
+        "id": "170221",
+        "description": "Bisbal d'Empordà, la",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9586483,
+        "longitude": 3.0397887
+    },
+    {
+        "id": "430271",
+        "description": "Bisbal de Falset, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.28063789999999,
+        "longitude": 0.7225467000000001
+    },
+    {
+        "id": "430287",
+        "description": "Bisbal del Penedès, la",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2794225,
+        "longitude": 1.4887997
+    },
+    {
+        "id": "172348",
+        "description": "Biure",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3424615,
+        "longitude": 2.9026172
+    },
+    {
+        "id": "430290",
+        "description": "Blancafort",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4505405,
+        "longitude": 1.1496969
+    },
+    {
+        "id": "170237",
+        "description": "Blanes",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.6759954,
+        "longitude": 2.7902289
+    },
+    {
+        "id": "170293",
+        "description": "Boadella i les Escaules",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.33044230000001,
+        "longitude": 2.8565087
+    },
+    {
+        "id": "170242",
+        "description": "Bolvir",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.41799959999999,
+        "longitude": 1.8798938
+    },
+    {
+        "id": "430304",
+        "description": "Bonastre",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2210727,
+        "longitude": 1.4399442
+    },
+    {
+        "id": "250576",
+        "description": "Bòrdes, Es",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.7377242,
+        "longitude": 0.7206173
+    },
+    {
+        "id": "170255",
+        "description": "Bordils",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0388569,
+        "longitude": 2.9169749
+    },
+    {
+        "id": "250582",
+        "description": "Borges Blanques, les",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.5223705,
+        "longitude": 0.8735607000000001
+    },
+    {
+        "id": "430311",
+        "description": "Borges del Camp, les",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1702125,
+        "longitude": 1.0209204
+    },
+    {
+        "id": "170268",
+        "description": "Borrassà",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2230901,
+        "longitude": 2.9257107
+    },
+    {
+        "id": "080240",
+        "description": "Borredà",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1501511,
+        "longitude": 1.9783666
+    },
+    {
+        "id": "250595",
+        "description": "Bossòst",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.78550449999999,
+        "longitude": 0.6921324999999999
+    },
+    {
+        "id": "430326",
+        "description": "Bot",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0092002,
+        "longitude": 0.3849736
+    },
+    {
+        "id": "430332",
+        "description": "Botarell",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1352694,
+        "longitude": 0.9898346000000001
+    },
+    {
+        "id": "250560",
+        "description": "Bovera",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.32613,
+        "longitude": 0.6387778
+    },
+    {
+        "id": "430347",
+        "description": "Bràfim",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2693132,
+        "longitude": 1.3408979
+    },
+    {
+        "id": "170274",
+        "description": "Breda",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7497057,
+        "longitude": 2.5569436
+    },
+    {
+        "id": "080253",
+        "description": "Bruc, el",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5805938,
+        "longitude": 1.7799034
+    },
+    {
+        "id": "080266",
+        "description": "Brull, el",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8168113,
+        "longitude": 2.3054067
+    },
+    {
+        "id": "170280",
+        "description": "Brunyola i Sant Martí Sapresa",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.90452250000001,
+        "longitude": 2.6841937
+    },
+    {
+        "id": "430350",
+        "description": "Cabacés",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.24846,
+        "longitude": 0.724773
+    },
+    {
+        "id": "250609",
+        "description": "Cabanabona",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8508626,
+        "longitude": 1.2166383
+    },
+    {
+        "id": "170314",
+        "description": "Cabanelles",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2303509,
+        "longitude": 2.8200093
+    },
+    {
+        "id": "170307",
+        "description": "Cabanes",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.306365,
+        "longitude": 2.9675572
+    },
+    {
+        "id": "080272",
+        "description": "Cabanyes, les",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3719419,
+        "longitude": 1.6888257
+    },
+    {
+        "id": "250616",
+        "description": "Cabó",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.2388889,
+        "longitude": 1.2471427
+    },
+    {
+        "id": "430363",
+        "description": "Cabra del Camp",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.40391,
+        "longitude": 1.2987349
+    },
+    {
+        "id": "080288",
+        "description": "Cabrera d'Anoia",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.4936117,
+        "longitude": 1.710095
+    },
+    {
+        "id": "080291",
+        "description": "Cabrera de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5280545,
+        "longitude": 2.3929959
+    },
+    {
+        "id": "080305",
+        "description": "Cabrils",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5247306,
+        "longitude": 2.3671032
+    },
+    {
+        "id": "170329",
+        "description": "Cadaqués",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2887571,
+        "longitude": 3.2779723
+    },
+    {
+        "id": "080312",
+        "description": "Calaf",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7325486,
+        "longitude": 1.5135421
+    },
+    {
+        "id": "430379",
+        "description": "Calafell",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.1938386,
+        "longitude": 1.5664556
+    },
+    {
+        "id": "080348",
+        "description": "Calders",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7900394,
+        "longitude": 1.9936584
+    },
+    {
+        "id": "080327",
+        "description": "Caldes d'Estrac",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5716858,
+        "longitude": 2.5236717
+    },
+    {
+        "id": "170335",
+        "description": "Caldes de Malavella",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8358025,
+        "longitude": 2.807864
+    },
+    {
+        "id": "080333",
+        "description": "Caldes de Montbui",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6316583,
+        "longitude": 2.1668706
+    },
+    {
+        "id": "080351",
+        "description": "Calella",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6134346,
+        "longitude": 2.6535552
+    },
+    {
+        "id": "080370",
+        "description": "Calldetenes",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9250982,
+        "longitude": 2.2840953
+    },
+    {
+        "id": "080386",
+        "description": "Callús",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7965959,
+        "longitude": 1.7830973
+    },
+    {
+        "id": "080364",
+        "description": "Calonge de Segarra",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7410449,
+        "longitude": 1.4918235
+    },
+    {
+        "id": "170340",
+        "description": "Calonge i Sant Antoni",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.8637896,
+        "longitude": 3.0726468
+    },
+    {
+        "id": "250621",
+        "description": "Camarasa",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8745355,
+        "longitude": 0.8774248
+    },
+    {
+        "id": "439039",
+        "description": "Camarles",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.7849717,
+        "longitude": 0.6488505
+    },
+    {
+        "id": "430385",
+        "description": "Cambrils",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.0666754,
+        "longitude": 1.0603606
+    },
+    {
+        "id": "170353",
+        "description": "Camós",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.094148,
+        "longitude": 2.7670699
+    },
+    {
+        "id": "170366",
+        "description": "Campdevànol",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.2219838,
+        "longitude": 2.1683571
+    },
+    {
+        "id": "170372",
+        "description": "Campelles",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.2948623,
+        "longitude": 2.1416484
+    },
+    {
+        "id": "080399",
+        "description": "Campins",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7293138,
+        "longitude": 2.4653598
+    },
+    {
+        "id": "170388",
+        "description": "Campllong",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.8937008,
+        "longitude": 2.831922
+    },
+    {
+        "id": "170391",
+        "description": "Camprodon",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.31366939999999,
+        "longitude": 2.3651425
+    },
+    {
+        "id": "250637",
+        "description": "Canejan",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.8385614,
+        "longitude": 0.7393214
+    },
+    {
+        "id": "170405",
+        "description": "Canet d'Adri",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0327715,
+        "longitude": 2.7374949
+    },
+    {
+        "id": "080403",
+        "description": "Canet de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5998437,
+        "longitude": 2.5767694
+    },
+    {
+        "id": "439076",
+        "description": "Canonja, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1088656,
+        "longitude": 1.1881076
+    },
+    {
+        "id": "080410",
+        "description": "Canovelles",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.61872959999999,
+        "longitude": 2.2770506
+    },
+    {
+        "id": "080425",
+        "description": "Cànoves i Samalús",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6939748,
+        "longitude": 2.3532739
+    },
+    {
+        "id": "170412",
+        "description": "Cantallops",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.4221088,
+        "longitude": 2.9254799
+    },
+    {
+        "id": "080431",
+        "description": "Canyelles",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.2829335,
+        "longitude": 1.7230553
+    },
+    {
+        "id": "430398",
+        "description": "Capafonts",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2954255,
+        "longitude": 1.0272002
+    },
+    {
+        "id": "430402",
+        "description": "Capçanes",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1006811,
+        "longitude": 0.7821062
+    },
+    {
+        "id": "080446",
+        "description": "Capellades",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5309648,
+        "longitude": 1.685923
+    },
+    {
+        "id": "170427",
+        "description": "Capmany",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3733794,
+        "longitude": 2.9194681
+    },
+    {
+        "id": "080459",
+        "description": "Capolat",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0896268,
+        "longitude": 1.7490143
+    },
+    {
+        "id": "080462",
+        "description": "Cardedeu",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6394024,
+        "longitude": 2.3591531
+    },
+    {
+        "id": "080478",
+        "description": "Cardona",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.913607,
+        "longitude": 1.6797134
+    },
+    {
+        "id": "080484",
+        "description": "Carme",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5318282,
+        "longitude": 1.6203468
+    },
+    {
+        "id": "430419",
+        "description": "Caseres",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0394453,
+        "longitude": 0.2511497
+    },
+    {
+        "id": "170448",
+        "description": "Cassà de la Selva",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.8862532,
+        "longitude": 2.8751691
+    },
+    {
+        "id": "080497",
+        "description": "Casserres",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0120819,
+        "longitude": 1.8434162
+    },
+    {
+        "id": "080575",
+        "description": "Castell de l'Areny",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1730883,
+        "longitude": 1.9452014
+    },
+    {
+        "id": "259046",
+        "description": "Castell de Mur",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.1046566,
+        "longitude": 0.8579818
+    },
+    {
+        "id": "170486",
+        "description": "Castell-Platja d'Aro",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.8179488,
+        "longitude": 3.0668559
+    },
+    {
+        "id": "250642",
+        "description": "Castellar de la Ribera",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.0223125,
+        "longitude": 1.4155391
+    },
+    {
+        "id": "080522",
+        "description": "Castellar de n'Hug",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.2829512,
+        "longitude": 2.0172181
+    },
+    {
+        "id": "080500",
+        "description": "Castellar del Riu",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1141199,
+        "longitude": 1.7636181
+    },
+    {
+        "id": "080517",
+        "description": "Castellar del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.6172338,
+        "longitude": 2.0873256
+    },
+    {
+        "id": "080538",
+        "description": "Castellbell i el Vilar",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6291032,
+        "longitude": 1.8641519
+    },
+    {
+        "id": "080543",
+        "description": "Castellbisbal",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.482929,
+        "longitude": 1.9869293
+    },
+    {
+        "id": "080556",
+        "description": "Castellcir",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7703577,
+        "longitude": 2.1548473
+    },
+    {
+        "id": "250674",
+        "description": "Castelldans",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4974858,
+        "longitude": 0.7663538
+    },
+    {
+        "id": "080569",
+        "description": "Castelldefels",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.2800161,
+        "longitude": 1.9766294
+    },
+    {
+        "id": "080581",
+        "description": "Castellet i la Gornal",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.2535361,
+        "longitude": 1.5925029
+    },
+    {
+        "id": "170464",
+        "description": "Castellfollit de la Roca",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.219731,
+        "longitude": 2.5488918
+    },
+    {
+        "id": "080608",
+        "description": "Castellfollit de Riubregós",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.77589330000001,
+        "longitude": 1.4379359
+    },
+    {
+        "id": "080594",
+        "description": "Castellfollit del Boix",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6658732,
+        "longitude": 1.6842693
+    },
+    {
+        "id": "080615",
+        "description": "Castellgalí",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6747239,
+        "longitude": 1.8435319
+    },
+    {
+        "id": "080620",
+        "description": "Castellnou de Bages",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.8343436,
+        "longitude": 1.8367862
+    },
+    {
+        "id": "250680",
+        "description": "Castellnou de Seana",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6479821,
+        "longitude": 0.9704298
+    },
+    {
+        "id": "170470",
+        "description": "Castelló d'Empúries",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2604918,
+        "longitude": 3.0738992
+    },
+    {
+        "id": "250693",
+        "description": "Castelló de Farfanya",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8174163,
+        "longitude": 0.7265541999999999
+    },
+    {
+        "id": "080636",
+        "description": "Castellolí",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.598018,
+        "longitude": 1.6997629
+    },
+    {
+        "id": "250707",
+        "description": "Castellserà",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.7458448,
+        "longitude": 0.9874442999999999
+    },
+    {
+        "id": "080641",
+        "description": "Castellterçol",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7503185,
+        "longitude": 2.1199
+    },
+    {
+        "id": "430424",
+        "description": "Castellvell del Camp",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.187811,
+        "longitude": 1.0897511
+    },
+    {
+        "id": "080654",
+        "description": "Castellví de la Marca",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3324427,
+        "longitude": 1.5942571
+    },
+    {
+        "id": "080667",
+        "description": "Castellví de Rosanes",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4500186,
+        "longitude": 1.8995445
+    },
+    {
+        "id": "430430",
+        "description": "Catllar, el",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1759037,
+        "longitude": 1.3270397
+    },
+    {
+        "id": "250714",
+        "description": "Cava",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3252871,
+        "longitude": 1.6055202
+    },
+    {
+        "id": "171899",
+        "description": "Cellera de Ter, la",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.9685385,
+        "longitude": 2.620788
+    },
+    {
+        "id": "170499",
+        "description": "Celrà",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.025748,
+        "longitude": 2.8790408
+    },
+    {
+        "id": "080673",
+        "description": "Centelles",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.7973754,
+        "longitude": 2.2222269
+    },
+    {
+        "id": "082687",
+        "description": "Cercs",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1468742,
+        "longitude": 1.8601862
+    },
+    {
+        "id": "082665",
+        "description": "Cerdanyola del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.4900419,
+        "longitude": 2.1396748
+    },
+    {
+        "id": "080689",
+        "description": "Cervelló",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3896747,
+        "longitude": 1.9539106
+    },
+    {
+        "id": "250729",
+        "description": "Cervera",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6838422,
+        "longitude": 1.2794744
+    },
+    {
+        "id": "250735",
+        "description": "Cervià de les Garrigues",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4274049,
+        "longitude": 0.8609602
+    },
+    {
+        "id": "170502",
+        "description": "Cervià de Ter",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0667654,
+        "longitude": 2.9094816
+    },
+    {
+        "id": "170519",
+        "description": "Cistella",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2684611,
+        "longitude": 2.8480486
+    },
+    {
+        "id": "250740",
+        "description": "Ciutadilla",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5612352,
+        "longitude": 1.1395
+    },
+    {
+        "id": "250753",
+        "description": "Clariana de Cardener",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.93312969999999,
+        "longitude": 1.626142
+    },
+    {
+        "id": "250766",
+        "description": "Cogul, el",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.46733709999999,
+        "longitude": 0.6897597
+    },
+    {
+        "id": "170545",
+        "description": "Colera",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.4004541,
+        "longitude": 3.1277854
+    },
+    {
+        "id": "250772",
+        "description": "Coll de Nargó",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.1738219,
+        "longitude": 1.3161974
+    },
+    {
+        "id": "080692",
+        "description": "Collbató",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.5768136,
+        "longitude": 1.8220818
+    },
+    {
+        "id": "430458",
+        "description": "Colldejou",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.0999205,
+        "longitude": 0.8874774999999999
+    },
+    {
+        "id": "080706",
+        "description": "Collsuspina",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.8265144,
+        "longitude": 2.1751135
+    },
+    {
+        "id": "170558",
+        "description": "Colomers",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0845206,
+        "longitude": 2.9881816
+    },
+    {
+        "id": "251636",
+        "description": "Coma i la Pedra, la",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.175938,
+        "longitude": 1.5886966
+    },
+    {
+        "id": "251615",
+        "description": "Conca de Dalt",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.2121579,
+        "longitude": 1.0011902
+    },
+    {
+        "id": "430461",
+        "description": "Conesa",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.51811310000001,
+        "longitude": 1.2912103
+    },
+    {
+        "id": "430477",
+        "description": "Constantí",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1535458,
+        "longitude": 1.212596
+    },
+    {
+        "id": "080713",
+        "description": "Copons",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6460892,
+        "longitude": 1.5160212
+    },
+    {
+        "id": "430483",
+        "description": "Corbera d'Ebre",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0768503,
+        "longitude": 0.4755993
+    },
+    {
+        "id": "080728",
+        "description": "Corbera de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4202064,
+        "longitude": 1.9245812
+    },
+    {
+        "id": "250788",
+        "description": "Corbins",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6901038,
+        "longitude": 0.6927257
+    },
+    {
+        "id": "170577",
+        "description": "Corçà",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9872589,
+        "longitude": 3.0144382
+    },
+    {
+        "id": "080734",
+        "description": "Cornellà de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3573827,
+        "longitude": 2.0707159
+    },
+    {
+        "id": "170561",
+        "description": "Cornellà del Terri",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.0891611,
+        "longitude": 2.8160067
+    },
+    {
+        "id": "430496",
+        "description": "Cornudella de Montsant",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2671938,
+        "longitude": 0.9152051000000001
+    },
+    {
+        "id": "430509",
+        "description": "Creixell",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1655007,
+        "longitude": 1.4359781
+    },
+    {
+        "id": "170583",
+        "description": "Crespià",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1880382,
+        "longitude": 2.7985236
+    },
+    {
+        "id": "179011",
+        "description": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9570559,
+        "longitude": 2.9922348
+    },
+    {
+        "id": "080749",
+        "description": "Cubelles",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.2085031,
+        "longitude": 1.6727934
+    },
+    {
+        "id": "250791",
+        "description": "Cubells",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8542371,
+        "longitude": 0.9575779999999999
+    },
+    {
+        "id": "430516",
+        "description": "Cunit",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.1980207,
+        "longitude": 1.628035
+    },
+    {
+        "id": "170600",
+        "description": "Darnius",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3669299,
+        "longitude": 2.8334038
+    },
+    {
+        "id": "170617",
+        "description": "Das",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3539548,
+        "longitude": 1.8757422
+    },
+    {
+        "id": "439018",
+        "description": "Deltebre",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.72123879999999,
+        "longitude": 0.7176492
+    },
+    {
+        "id": "080752",
+        "description": "Dosrius",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6055074,
+        "longitude": 2.4307539
+    },
+    {
+        "id": "430537",
+        "description": "Duesaigües",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1458284,
+        "longitude": 0.9301201
+    },
+    {
+        "id": "170622",
+        "description": "Escala, l'",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1198504,
+        "longitude": 3.1227702
+    },
+    {
+        "id": "080765",
+        "description": "Esparreguera",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.5389334,
+        "longitude": 1.870725
+    },
+    {
+        "id": "170638",
+        "description": "Espinelves",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8697876,
+        "longitude": 2.4174746
+    },
+    {
+        "id": "250812",
+        "description": "Espluga Calba, l'",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4950371,
+        "longitude": 1.004179
+    },
+    {
+        "id": "430542",
+        "description": "Espluga de Francolí, l'",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.3971819,
+        "longitude": 1.1029318
+    },
+    {
+        "id": "080771",
+        "description": "Esplugues de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3772561,
+        "longitude": 2.0910377
+    },
+    {
+        "id": "170643",
+        "description": "Espolla",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3909458,
+        "longitude": 3.0006856
+    },
+    {
+        "id": "170656",
+        "description": "Esponellà",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1779464,
+        "longitude": 2.7950993
+    },
+    {
+        "id": "250827",
+        "description": "Espot",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5758342,
+        "longitude": 1.0879541
+    },
+    {
+        "id": "080787",
+        "description": "Espunyola, l'",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.05356829999999,
+        "longitude": 1.7712445
+    },
+    {
+        "id": "082541",
+        "description": "Esquirol, l'",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0348437,
+        "longitude": 2.3700711
+    },
+    {
+        "id": "250886",
+        "description": "Estamariu",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3731557,
+        "longitude": 1.5228293
+    },
+    {
+        "id": "080790",
+        "description": "Estany, l'",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.8689747,
+        "longitude": 2.1115818
+    },
+    {
+        "id": "250851",
+        "description": "Estaràs",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6975038,
+        "longitude": 1.3903425
+    },
+    {
+        "id": "250864",
+        "description": "Esterri d'Àneu",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.6269227,
+        "longitude": 1.1227106
+    },
+    {
+        "id": "250870",
+        "description": "Esterri de Cardós",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5927358,
+        "longitude": 1.2617265
+    },
+    {
+        "id": "430555",
+        "description": "Falset",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.14540059999999,
+        "longitude": 0.8204726
+    },
+    {
+        "id": "170059",
+        "description": "Far d'Empordà, el",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.25208809999999,
+        "longitude": 2.9956836
+    },
+    {
+        "id": "250899",
+        "description": "Farrera",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.497024,
+        "longitude": 1.2719532
+    },
+    {
+        "id": "430568",
+        "description": "Fatarella, la",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.1621105,
+        "longitude": 0.4736798
+    },
+    {
+        "id": "430574",
+        "description": "Febró, la",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2775913,
+        "longitude": 1.0043284
+    },
+    {
+        "id": "081347",
+        "description": "Figaró-Montmany",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7136519,
+        "longitude": 2.2581158
+    },
+    {
+        "id": "080804",
+        "description": "Fígols",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1680787,
+        "longitude": 1.7879685
+    },
+    {
+        "id": "259084",
+        "description": "Fígols i Alinyà",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.1981887,
+        "longitude": 1.3951694
+    },
+    {
+        "id": "430580",
+        "description": "Figuera, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2160813,
+        "longitude": 0.7310074
+    },
+    {
+        "id": "170669",
+        "description": "Figueres",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.26550659999999,
+        "longitude": 2.9581046
+    },
+    {
+        "id": "430593",
+        "description": "Figuerola del Camp",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.3714085,
+        "longitude": 1.2653356
+    },
+    {
+        "id": "170675",
+        "description": "Flaçà",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0450143,
+        "longitude": 2.9625587
+    },
+    {
+        "id": "430607",
+        "description": "Flix",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.2281062,
+        "longitude": 0.5435091
+    },
+    {
+        "id": "250925",
+        "description": "Floresta, la",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.5107312,
+        "longitude": 0.9205739000000001
+    },
+    {
+        "id": "080826",
+        "description": "Fogars de la Selva",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7273226,
+        "longitude": 2.6786163
+    },
+    {
+        "id": "080811",
+        "description": "Fogars de Montclús",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7274934,
+        "longitude": 2.4428424
+    },
+    {
+        "id": "170681",
+        "description": "Foixà",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0399835,
+        "longitude": 2.9975238
+    },
+    {
+        "id": "080832",
+        "description": "Folgueroles",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.940098,
+        "longitude": 2.3162571
+    },
+    {
+        "id": "250931",
+        "description": "Fondarella",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.634355,
+        "longitude": 0.8740871
+    },
+    {
+        "id": "080847",
+        "description": "Fonollosa",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7577002,
+        "longitude": 1.7246856
+    },
+    {
+        "id": "080850",
+        "description": "Font-rubí",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4192167,
+        "longitude": 1.6663523
+    },
+    {
+        "id": "170694",
+        "description": "Fontanals de Cerdanya",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.387655,
+        "longitude": 1.9196949
+    },
+    {
+        "id": "170708",
+        "description": "Fontanilles",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0099494,
+        "longitude": 3.108041
+    },
+    {
+        "id": "170715",
+        "description": "Fontcoberta",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1472253,
+        "longitude": 2.7724117
+    },
+    {
+        "id": "250946",
+        "description": "Foradada",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8768861,
+        "longitude": 1.0129973
+    },
+    {
+        "id": "179026",
+        "description": "Forallac",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9476764,
+        "longitude": 3.0876783
+    },
+    {
+        "id": "430614",
+        "description": "Forès",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4924767,
+        "longitude": 1.23587
+    },
+    {
+        "id": "170736",
+        "description": "Fornells de la Selva",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9312102,
+        "longitude": 2.8116007
+    },
+    {
+        "id": "170741",
+        "description": "Fortià",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2441155,
+        "longitude": 3.0413461
+    },
+    {
+        "id": "080863",
+        "description": "Franqueses del Vallès, les",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.64782750000001,
+        "longitude": 2.3123031
+    },
+    {
+        "id": "430629",
+        "description": "Freginals",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.6722143,
+        "longitude": 0.5204658
+    },
+    {
+        "id": "250962",
+        "description": "Fuliola, la",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.7114576,
+        "longitude": 1.0059724
+    },
+    {
+        "id": "250978",
+        "description": "Fulleda",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4632915,
+        "longitude": 1.0242097
+    },
+    {
+        "id": "080902",
+        "description": "Gaià",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.91642969999999,
+        "longitude": 1.9253448
+    },
+    {
+        "id": "430635",
+        "description": "Galera, la",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.6818426,
+        "longitude": 0.4631743
+    },
+    {
+        "id": "080879",
+        "description": "Gallifa",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.6939066,
+        "longitude": 2.1151912
+    },
+    {
+        "id": "430640",
+        "description": "Gandesa",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0524377,
+        "longitude": 0.4372669
+    },
+    {
+        "id": "430653",
+        "description": "Garcia",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.1364174,
+        "longitude": 0.6506282999999999
+    },
+    {
+        "id": "430666",
+        "description": "Garidells, els",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.20745489999999,
+        "longitude": 1.2475459
+    },
+    {
+        "id": "080885",
+        "description": "Garriga, la",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6933493,
+        "longitude": 2.2778128
+    },
+    {
+        "id": "170754",
+        "description": "Garrigàs",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1927719,
+        "longitude": 2.9544372
+    },
+    {
+        "id": "170767",
+        "description": "Garrigoles",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.1071946,
+        "longitude": 3.0303957
+    },
+    {
+        "id": "170773",
+        "description": "Garriguella",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3444248,
+        "longitude": 3.0638805
+    },
+    {
+        "id": "080898",
+        "description": "Gavà",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.2987914,
+        "longitude": 1.9930466
+    },
+    {
+        "id": "250984",
+        "description": "Gavet de la Conca",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.122861,
+        "longitude": 0.9210212999999998
+    },
+    {
+        "id": "080919",
+        "description": "Gelida",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.43991490000001,
+        "longitude": 1.8672009
+    },
+    {
+        "id": "170789",
+        "description": "Ger",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.4115966,
+        "longitude": 1.845855
+    },
+    {
+        "id": "259123",
+        "description": "Gimenells i el Pla de la Font",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6603639,
+        "longitude": 0.3936722
+    },
+    {
+        "id": "430672",
+        "description": "Ginestar",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.04178539999999,
+        "longitude": 0.6334662
+    },
+    {
+        "id": "170792",
+        "description": "Girona",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9794005,
+        "longitude": 2.8214264
+    },
+    {
+        "id": "080924",
+        "description": "Gironella",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0343553,
+        "longitude": 1.8818441
+    },
+    {
+        "id": "080930",
+        "description": "Gisclareny",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.2717296,
+        "longitude": 1.7830973
+    },
+    {
+        "id": "430688",
+        "description": "Godall",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.6546716,
+        "longitude": 0.4696996
+    },
+    {
+        "id": "250997",
+        "description": "Golmés",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6324739,
+        "longitude": 0.9322549
+    },
+    {
+        "id": "170806",
+        "description": "Gombrèn",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.2477628,
+        "longitude": 2.0907311
+    },
+    {
+        "id": "251001",
+        "description": "Gósol",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.237224,
+        "longitude": 1.6596733
+    },
+    {
+        "id": "080945",
+        "description": "Granada, la",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3758318,
+        "longitude": 1.7222535
+    },
+    {
+        "id": "251018",
+        "description": "Granadella, la",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.3548062,
+        "longitude": 0.6660391
+    },
+    {
+        "id": "080958",
+        "description": "Granera",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7303656,
+        "longitude": 2.0634559
+    },
+    {
+        "id": "251023",
+        "description": "Granja d'Escarp, la",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4188099,
+        "longitude": 0.3530666
+    },
+    {
+        "id": "080961",
+        "description": "Granollers",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.60619270000001,
+        "longitude": 2.2870889
+    },
+    {
+        "id": "251039",
+        "description": "Granyanella",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6480072,
+        "longitude": 1.2232482
+    },
+    {
+        "id": "251057",
+        "description": "Granyena de les Garrigues",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.432857,
+        "longitude": 0.6491468
+    },
+    {
+        "id": "251044",
+        "description": "Granyena de Segarra",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6237612,
+        "longitude": 1.2463911
+    },
+    {
+        "id": "430691",
+        "description": "Gratallops",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1931656,
+        "longitude": 0.7767556
+    },
+    {
+        "id": "080977",
+        "description": "Gualba",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7437079,
+        "longitude": 2.4900943
+    },
+    {
+        "id": "170813",
+        "description": "Gualta",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0263922,
+        "longitude": 3.1037253
+    },
+    {
+        "id": "080996",
+        "description": "Guardiola de Berguedà",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.2501433,
+        "longitude": 1.900155
+    },
+    {
+        "id": "430705",
+        "description": "Guiamets, els",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1015077,
+        "longitude": 0.7523898
+    },
+    {
+        "id": "170828",
+        "description": "Guils de Cerdanya",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.4491343,
+        "longitude": 1.8787931
+    },
+    {
+        "id": "251095",
+        "description": "Guimerà",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5632726,
+        "longitude": 1.1851055
+    },
+    {
+        "id": "259031",
+        "description": "Guingueta d'Àneu, la",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5945468,
+        "longitude": 1.131854
+    },
+    {
+        "id": "251109",
+        "description": "Guissona",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.784519,
+        "longitude": 1.2903074
+    },
+    {
+        "id": "251116",
+        "description": "Guixers",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.1374541,
+        "longitude": 1.6422975
+    },
+    {
+        "id": "081000",
+        "description": "Gurb",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9458819,
+        "longitude": 2.2393486
+    },
+    {
+        "id": "430712",
+        "description": "Horta de Sant Joan",
+        "description_2": null,
+        "type": "37",
+        "latitude": 40.9538408,
+        "longitude": 0.315441
+    },
+    {
+        "id": "081017",
+        "description": "Hospitalet de Llobregat, l'",
+        "description_2": null,
+        "type": "13",
+        "latitude": 41.3661865,
+        "longitude": 2.1164942
+    },
+    {
+        "id": "081629",
+        "description": "Hostalets de Pierola, els",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.53717590000001,
+        "longitude": 1.8025852
+    },
+    {
+        "id": "170834",
+        "description": "Hostalric",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7433285,
+        "longitude": 2.6276966
+    },
+    {
+        "id": "081022",
+        "description": "Igualada",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5847817,
+        "longitude": 1.6226538
+    },
+    {
+        "id": "251155",
+        "description": "Isona i Conca Dellà",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.1184861,
+        "longitude": 1.0465938
+    },
+    {
+        "id": "170849",
+        "description": "Isòvol",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.378096,
+        "longitude": 1.8176639
+    },
+    {
+        "id": "251137",
+        "description": "Ivars d'Urgell",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6804785,
+        "longitude": 0.9880418999999999
+    },
+    {
+        "id": "251121",
+        "description": "Ivars de Noguera",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8498111,
+        "longitude": 0.5865374999999999
+    },
+    {
+        "id": "251142",
+        "description": "Ivorra",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.77203919999999,
+        "longitude": 1.3950581
+    },
+    {
+        "id": "170852",
+        "description": "Jafre",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0728133,
+        "longitude": 3.0106912
+    },
+    {
+        "id": "170865",
+        "description": "Jonquera, la",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.4460207,
+        "longitude": 2.8876436
+    },
+    {
+        "id": "081038",
+        "description": "Jorba",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6014163,
+        "longitude": 1.5468932
+    },
+    {
+        "id": "259101",
+        "description": "Josa i Tuixén",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.2545949,
+        "longitude": 1.6080974
+    },
+    {
+        "id": "170871",
+        "description": "Juià",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.017653,
+        "longitude": 2.9079214
+    },
+    {
+        "id": "251180",
+        "description": "Juncosa",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.3707207,
+        "longitude": 0.7761612
+    },
+    {
+        "id": "251193",
+        "description": "Juneda",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.5470669,
+        "longitude": 0.8234482999999999
+    },
+    {
+        "id": "251214",
+        "description": "Les",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.8116099,
+        "longitude": 0.7117137
+    },
+    {
+        "id": "251229",
+        "description": "Linyola",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.7110719,
+        "longitude": 0.9020843
+    },
+    {
+        "id": "081043",
+        "description": "Llacuna, la",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.4717328,
+        "longitude": 1.5323625
+    },
+    {
+        "id": "170887",
+        "description": "Lladó",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2459247,
+        "longitude": 2.8184321
+    },
+    {
+        "id": "251235",
+        "description": "Lladorre",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.62041130000001,
+        "longitude": 1.2496982
+    },
+    {
+        "id": "251240",
+        "description": "Lladurs",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.0443899,
+        "longitude": 1.5066874
+    },
+    {
+        "id": "081056",
+        "description": "Llagosta, la",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5127697,
+        "longitude": 2.2015347
+    },
+    {
+        "id": "170890",
+        "description": "Llagostera",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.8265546,
+        "longitude": 2.8930242
+    },
+    {
+        "id": "170904",
+        "description": "Llambilles",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9213427,
+        "longitude": 2.8591701
+    },
+    {
+        "id": "170911",
+        "description": "Llanars",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3205278,
+        "longitude": 2.3439807
+    },
+    {
+        "id": "170926",
+        "description": "Llançà",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.36159310000001,
+        "longitude": 3.1450291
+    },
+    {
+        "id": "251253",
+        "description": "Llardecans",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.3742112,
+        "longitude": 0.5500109
+    },
+    {
+        "id": "251266",
+        "description": "Llavorsí",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.495852,
+        "longitude": 1.2100295
+    },
+    {
+        "id": "251207",
+        "description": "Lleida",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.61772209999999,
+        "longitude": 0.6200205999999999
+    },
+    {
+        "id": "170932",
+        "description": "Llers",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2938816,
+        "longitude": 2.9114104
+    },
+    {
+        "id": "251272",
+        "description": "Lles de Cerdanya",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3909912,
+        "longitude": 1.6873068
+    },
+    {
+        "id": "081075",
+        "description": "Lliçà d'Amunt",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6081296,
+        "longitude": 2.2396577
+    },
+    {
+        "id": "081081",
+        "description": "Lliçà de Vall",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5846483,
+        "longitude": 2.2285864
+    },
+    {
+        "id": "251288",
+        "description": "Llimiana",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.0748411,
+        "longitude": 0.9166962999999998
+    },
+    {
+        "id": "081069",
+        "description": "Llinars del Vallès",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6262792,
+        "longitude": 2.3912362
+    },
+    {
+        "id": "170947",
+        "description": "Llívia",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.4633899,
+        "longitude": 1.9802013
+    },
+    {
+        "id": "430727",
+        "description": "Lloar, el",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1858088,
+        "longitude": 0.7488252
+    },
+    {
+        "id": "251291",
+        "description": "Llobera",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.9497629,
+        "longitude": 1.472324
+    },
+    {
+        "id": "430733",
+        "description": "Llorac",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.55680330000001,
+        "longitude": 1.3073147
+    },
+    {
+        "id": "430748",
+        "description": "Llorenç del Penedès",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2842806,
+        "longitude": 1.5487099
+    },
+    {
+        "id": "170950",
+        "description": "Lloret de Mar",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7005989,
+        "longitude": 2.8398194
+    },
+    {
+        "id": "170963",
+        "description": "Llosses, les",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.1504834,
+        "longitude": 2.1158758
+    },
+    {
+        "id": "081094",
+        "description": "Lluçà",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.050443,
+        "longitude": 2.0360443
+    },
+    {
+        "id": "171024",
+        "description": "Maçanet de Cabrenys",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3813839,
+        "longitude": 2.7182728
+    },
+    {
+        "id": "171030",
+        "description": "Maçanet de la Selva",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7768324,
+        "longitude": 2.7324996
+    },
+    {
+        "id": "170979",
+        "description": "Madremanya",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9900627,
+        "longitude": 2.9572535
+    },
+    {
+        "id": "170985",
+        "description": "Maià de Montcal",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2213489,
+        "longitude": 2.7446554
+    },
+    {
+        "id": "251333",
+        "description": "Maials",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.3637747,
+        "longitude": 0.5033397
+    },
+    {
+        "id": "251305",
+        "description": "Maldà",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5503729,
+        "longitude": 1.0386088
+    },
+    {
+        "id": "081108",
+        "description": "Malgrat de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6528561,
+        "longitude": 2.7630471
+    },
+    {
+        "id": "081115",
+        "description": "Malla",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.896406,
+        "longitude": 2.2438101
+    },
+    {
+        "id": "081120",
+        "description": "Manlleu",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0035444,
+        "longitude": 2.2852014
+    },
+    {
+        "id": "081136",
+        "description": "Manresa",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7211121,
+        "longitude": 1.8164413
+    },
+    {
+        "id": "430764",
+        "description": "Marçà",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1266553,
+        "longitude": 0.8026232999999999
+    },
+    {
+        "id": "430751",
+        "description": "Margalef",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2848324,
+        "longitude": 0.7534295
+    },
+    {
+        "id": "082423",
+        "description": "Marganell",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.640497,
+        "longitude": 1.7903143
+    },
+    {
+        "id": "081141",
+        "description": "Martorell",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4774253,
+        "longitude": 1.9175637
+    },
+    {
+        "id": "081154",
+        "description": "Martorelles",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.532089,
+        "longitude": 2.235967
+    },
+    {
+        "id": "430770",
+        "description": "Mas de Barberans",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.7348171,
+        "longitude": 0.3738815
+    },
+    {
+        "id": "171002",
+        "description": "Masarac",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3508095,
+        "longitude": 2.9728687
+    },
+    {
+        "id": "430786",
+        "description": "Masdenverge",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.7152737,
+        "longitude": 0.5310995
+    },
+    {
+        "id": "081167",
+        "description": "Masies de Roda, les",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9858803,
+        "longitude": 2.3112054
+    },
+    {
+        "id": "081173",
+        "description": "Masies de Voltregà, les",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0172312,
+        "longitude": 2.244446
+    },
+    {
+        "id": "430799",
+        "description": "Masllorenç",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.27029599999999,
+        "longitude": 1.4162937
+    },
+    {
+        "id": "081189",
+        "description": "Masnou, el",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4805684,
+        "longitude": 2.3147677
+    },
+    {
+        "id": "430803",
+        "description": "Masó, la",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2346147,
+        "longitude": 1.2211737
+    },
+    {
+        "id": "430810",
+        "description": "Maspujols",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1816242,
+        "longitude": 1.0451477
+    },
+    {
+        "id": "081192",
+        "description": "Masquefa",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.501395,
+        "longitude": 1.8141603
+    },
+    {
+        "id": "430825",
+        "description": "Masroig, el",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1258625,
+        "longitude": 0.7324919
+    },
+    {
+        "id": "251312",
+        "description": "Massalcoreig",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4569554,
+        "longitude": 0.3595372
+    },
+    {
+        "id": "171019",
+        "description": "Massanes",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.765292,
+        "longitude": 2.6530105
+    },
+    {
+        "id": "251327",
+        "description": "Massoteres",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.79734759999999,
+        "longitude": 1.310175
+    },
+    {
+        "id": "081206",
+        "description": "Matadepera",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.63376299999999,
+        "longitude": 1.9979411
+    },
+    {
+        "id": "081213",
+        "description": "Mataró",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5381124,
+        "longitude": 2.4447406
+    },
+    {
+        "id": "179047",
+        "description": "Medinyà",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0480819,
+        "longitude": 2.8658155
+    },
+    {
+        "id": "081228",
+        "description": "Mediona",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4798069,
+        "longitude": 1.627507
+    },
+    {
+        "id": "251348",
+        "description": "Menàrguens",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7321109,
+        "longitude": 0.744964
+    },
+    {
+        "id": "170998",
+        "description": "Meranges",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.4459925,
+        "longitude": 1.7870551
+    },
+    {
+        "id": "171058",
+        "description": "Mieres",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.12407109999999,
+        "longitude": 2.6399584
+    },
+    {
+        "id": "430831",
+        "description": "Milà, el",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2485161,
+        "longitude": 1.2064251
+    },
+    {
+        "id": "251351",
+        "description": "Miralcamp",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6040772,
+        "longitude": 0.8782392
+    },
+    {
+        "id": "430846",
+        "description": "Miravet",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.0407656,
+        "longitude": 0.5998512
+    },
+    {
+        "id": "081385",
+        "description": "Moià",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.8099481,
+        "longitude": 2.0971693
+    },
+    {
+        "id": "430859",
+        "description": "Molar, el",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1631066,
+        "longitude": 0.7105267
+    },
+    {
+        "id": "081234",
+        "description": "Molins de Rei",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4134488,
+        "longitude": 2.0182425
+    },
+    {
+        "id": "251370",
+        "description": "Mollerussa",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6287381,
+        "longitude": 0.8941817000000001
+    },
+    {
+        "id": "171061",
+        "description": "Mollet de Peralada",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3599287,
+        "longitude": 3.000373
+    },
+    {
+        "id": "081249",
+        "description": "Mollet del Vallès",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5411881,
+        "longitude": 2.2188527
+    },
+    {
+        "id": "171077",
+        "description": "Molló",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3467302,
+        "longitude": 2.4049853
+    },
+    {
+        "id": "251364",
+        "description": "Molsosa, la",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.78033689999999,
+        "longitude": 1.5305465
+    },
+    {
+        "id": "081287",
+        "description": "Monistrol de Calders",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7598409,
+        "longitude": 2.0144638
+    },
+    {
+        "id": "081271",
+        "description": "Monistrol de Montserrat",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.611353,
+        "longitude": 1.8464648
+    },
+    {
+        "id": "430918",
+        "description": "Mont-ral",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2870198,
+        "longitude": 1.0981137
+    },
+    {
+        "id": "171100",
+        "description": "Mont-ras",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9081233,
+        "longitude": 3.1517209
+    },
+    {
+        "id": "430923",
+        "description": "Mont-roig del Camp",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.0865513,
+        "longitude": 0.9606138000000001
+    },
+    {
+        "id": "171096",
+        "description": "Montagut i Oix",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2718071,
+        "longitude": 2.5285315
+    },
+    {
+        "id": "430862",
+        "description": "Montblanc",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.3744399,
+        "longitude": 1.1615674
+    },
+    {
+        "id": "430884",
+        "description": "Montbrió del Camp",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1219298,
+        "longitude": 1.0047768
+    },
+    {
+        "id": "081252",
+        "description": "Montcada i Reixac",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.4931546,
+        "longitude": 2.181871000000001
+    },
+    {
+        "id": "081304",
+        "description": "Montclar",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0181068,
+        "longitude": 1.7649874
+    },
+    {
+        "id": "251399",
+        "description": "Montellà i Martinet",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3542129,
+        "longitude": 1.7045499
+    },
+    {
+        "id": "081311",
+        "description": "Montesquiu",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.1095379,
+        "longitude": 2.2082961
+    },
+    {
+        "id": "251403",
+        "description": "Montferrer i Castellbò",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3662806,
+        "longitude": 1.3469247
+    },
+    {
+        "id": "430897",
+        "description": "Montferri",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2655762,
+        "longitude": 1.3653115
+    },
+    {
+        "id": "251386",
+        "description": "Montgai",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7997352,
+        "longitude": 0.9607869000000001
+    },
+    {
+        "id": "081265",
+        "description": "Montgat",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4684703,
+        "longitude": 2.2850483
+    },
+    {
+        "id": "081326",
+        "description": "Montmajor",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0191294,
+        "longitude": 1.7361085
+    },
+    {
+        "id": "081332",
+        "description": "Montmaneu",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.625864,
+        "longitude": 1.4153882
+    },
+    {
+        "id": "430901",
+        "description": "Montmell, el",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.3414537,
+        "longitude": 1.4918235
+    },
+    {
+        "id": "081350",
+        "description": "Montmeló",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5567683,
+        "longitude": 2.2507317
+    },
+    {
+        "id": "251425",
+        "description": "Montoliu de Lleida",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5609907,
+        "longitude": 0.5884522999999999
+    },
+    {
+        "id": "251410",
+        "description": "Montoliu de Segarra",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.5901296,
+        "longitude": 1.2707499
+    },
+    {
+        "id": "251431",
+        "description": "Montornès de Segarra",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6011643,
+        "longitude": 1.2310613
+    },
+    {
+        "id": "081363",
+        "description": "Montornès del Vallès",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5445244,
+        "longitude": 2.2670286
+    },
+    {
+        "id": "081379",
+        "description": "Montseny",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7587683,
+        "longitude": 2.3955568
+    },
+    {
+        "id": "430939",
+        "description": "Móra d'Ebre",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.0867715,
+        "longitude": 0.6381854
+    },
+    {
+        "id": "430944",
+        "description": "Móra la Nova",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.1043311,
+        "longitude": 0.6500357
+    },
+    {
+        "id": "430957",
+        "description": "Morell, el",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1921839,
+        "longitude": 1.2064499
+    },
+    {
+        "id": "430960",
+        "description": "Morera de Montsant, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.26492930000001,
+        "longitude": 0.8416045
+    },
+    {
+        "id": "081290",
+        "description": "Muntanyola",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8782719,
+        "longitude": 2.1809983
+    },
+    {
+        "id": "081398",
+        "description": "Mura",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6998359,
+        "longitude": 1.9768377
+    },
+    {
+        "id": "251459",
+        "description": "Nalec",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5602211,
+        "longitude": 1.1155172
+    },
+    {
+        "id": "250254",
+        "description": "Naut Aran",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.7428241,
+        "longitude": 0.9438468
+    },
+    {
+        "id": "081402",
+        "description": "Navarcles",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7497243,
+        "longitude": 1.9148091
+    },
+    {
+        "id": "081419",
+        "description": "Navàs",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.9000513,
+        "longitude": 1.8784
+    },
+    {
+        "id": "171117",
+        "description": "Navata",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2240903,
+        "longitude": 2.8614511
+    },
+    {
+        "id": "251462",
+        "description": "Navès",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.0470275,
+        "longitude": 1.6178011
+    },
+    {
+        "id": "081424",
+        "description": "Nou de Berguedà, la",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1909605,
+        "longitude": 1.900155
+    },
+    {
+        "id": "430976",
+        "description": "Nou de Gaià, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.182896,
+        "longitude": 1.3740556
+    },
+    {
+        "id": "430982",
+        "description": "Nulles",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2491051,
+        "longitude": 1.2969289
+    },
+    {
+        "id": "251484",
+        "description": "Odèn",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.13277129999999,
+        "longitude": 1.4547922
+    },
+    {
+        "id": "081430",
+        "description": "Òdena",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6196377,
+        "longitude": 1.627507
+    },
+    {
+        "id": "171122",
+        "description": "Ogassa",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.2659846,
+        "longitude": 2.2777977
+    },
+    {
+        "id": "081458",
+        "description": "Olèrdola",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3181561,
+        "longitude": 1.7246856
+    },
+    {
+        "id": "081461",
+        "description": "Olesa de Bonesvalls",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3502414,
+        "longitude": 1.8489571
+    },
+    {
+        "id": "081477",
+        "description": "Olesa de Montserrat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.5451695,
+        "longitude": 1.8913371
+    },
+    {
+        "id": "251497",
+        "description": "Oliana",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.0669699,
+        "longitude": 1.3143906
+    },
+    {
+        "id": "251500",
+        "description": "Oliola",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8761283,
+        "longitude": 1.1745998
+    },
+    {
+        "id": "251517",
+        "description": "Olius",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.0089338,
+        "longitude": 1.5646092
+    },
+    {
+        "id": "081483",
+        "description": "Olivella",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.3100908,
+        "longitude": 1.8123761
+    },
+    {
+        "id": "081496",
+        "description": "Olost",
+        "description_2": null,
+        "type": "43",
+        "latitude": 41.9861195,
+        "longitude": 2.0947166
+    },
+    {
+        "id": "171143",
+        "description": "Olot",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.18220780000001,
+        "longitude": 2.4880242
+    },
+    {
+        "id": "251522",
+        "description": "Oluges, les",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6972928,
+        "longitude": 1.3199536
+    },
+    {
+        "id": "081445",
+        "description": "Olvan",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.056617,
+        "longitude": 1.9054599
+    },
+    {
+        "id": "251538",
+        "description": "Omellons, els",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.50166249999999,
+        "longitude": 0.9599665000000001
+    },
+    {
+        "id": "251543",
+        "description": "Omells de na Gaia, els",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5006395,
+        "longitude": 1.0759758
+    },
+    {
+        "id": "171156",
+        "description": "Ordis",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2186353,
+        "longitude": 2.9069853
+    },
+    {
+        "id": "251556",
+        "description": "Organyà",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.2138451,
+        "longitude": 1.3228229
+    },
+    {
+        "id": "081509",
+        "description": "Orís",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.06679339999999,
+        "longitude": 2.2138289
+    },
+    {
+        "id": "081516",
+        "description": "Oristà",
+        "description_2": null,
+        "type": "43",
+        "latitude": 41.9325408,
+        "longitude": 2.060086
+    },
+    {
+        "id": "081521",
+        "description": "Orpí",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5186628,
+        "longitude": 1.5756656
+    },
+    {
+        "id": "081537",
+        "description": "Òrrius",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5556586,
+        "longitude": 2.3547718
+    },
+    {
+        "id": "251569",
+        "description": "Os de Balaguer",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8733438,
+        "longitude": 0.7206173
+    },
+    {
+        "id": "171169",
+        "description": "Osor",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.9455163,
+        "longitude": 2.5566339
+    },
+    {
+        "id": "251575",
+        "description": "Ossó de Sió",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.7532742,
+        "longitude": 1.1583962
+    },
+    {
+        "id": "081542",
+        "description": "Pacs del Penedès",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3641966,
+        "longitude": 1.6614947
+    },
+    {
+        "id": "081555",
+        "description": "Palafolls",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6684521,
+        "longitude": 2.7507335
+    },
+    {
+        "id": "171175",
+        "description": "Palafrugell",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9179112,
+        "longitude": 3.1629611
+    },
+    {
+        "id": "171181",
+        "description": "Palamós",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.8505066,
+        "longitude": 3.1298161
+    },
+    {
+        "id": "251581",
+        "description": "Palau d'Anglesola, el",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.65014679999999,
+        "longitude": 0.8812323999999999
+    },
+    {
+        "id": "171194",
+        "description": "Palau de Santa Eulàlia",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1774294,
+        "longitude": 2.969588
+    },
+    {
+        "id": "171215",
+        "description": "Palau-sator",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9887928,
+        "longitude": 3.1098827
+    },
+    {
+        "id": "171208",
+        "description": "Palau-saverdera",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.307477,
+        "longitude": 3.1473689
+    },
+    {
+        "id": "081568",
+        "description": "Palau-solità i Plegamans",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5839461,
+        "longitude": 2.1804146
+    },
+    {
+        "id": "431009",
+        "description": "Pallaresos, els",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1752824,
+        "longitude": 1.2704491
+    },
+    {
+        "id": "081574",
+        "description": "Pallejà",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4213871,
+        "longitude": 1.9972813
+    },
+    {
+        "id": "430995",
+        "description": "Palma d'Ebre, la",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.28333019999999,
+        "longitude": 0.6660391
+    },
+    {
+        "id": "089058",
+        "description": "Palma de Cervelló, la",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.41208109999999,
+        "longitude": 1.961246
+    },
+    {
+        "id": "171236",
+        "description": "Palol de Revardit",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.0696837,
+        "longitude": 2.7955351
+    },
+    {
+        "id": "171241",
+        "description": "Pals",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.970846,
+        "longitude": 3.1472021
+    },
+    {
+        "id": "081580",
+        "description": "Papiol, el",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4387219,
+        "longitude": 2.0126276
+    },
+    {
+        "id": "171254",
+        "description": "Pardines",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3032715,
+        "longitude": 2.2335066
+    },
+    {
+        "id": "081593",
+        "description": "Parets del Vallès",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.56468599999999,
+        "longitude": 2.2285864
+    },
+    {
+        "id": "171267",
+        "description": "Parlavà",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0207324,
+        "longitude": 3.0400945
+    },
+    {
+        "id": "431016",
+        "description": "Passanant i Belltall",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.5250051,
+        "longitude": 1.2025207
+    },
+    {
+        "id": "171289",
+        "description": "Pau",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3074478,
+        "longitude": 3.1127413
+    },
+    {
+        "id": "431021",
+        "description": "Paüls",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.9220162,
+        "longitude": 0.4001495
+    },
+    {
+        "id": "171292",
+        "description": "Pedret i Marzà",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3103313,
+        "longitude": 3.0681053
+    },
+    {
+        "id": "251641",
+        "description": "Penelles",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7572239,
+        "longitude": 0.9659384000000001
+    },
+    {
+        "id": "171306",
+        "description": "Pera, la",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0150742,
+        "longitude": 2.9725563
+    },
+    {
+        "id": "081607",
+        "description": "Perafita",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.0427828,
+        "longitude": 2.109435
+    },
+    {
+        "id": "431037",
+        "description": "Perafort",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1905227,
+        "longitude": 1.2560126
+    },
+    {
+        "id": "171328",
+        "description": "Peralada",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3083523,
+        "longitude": 3.0094404
+    },
+    {
+        "id": "251654",
+        "description": "Peramola",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.0618588,
+        "longitude": 1.2728243
+    },
+    {
+        "id": "431042",
+        "description": "Perelló, el",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.8959829,
+        "longitude": 0.6962853
+    },
+    {
+        "id": "081614",
+        "description": "Piera",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.518091,
+        "longitude": 1.7441475
+    },
+    {
+        "id": "431055",
+        "description": "Piles, les",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.5035318,
+        "longitude": 1.3372823
+    },
+    {
+        "id": "081635",
+        "description": "Pineda de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.62451009999999,
+        "longitude": 2.6827579
+    },
+    {
+        "id": "431068",
+        "description": "Pinell de Brai, el",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.0161996,
+        "longitude": 0.5145594
+    },
+    {
+        "id": "251667",
+        "description": "Pinell de Solsonès",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.9707994,
+        "longitude": 1.4001478
+    },
+    {
+        "id": "251673",
+        "description": "Pinós",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.8272543,
+        "longitude": 1.5418977
+    },
+    {
+        "id": "431074",
+        "description": "Pira",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4234114,
+        "longitude": 1.202821
+    },
+    {
+        "id": "431080",
+        "description": "Pla de Santa Maria, el",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.3435678,
+        "longitude": 1.3180042
+    },
+    {
+        "id": "081640",
+        "description": "Pla del Penedès, el",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4134268,
+        "longitude": 1.7198215
+    },
+    {
+        "id": "171334",
+        "description": "Planes d'Hostoles, les",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.0563863,
+        "longitude": 2.5383647
+    },
+    {
+        "id": "171349",
+        "description": "Planoles",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.316176,
+        "longitude": 2.103915
+    },
+    {
+        "id": "259118",
+        "description": "Plans de Sió, els",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.7444247,
+        "longitude": 1.2025207
+    },
+    {
+        "id": "251689",
+        "description": "Poal, el",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.678418,
+        "longitude": 0.8561949
+    },
+    {
+        "id": "251692",
+        "description": "Pobla de Cérvoles, la",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.3669665,
+        "longitude": 0.9155523
+    },
+    {
+        "id": "081653",
+        "description": "Pobla de Claramunt, la",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5548414,
+        "longitude": 1.6755747
+    },
+    {
+        "id": "081666",
+        "description": "Pobla de Lillet, la",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.2445647,
+        "longitude": 1.9753088
+    },
+    {
+        "id": "431093",
+        "description": "Pobla de Mafumet, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1849096,
+        "longitude": 1.2099939
+    },
+    {
+        "id": "431107",
+        "description": "Pobla de Massaluca, la",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.1807802,
+        "longitude": 0.3533607
+    },
+    {
+        "id": "431114",
+        "description": "Pobla de Montornès, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1773734,
+        "longitude": 1.4150863
+    },
+    {
+        "id": "251713",
+        "description": "Pobla de Segur, la",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.2477293,
+        "longitude": 0.9674495
+    },
+    {
+        "id": "431129",
+        "description": "Poboleda",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2344554,
+        "longitude": 0.8454748999999999
+    },
+    {
+        "id": "081672",
+        "description": "Polinyà",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.55661449999999,
+        "longitude": 2.1577616
+    },
+    {
+        "id": "431135",
+        "description": "Pont d'Armentera, el",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.3830002,
+        "longitude": 1.362866
+    },
+    {
+        "id": "250306",
+        "description": "Pont de Bar, el",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3720357,
+        "longitude": 1.605217
+    },
+    {
+        "id": "171352",
+        "description": "Pont de Molins",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3143921,
+        "longitude": 2.9303932
+    },
+    {
+        "id": "251734",
+        "description": "Pont de Suert, el",
+        "description_2": null,
+        "type": "5",
+        "latitude": 42.4080464,
+        "longitude": 0.7408062999999999
+    },
+    {
+        "id": "081825",
+        "description": "Pont de Vilomara i Rocafort, el",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7009479,
+        "longitude": 1.870829
+    },
+    {
+        "id": "431418",
+        "description": "Pontils",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.47747570000001,
+        "longitude": 1.3871751
+    },
+    {
+        "id": "081688",
+        "description": "Pontons",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4162825,
+        "longitude": 1.5160212
+    },
+    {
+        "id": "171365",
+        "description": "Pontós",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1849794,
+        "longitude": 2.9173178
+    },
+    {
+        "id": "251728",
+        "description": "Ponts",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9036488,
+        "longitude": 1.1833043
+    },
+    {
+        "id": "171371",
+        "description": "Porqueres",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1201953,
+        "longitude": 2.746287
+    },
+    {
+        "id": "431140",
+        "description": "Porrera",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1879003,
+        "longitude": 0.8550036
+    },
+    {
+        "id": "171404",
+        "description": "Port de la Selva, el",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3190248,
+        "longitude": 3.2281983
+    },
+    {
+        "id": "171387",
+        "description": "Portbou",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.4245988,
+        "longitude": 3.1428341
+    },
+    {
+        "id": "251749",
+        "description": "Portella, la",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.7395861,
+        "longitude": 0.6399627
+    },
+    {
+        "id": "431153",
+        "description": "Pradell de la Teixeta",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1566258,
+        "longitude": 0.8761534000000001
+    },
+    {
+        "id": "431166",
+        "description": "Prades",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.3098724,
+        "longitude": 0.9886394999999999
+    },
+    {
+        "id": "431172",
+        "description": "Prat de Comte",
+        "description_2": null,
+        "type": "37",
+        "latitude": 40.9833815,
+        "longitude": 0.4052908
+    },
+    {
+        "id": "081691",
+        "description": "Prat de Llobregat, el",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3225846,
+        "longitude": 2.096263
+    },
+    {
+        "id": "431188",
+        "description": "Pratdip",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.0509272,
+        "longitude": 0.8713863
+    },
+    {
+        "id": "081712",
+        "description": "Prats de Lluçanès",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.0070702,
+        "longitude": 2.0309926
+    },
+    {
+        "id": "081705",
+        "description": "Prats de Rei, els",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7061422,
+        "longitude": 1.5432601
+    },
+    {
+        "id": "251752",
+        "description": "Prats i Sansor",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3644228,
+        "longitude": 1.83671
+    },
+    {
+        "id": "251765",
+        "description": "Preixana",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.607738,
+        "longitude": 1.0382669
+    },
+    {
+        "id": "251771",
+        "description": "Preixens",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7939095,
+        "longitude": 1.0505472
+    },
+    {
+        "id": "082303",
+        "description": "Premià de Dalt",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5048954,
+        "longitude": 2.3458198
+    },
+    {
+        "id": "081727",
+        "description": "Premià de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4946642,
+        "longitude": 2.3591531
+    },
+    {
+        "id": "171390",
+        "description": "Preses, les",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.1463998,
+        "longitude": 2.4597346
+    },
+    {
+        "id": "251790",
+        "description": "Prullans",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.378856,
+        "longitude": 1.738673
+    },
+    {
+        "id": "081751",
+        "description": "Puig-reig",
+        "description_2": null,
+        "type": "14",
+        "latitude": 41.9740306,
+        "longitude": 1.8611011
+    },
+    {
+        "id": "171411",
+        "description": "Puigcerdà",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.4335392,
+        "longitude": 1.9291154
+    },
+    {
+        "id": "081748",
+        "description": "Puigdàlber",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.405007,
+        "longitude": 1.6967245
+    },
+    {
+        "id": "251804",
+        "description": "Puiggròs",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.5628676,
+        "longitude": 0.8818151
+    },
+    {
+        "id": "431191",
+        "description": "Puigpelat",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.277958,
+        "longitude": 1.2981329
+    },
+    {
+        "id": "251811",
+        "description": "Puigverd d'Agramunt",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.7769591,
+        "longitude": 1.1215116
+    },
+    {
+        "id": "251826",
+        "description": "Puigverd de Lleida",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5433639,
+        "longitude": 0.7329376999999999
+    },
+    {
+        "id": "081764",
+        "description": "Pujalt",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7167335,
+        "longitude": 1.4214255
+    },
+    {
+        "id": "081770",
+        "description": "Quar, la",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0807981,
+        "longitude": 1.9616369
+    },
+    {
+        "id": "171426",
+        "description": "Quart",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9378031,
+        "longitude": 2.8410675
+    },
+    {
+        "id": "170433",
+        "description": "Queralbs",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.393137,
+        "longitude": 2.1646722
+    },
+    {
+        "id": "431205",
+        "description": "Querol",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.4237177,
+        "longitude": 1.3978848
+    },
+    {
+        "id": "171432",
+        "description": "Rabós",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3790168,
+        "longitude": 3.0277631
+    },
+    {
+        "id": "081786",
+        "description": "Rajadell",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7284297,
+        "longitude": 1.7061442
+    },
+    {
+        "id": "431362",
+        "description": "Ràpita",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.6279226,
+        "longitude": 0.6251540999999999
+    },
+    {
+        "id": "431212",
+        "description": "Rasquera",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.0019258,
+        "longitude": 0.5985123999999999
+    },
+    {
+        "id": "171447",
+        "description": "Regencós",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9521626,
+        "longitude": 3.1697432
+    },
+    {
+        "id": "081799",
+        "description": "Rellinars",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.64015850000001,
+        "longitude": 1.9148091
+    },
+    {
+        "id": "431227",
+        "description": "Renau",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.225402,
+        "longitude": 1.3110783
+    },
+    {
+        "id": "431233",
+        "description": "Reus",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1498259,
+        "longitude": 1.1055321
+    },
+    {
+        "id": "251832",
+        "description": "Rialp",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.4429196,
+        "longitude": 1.1347024
+    },
+    {
+        "id": "431248",
+        "description": "Riba, la",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.31789029999999,
+        "longitude": 1.1770422
+    },
+    {
+        "id": "431251",
+        "description": "Riba-roja d'Ebre",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.2512192,
+        "longitude": 0.4870597
+    },
+    {
+        "id": "259059",
+        "description": "Ribera d'Ondara",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6235887,
+        "longitude": 1.3180042
+    },
+    {
+        "id": "251850",
+        "description": "Ribera d'Urgellet",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.2865854,
+        "longitude": 1.4241426
+    },
+    {
+        "id": "171450",
+        "description": "Ribes de Freser",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3057487,
+        "longitude": 2.1683571
+    },
+    {
+        "id": "171463",
+        "description": "Riells i Viabrea",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7276681,
+        "longitude": 2.5446701
+    },
+    {
+        "id": "431264",
+        "description": "Riera de Gaià, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1667116,
+        "longitude": 1.3607894
+    },
+    {
+        "id": "251863",
+        "description": "Riner",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.9413535,
+        "longitude": 1.5637763
+    },
+    {
+        "id": "171479",
+        "description": "Ripoll",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.1954115,
+        "longitude": 2.2039933
+    },
+    {
+        "id": "081803",
+        "description": "Ripollet",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.49845,
+        "longitude": 2.1569325
+    },
+    {
+        "id": "259139",
+        "description": "Riu de Cerdanya",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.34510940000001,
+        "longitude": 1.8259132
+    },
+    {
+        "id": "171485",
+        "description": "Riudarenes",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8266432,
+        "longitude": 2.7138699
+    },
+    {
+        "id": "171498",
+        "description": "Riudaura",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.1888537,
+        "longitude": 2.4085624
+    },
+    {
+        "id": "431270",
+        "description": "Riudecanyes",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1311328,
+        "longitude": 0.9581751
+    },
+    {
+        "id": "431286",
+        "description": "Riudecols",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1683032,
+        "longitude": 0.9765594
+    },
+    {
+        "id": "171501",
+        "description": "Riudellots de la Selva",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.9010061,
+        "longitude": 2.8026192
+    },
+    {
+        "id": "431299",
+        "description": "Riudoms",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1387447,
+        "longitude": 1.0548291
+    },
+    {
+        "id": "171518",
+        "description": "Riumors",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2274676,
+        "longitude": 3.0419719
+    },
+    {
+        "id": "081810",
+        "description": "Roca del Vallès, la",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5814805,
+        "longitude": 2.32586
+    },
+    {
+        "id": "431303",
+        "description": "Rocafort de Queralt",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4785434,
+        "longitude": 1.2812797
+    },
+    {
+        "id": "431310",
+        "description": "Roda de Berà",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1870487,
+        "longitude": 1.4604155
+    },
+    {
+        "id": "081831",
+        "description": "Roda de Ter",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9832444,
+        "longitude": 2.3098386
+    },
+    {
+        "id": "431325",
+        "description": "Rodonyà",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2805258,
+        "longitude": 1.3989474
+    },
+    {
+        "id": "431331",
+        "description": "Roquetes",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.8209422,
+        "longitude": 0.5020517
+    },
+    {
+        "id": "171523",
+        "description": "Roses",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2639489,
+        "longitude": 3.1795528
+    },
+    {
+        "id": "251898",
+        "description": "Rosselló",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6938394,
+        "longitude": 0.5949571
+    },
+    {
+        "id": "431346",
+        "description": "Rourell, el",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2235994,
+        "longitude": 1.2175396
+    },
+    {
+        "id": "081846",
+        "description": "Rubí",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.4971174,
+        "longitude": 2.0349243
+    },
+    {
+        "id": "081859",
+        "description": "Rubió",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6442798,
+        "longitude": 1.5697589
+    },
+    {
+        "id": "171539",
+        "description": "Rupià",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0140341,
+        "longitude": 3.0125674
+    },
+    {
+        "id": "089019",
+        "description": "Rupit i Pruit",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0245042,
+        "longitude": 2.4655228
+    },
+    {
+        "id": "081878",
+        "description": "Sabadell",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5462745,
+        "longitude": 2.1086131
+    },
+    {
+        "id": "081884",
+        "description": "Sagàs",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.0321658,
+        "longitude": 1.9392435
+    },
+    {
+        "id": "251902",
+        "description": "Salàs de Pallars",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.2130504,
+        "longitude": 0.9316118999999999
+    },
+    {
+        "id": "081901",
+        "description": "Saldes",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.232893,
+        "longitude": 1.7441475
+    },
+    {
+        "id": "171544",
+        "description": "Sales de Llierca",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2356878,
+        "longitude": 2.6501618
+    },
+    {
+        "id": "081918",
+        "description": "Sallent",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.8271079,
+        "longitude": 1.8922257
+    },
+    {
+        "id": "431359",
+        "description": "Salomó",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.2287448,
+        "longitude": 1.3746587
+    },
+    {
+        "id": "439057",
+        "description": "Salou",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.0777465,
+        "longitude": 1.1315926
+    },
+    {
+        "id": "171557",
+        "description": "Salt",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.97006469999999,
+        "longitude": 2.7929203
+    },
+    {
+        "id": "251919",
+        "description": "Sanaüja",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.875609,
+        "longitude": 1.3095351
+    },
+    {
+        "id": "081944",
+        "description": "Sant Adrià de Besòs",
+        "description_2": null,
+        "type": "13",
+        "latitude": 41.4223872,
+        "longitude": 2.2212071
+    },
+    {
+        "id": "081957",
+        "description": "Sant Agustí de Lluçanès",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0855753,
+        "longitude": 2.1273796
+    },
+    {
+        "id": "081960",
+        "description": "Sant Andreu de la Barca",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4470241,
+        "longitude": 1.9728327
+    },
+    {
+        "id": "081976",
+        "description": "Sant Andreu de Llavaneres",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.579406,
+        "longitude": 2.4851463
+    },
+    {
+        "id": "171576",
+        "description": "Sant Andreu Salou",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.8734128,
+        "longitude": 2.8250035
+    },
+    {
+        "id": "171833",
+        "description": "Sant Aniol de Finestres",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.089198,
+        "longitude": 2.590869
+    },
+    {
+        "id": "081982",
+        "description": "Sant Antoni de Vilamajor",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6610643,
+        "longitude": 2.396174
+    },
+    {
+        "id": "081995",
+        "description": "Sant Bartomeu del Grau",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9689099,
+        "longitude": 2.1548473
+    },
+    {
+        "id": "082009",
+        "description": "Sant Boi de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3458415,
+        "longitude": 2.035041
+    },
+    {
+        "id": "082016",
+        "description": "Sant Boi de Lluçanès",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0481265,
+        "longitude": 2.1548473
+    },
+    {
+        "id": "082037",
+        "description": "Sant Cebrià de Vallalta",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6198985,
+        "longitude": 2.5997035
+    },
+    {
+        "id": "082021",
+        "description": "Sant Celoni",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6826815,
+        "longitude": 2.5495112
+    },
+    {
+        "id": "082042",
+        "description": "Sant Climent de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3290475,
+        "longitude": 1.9832594
+    },
+    {
+        "id": "171582",
+        "description": "Sant Climent Sescebes",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.36876549999999,
+        "longitude": 2.9811941
+    },
+    {
+        "id": "082055",
+        "description": "Sant Cugat del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.4664438,
+        "longitude": 2.0701279
+    },
+    {
+        "id": "082068",
+        "description": "Sant Cugat Sesgarrigues",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3629043,
+        "longitude": 1.7490143
+    },
+    {
+        "id": "251961",
+        "description": "Sant Esteve de la Sarga",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.0797879,
+        "longitude": 0.764211
+    },
+    {
+        "id": "082074",
+        "description": "Sant Esteve de Palautordera",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7102452,
+        "longitude": 2.4258123
+    },
+    {
+        "id": "082080",
+        "description": "Sant Esteve Sesrovires",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.4977786,
+        "longitude": 1.8695787
+    },
+    {
+        "id": "171595",
+        "description": "Sant Feliu de Buixalleu",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.79101370000001,
+        "longitude": 2.5857557
+    },
+    {
+        "id": "082107",
+        "description": "Sant Feliu de Codines",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6956211,
+        "longitude": 2.1597595
+    },
+    {
+        "id": "171609",
+        "description": "Sant Feliu de Guíxols",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.7850237,
+        "longitude": 3.031659
+    },
+    {
+        "id": "082114",
+        "description": "Sant Feliu de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3979911,
+        "longitude": 2.0518154
+    },
+    {
+        "id": "171616",
+        "description": "Sant Feliu de Pallerols",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.076817,
+        "longitude": 2.5086539
+    },
+    {
+        "id": "082129",
+        "description": "Sant Feliu Sasserra",
+        "description_2": null,
+        "type": "43",
+        "latitude": 41.9444493,
+        "longitude": 2.0207462
+    },
+    {
+        "id": "171621",
+        "description": "Sant Ferriol",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.1977503,
+        "longitude": 2.6687289
+    },
+    {
+        "id": "082093",
+        "description": "Sant Fost de Campsentelles",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5096571,
+        "longitude": 2.2335066
+    },
+    {
+        "id": "082135",
+        "description": "Sant Fruitós de Bages",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.75092619999999,
+        "longitude": 1.8746239
+    },
+    {
+        "id": "171637",
+        "description": "Sant Gregori",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.989401,
+        "longitude": 2.7607657
+    },
+    {
+        "id": "251924",
+        "description": "Sant Guim de Freixenet",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.6560285,
+        "longitude": 1.4205199
+    },
+    {
+        "id": "251977",
+        "description": "Sant Guim de la Plana",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.7626828,
+        "longitude": 1.3243289
+    },
+    {
+        "id": "171642",
+        "description": "Sant Hilari Sacalm",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8784012,
+        "longitude": 2.5121714
+    },
+    {
+        "id": "082153",
+        "description": "Sant Hipòlit de Voltregà",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0158746,
+        "longitude": 2.2381726
+    },
+    {
+        "id": "081939",
+        "description": "Sant Iscle de Vallalta",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6252874,
+        "longitude": 2.5677848
+    },
+    {
+        "id": "439023",
+        "description": "Sant Jaume d'Enveja",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.70597069999999,
+        "longitude": 0.7271479000000001
+    },
+    {
+        "id": "082166",
+        "description": "Sant Jaume de Frontanyà",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1871657,
+        "longitude": 2.023848
+    },
+    {
+        "id": "171655",
+        "description": "Sant Jaume de Llierca",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2110575,
+        "longitude": 2.6059038
+    },
+    {
+        "id": "431378",
+        "description": "Sant Jaume dels Domenys",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2998213,
+        "longitude": 1.559006
+    },
+    {
+        "id": "171674",
+        "description": "Sant Joan de les Abadesses",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.234129,
+        "longitude": 2.2863069
+    },
+    {
+        "id": "171680",
+        "description": "Sant Joan de Mollet",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0461613,
+        "longitude": 2.9419453
+    },
+    {
+        "id": "082188",
+        "description": "Sant Joan de Vilatorrada",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.742807,
+        "longitude": 1.8038035
+    },
+    {
+        "id": "082172",
+        "description": "Sant Joan Despí",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3673523,
+        "longitude": 2.0566806
+    },
+    {
+        "id": "171851",
+        "description": "Sant Joan les Fonts",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2122269,
+        "longitude": 2.5114166
+    },
+    {
+        "id": "171668",
+        "description": "Sant Jordi Desvalls",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0718317,
+        "longitude": 2.9531879
+    },
+    {
+        "id": "089030",
+        "description": "Sant Julià de Cerdanyola",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.22347,
+        "longitude": 1.8919141
+    },
+    {
+        "id": "171693",
+        "description": "Sant Julià de Ramis",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0344474,
+        "longitude": 2.8394519
+    },
+    {
+        "id": "082205",
+        "description": "Sant Julià de Vilatorta",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.924627,
+        "longitude": 2.3210736
+    },
+    {
+        "id": "179032",
+        "description": "Sant Julià del Llor i Bonmatí",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.973358,
+        "longitude": 2.6536742
+    },
+    {
+        "id": "082212",
+        "description": "Sant Just Desvern",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.383333,
+        "longitude": 2.0666616
+    },
+    {
+        "id": "082227",
+        "description": "Sant Llorenç d'Hortons",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.465996,
+        "longitude": 1.8230624
+    },
+    {
+        "id": "171714",
+        "description": "Sant Llorenç de la Muga",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3225318,
+        "longitude": 2.7885626
+    },
+    {
+        "id": "251930",
+        "description": "Sant Llorenç de Morunys",
+        "description_2": null,
+        "type": "35",
+        "latitude": 42.1358217,
+        "longitude": 1.5880904
+    },
+    {
+        "id": "082233",
+        "description": "Sant Llorenç Savall",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.6787856,
+        "longitude": 2.0584203
+    },
+    {
+        "id": "082251",
+        "description": "Sant Martí d'Albars",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.0284418,
+        "longitude": 2.0731076
+    },
+    {
+        "id": "082248",
+        "description": "Sant Martí de Centelles",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.7600578,
+        "longitude": 2.2482737
+    },
+    {
+        "id": "171729",
+        "description": "Sant Martí de Llémena",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0363141,
+        "longitude": 2.6471572
+    },
+    {
+        "id": "259025",
+        "description": "Sant Martí de Riucorb",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5662864,
+        "longitude": 1.0681918
+    },
+    {
+        "id": "082264",
+        "description": "Sant Martí de Tous",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5615876,
+        "longitude": 1.4918235
+    },
+    {
+        "id": "082270",
+        "description": "Sant Martí Sarroca",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3858273,
+        "longitude": 1.6116052
+    },
+    {
+        "id": "082286",
+        "description": "Sant Martí Sesgueioles",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7035494,
+        "longitude": 1.5039207
+    },
+    {
+        "id": "171735",
+        "description": "Sant Martí Vell",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0201769,
+        "longitude": 2.9307448
+    },
+    {
+        "id": "082299",
+        "description": "Sant Mateu de Bages",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.8182239,
+        "longitude": 1.6663523
+    },
+    {
+        "id": "171740",
+        "description": "Sant Miquel de Campmajor",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1251497,
+        "longitude": 2.6875517
+    },
+    {
+        "id": "171753",
+        "description": "Sant Miquel de Fluvià",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1758038,
+        "longitude": 2.9906822
+    },
+    {
+        "id": "171766",
+        "description": "Sant Mori",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1551489,
+        "longitude": 2.9903696
+    },
+    {
+        "id": "171772",
+        "description": "Sant Pau de Segúries",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.2630437,
+        "longitude": 2.3671718
+    },
+    {
+        "id": "082310",
+        "description": "Sant Pere de Ribes",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.2570604,
+        "longitude": 1.7830973
+    },
+    {
+        "id": "082325",
+        "description": "Sant Pere de Riudebitlles",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4504992,
+        "longitude": 1.7044013
+    },
+    {
+        "id": "082331",
+        "description": "Sant Pere de Torelló",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0763537,
+        "longitude": 2.2938229
+    },
+    {
+        "id": "082346",
+        "description": "Sant Pere de Vilamajor",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7059896,
+        "longitude": 2.3912362
+    },
+    {
+        "id": "171788",
+        "description": "Sant Pere Pescador",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1897546,
+        "longitude": 3.0926899
+    },
+    {
+        "id": "081897",
+        "description": "Sant Pere Sallavinera",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.7359957,
+        "longitude": 1.5749439
+    },
+    {
+        "id": "082359",
+        "description": "Sant Pol de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6039431,
+        "longitude": 2.6244208
+    },
+    {
+        "id": "082362",
+        "description": "Sant Quintí de Mediona",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4543156,
+        "longitude": 1.6614947
+    },
+    {
+        "id": "082378",
+        "description": "Sant Quirze de Besora",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0999995,
+        "longitude": 2.2224369
+    },
+    {
+        "id": "082384",
+        "description": "Sant Quirze del Vallès",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5351317,
+        "longitude": 2.0776681
+    },
+    {
+        "id": "082397",
+        "description": "Sant Quirze Safaja",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.7301909,
+        "longitude": 2.1744993
+    },
+    {
+        "id": "251945",
+        "description": "Sant Ramon",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.7258237,
+        "longitude": 1.364407
+    },
+    {
+        "id": "082401",
+        "description": "Sant Sadurní d'Anoia",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4261755,
+        "longitude": 1.7867506
+    },
+    {
+        "id": "082418",
+        "description": "Sant Sadurní d'Osormort",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9010892,
+        "longitude": 2.3812078
+    },
+    {
+        "id": "080983",
+        "description": "Sant Salvador de Guardiola",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6774553,
+        "longitude": 1.7636181
+    },
+    {
+        "id": "082628",
+        "description": "Sant Vicenç de Castellet",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.6681599,
+        "longitude": 1.8646252
+    },
+    {
+        "id": "082649",
+        "description": "Sant Vicenç de Montalt",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5789778,
+        "longitude": 2.5049414
+    },
+    {
+        "id": "082652",
+        "description": "Sant Vicenç de Torelló",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0708787,
+        "longitude": 2.2581158
+    },
+    {
+        "id": "082634",
+        "description": "Sant Vicenç dels Horts",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3888363,
+        "longitude": 2.002836
+    },
+    {
+        "id": "431384",
+        "description": "Santa Bàrbara",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.7145478,
+        "longitude": 0.4927542999999999
+    },
+    {
+        "id": "082439",
+        "description": "Santa Cecília de Voltregà",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9936567,
+        "longitude": 2.2217015
+    },
+    {
+        "id": "082444",
+        "description": "Santa Coloma de Cervelló",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.36778109999999,
+        "longitude": 2.0176494
+    },
+    {
+        "id": "171805",
+        "description": "Santa Coloma de Farners",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8624336,
+        "longitude": 2.6650879
+    },
+    {
+        "id": "082457",
+        "description": "Santa Coloma de Gramenet",
+        "description_2": null,
+        "type": "13",
+        "latitude": 41.4551421,
+        "longitude": 2.2089109
+    },
+    {
+        "id": "431397",
+        "description": "Santa Coloma de Queralt",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.5322215,
+        "longitude": 1.3829246
+    },
+    {
+        "id": "171812",
+        "description": "Santa Cristina d'Aro",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.8137777,
+        "longitude": 2.9972986
+    },
+    {
+        "id": "082460",
+        "description": "Santa Eugènia de Berga",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9013387,
+        "longitude": 2.2821595
+    },
+    {
+        "id": "082476",
+        "description": "Santa Eulàlia de Riuprimer",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.910644,
+        "longitude": 2.1886294
+    },
+    {
+        "id": "082482",
+        "description": "Santa Eulàlia de Ronçana",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6493805,
+        "longitude": 2.2335066
+    },
+    {
+        "id": "082495",
+        "description": "Santa Fe del Penedès",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3849334,
+        "longitude": 1.7207335
+    },
+    {
+        "id": "171827",
+        "description": "Santa Llogaia d'Àlguema",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2335098,
+        "longitude": 2.9519385
+    },
+    {
+        "id": "082508",
+        "description": "Santa Margarida de Montbui",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.55686900000001,
+        "longitude": 1.6030348
+    },
+    {
+        "id": "082515",
+        "description": "Santa Margarida i els Monjos",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3140674,
+        "longitude": 1.6614947
+    },
+    {
+        "id": "082589",
+        "description": "Santa Maria d'Oló",
+        "description_2": null,
+        "type": "42",
+        "latitude": 41.8750012,
+        "longitude": 2.0352789
+    },
+    {
+        "id": "082536",
+        "description": "Santa Maria de Besora",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.1274019,
+        "longitude": 2.2584235
+    },
+    {
+        "id": "082567",
+        "description": "Santa Maria de Martorelles",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5166241,
+        "longitude": 2.2605775
+    },
+    {
+        "id": "082554",
+        "description": "Santa Maria de Merlès",
+        "description_2": null,
+        "type": "14",
+        "latitude": 41.992226,
+        "longitude": 1.9588007
+    },
+    {
+        "id": "082573",
+        "description": "Santa Maria de Miralles",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5013861,
+        "longitude": 1.5111806
+    },
+    {
+        "id": "082592",
+        "description": "Santa Maria de Palautordera",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6933702,
+        "longitude": 2.4458308
+    },
+    {
+        "id": "431401",
+        "description": "Santa Oliva",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.25331389999999,
+        "longitude": 1.5521598
+    },
+    {
+        "id": "171848",
+        "description": "Santa Pau",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.1471882,
+        "longitude": 2.5703053
+    },
+    {
+        "id": "082606",
+        "description": "Santa Perpètua de Mogoda",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5353285,
+        "longitude": 2.1821487
+    },
+    {
+        "id": "082613",
+        "description": "Santa Susanna",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6399927,
+        "longitude": 2.7103215
+    },
+    {
+        "id": "081923",
+        "description": "Santpedor",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7808385,
+        "longitude": 1.83671
+    },
+    {
+        "id": "431423",
+        "description": "Sarral",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4451459,
+        "longitude": 1.2475937
+    },
+    {
+        "id": "171864",
+        "description": "Sarrià de Ter",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0128029,
+        "longitude": 2.8151189
+    },
+    {
+        "id": "252017",
+        "description": "Sarroca de Bellera",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.3600301,
+        "longitude": 0.8809211
+    },
+    {
+        "id": "252000",
+        "description": "Sarroca de Lleida",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4592812,
+        "longitude": 0.5606525
+    },
+    {
+        "id": "171870",
+        "description": "Saus, Camallera i Llampaies",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.133705,
+        "longitude": 2.9725563
+    },
+    {
+        "id": "431439",
+        "description": "Savallà del Comtat",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.5430061,
+        "longitude": 1.2990359
+    },
+    {
+        "id": "431444",
+        "description": "Secuita, la",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.2037974,
+        "longitude": 1.2811647
+    },
+    {
+        "id": "171886",
+        "description": "Selva de Mar, la",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3241692,
+        "longitude": 3.1870667
+    },
+    {
+        "id": "431457",
+        "description": "Selva del Camp, la",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2050591,
+        "longitude": 1.1257082
+    },
+    {
+        "id": "431460",
+        "description": "Senan",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4700596,
+        "longitude": 1.0875048
+    },
+    {
+        "id": "430445",
+        "description": "Sénia, la",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.6356057,
+        "longitude": 0.2843096
+    },
+    {
+        "id": "252022",
+        "description": "Senterada",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.3243687,
+        "longitude": 0.9365927000000001
+    },
+    {
+        "id": "250352",
+        "description": "Sentiu de Sió, la",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.8051712,
+        "longitude": 0.8788351999999999
+    },
+    {
+        "id": "082671",
+        "description": "Sentmenat",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.6130052,
+        "longitude": 2.1359861
+    },
+    {
+        "id": "171903",
+        "description": "Serinyà",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1692565,
+        "longitude": 2.7331928
+    },
+    {
+        "id": "252043",
+        "description": "Seròs",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4636641,
+        "longitude": 0.4107509
+    },
+    {
+        "id": "171910",
+        "description": "Serra de Daró",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.02760670000001,
+        "longitude": 3.0723337
+    },
+    {
+        "id": "171925",
+        "description": "Setcases",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.37510229999999,
+        "longitude": 2.3018277
+    },
+    {
+        "id": "252038",
+        "description": "Seu d'Urgell, la",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.3575784,
+        "longitude": 1.4555525
+    },
+    {
+        "id": "082690",
+        "description": "Seva",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8362054,
+        "longitude": 2.2839698
+    },
+    {
+        "id": "252056",
+        "description": "Sidamon",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.626863,
+        "longitude": 0.8329717999999999
+    },
+    {
+        "id": "171931",
+        "description": "Sils",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8109004,
+        "longitude": 2.7432858
+    },
+    {
+        "id": "082704",
+        "description": "Sitges",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.2371851,
+        "longitude": 1.805886
+    },
+    {
+        "id": "170524",
+        "description": "Siurana",
+        "description_2": null,
+        "type": "2",
+        "latitude": 41.2581135,
+        "longitude": 0.9323577999999999
+    },
+    {
+        "id": "082711",
+        "description": "Sobremunt",
+        "description_2": null,
+        "type": "43",
+        "latitude": 42.03570970000001,
+        "longitude": 2.1654733
+    },
+    {
+        "id": "252069",
+        "description": "Soleràs, el",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4135907,
+        "longitude": 0.6802697999999999
+    },
+    {
+        "id": "431476",
+        "description": "Solivella",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4558849,
+        "longitude": 1.1779013
+    },
+    {
+        "id": "252075",
+        "description": "Solsona",
+        "description_2": null,
+        "type": "35",
+        "latitude": 41.9939512,
+        "longitude": 1.5160212
+    },
+    {
+        "id": "082726",
+        "description": "Sora",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.1119857,
+        "longitude": 2.1606806
+    },
+    {
+        "id": "252081",
+        "description": "Soriguera",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.3704086,
+        "longitude": 1.181053
+    },
+    {
+        "id": "252094",
+        "description": "Sort",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.4102921,
+        "longitude": 1.1287358
+    },
+    {
+        "id": "252108",
+        "description": "Soses",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.53399,
+        "longitude": 0.4868112
+    },
+    {
+        "id": "082732",
+        "description": "Subirats",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3847459,
+        "longitude": 1.7971611
+    },
+    {
+        "id": "252115",
+        "description": "Sudanell",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5561031,
+        "longitude": 0.5671571
+    },
+    {
+        "id": "252120",
+        "description": "Sunyer",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5235105,
+        "longitude": 0.5908192
+    },
+    {
+        "id": "082747",
+        "description": "Súria",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.8316368,
+        "longitude": 1.7537452
+    },
+    {
+        "id": "171946",
+        "description": "Susqueda",
+        "description_2": null,
+        "type": "34",
+        "latitude": 42.0405288,
+        "longitude": 2.5052892
+    },
+    {
+        "id": "082763",
+        "description": "Tagamanent",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.7391536,
+        "longitude": 2.2665964
+    },
+    {
+        "id": "082779",
+        "description": "Talamanca",
+        "description_2": null,
+        "type": "7",
+        "latitude": 41.7368442,
+        "longitude": 1.977755
+    },
+    {
+        "id": "252154",
+        "description": "Talarn",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.1861584,
+        "longitude": 0.8999973
+    },
+    {
+        "id": "252167",
+        "description": "Talavera",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.58188759999999,
+        "longitude": 1.3375836
+    },
+    {
+        "id": "171959",
+        "description": "Tallada d'Empordà, la",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0789179,
+        "longitude": 3.0560877
+    },
+    {
+        "id": "082785",
+        "description": "Taradell",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8749392,
+        "longitude": 2.28642
+    },
+    {
+        "id": "431482",
+        "description": "Tarragona",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1188827,
+        "longitude": 1.2444909
+    },
+    {
+        "id": "252173",
+        "description": "Tàrrega",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.6480797,
+        "longitude": 1.1409432
+    },
+    {
+        "id": "252189",
+        "description": "Tarrés",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.422673,
+        "longitude": 1.0194254
+    },
+    {
+        "id": "252192",
+        "description": "Tarroja de Segarra",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.731501,
+        "longitude": 1.2761649
+    },
+    {
+        "id": "082750",
+        "description": "Tavèrnoles",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.952892,
+        "longitude": 2.3255518
+    },
+    {
+        "id": "082802",
+        "description": "Tavertet",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.99526669999999,
+        "longitude": 2.4177834
+    },
+    {
+        "id": "082819",
+        "description": "Teià",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4964205,
+        "longitude": 2.3218228
+    },
+    {
+        "id": "252206",
+        "description": "Térmens",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7170651,
+        "longitude": 0.7615995
+    },
+    {
+        "id": "171962",
+        "description": "Terrades",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3099409,
+        "longitude": 2.8380772
+    },
+    {
+        "id": "082798",
+        "description": "Terrassa",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.56314820000001,
+        "longitude": 2.0054917
+    },
+    {
+        "id": "082824",
+        "description": "Tiana",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.4779937,
+        "longitude": 2.267832
+    },
+    {
+        "id": "252213",
+        "description": "Tírvia",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5151051,
+        "longitude": 1.2448879
+    },
+    {
+        "id": "252228",
+        "description": "Tiurana",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9756735,
+        "longitude": 1.255942
+    },
+    {
+        "id": "431495",
+        "description": "Tivenys",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.9075084,
+        "longitude": 0.5112588
+    },
+    {
+        "id": "431508",
+        "description": "Tivissa",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.0408609,
+        "longitude": 0.7330858
+    },
+    {
+        "id": "082830",
+        "description": "Tona",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.8496449,
+        "longitude": 2.227396600000001
+    },
+    {
+        "id": "252234",
+        "description": "Torà",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.81054,
+        "longitude": 1.4036179
+    },
+    {
+        "id": "082845",
+        "description": "Tordera",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.6972043,
+        "longitude": 2.7178464
+    },
+    {
+        "id": "082858",
+        "description": "Torelló",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.0491614,
+        "longitude": 2.2626613
+    },
+    {
+        "id": "252249",
+        "description": "Torms, els",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.3942541,
+        "longitude": 0.7203204999999999
+    },
+    {
+        "id": "252252",
+        "description": "Tornabous",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.6998351,
+        "longitude": 1.0526282
+    },
+    {
+        "id": "252271",
+        "description": "Torre de Cabdella, la",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.4218993,
+        "longitude": 0.982963
+    },
+    {
+        "id": "082861",
+        "description": "Torre de Claramunt, la",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5243069,
+        "longitude": 1.6614947
+    },
+    {
+        "id": "431515",
+        "description": "Torre de Fontaubella, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.1246339,
+        "longitude": 0.8648324
+    },
+    {
+        "id": "431520",
+        "description": "Torre de l'Espanyol, la",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.1916327,
+        "longitude": 0.6259819
+    },
+    {
+        "id": "252332",
+        "description": "Torre-serona",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6717741,
+        "longitude": 0.6293675
+    },
+    {
+        "id": "252265",
+        "description": "Torrebesses",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.4265847,
+        "longitude": 0.5937779
+    },
+    {
+        "id": "431536",
+        "description": "Torredembarra",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.14409670000001,
+        "longitude": 1.4009454
+    },
+    {
+        "id": "252287",
+        "description": "Torrefarrera",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6735229,
+        "longitude": 0.6086583
+    },
+    {
+        "id": "259078",
+        "description": "Torrefeta i Florejacs",
+        "description_2": null,
+        "type": "32",
+        "latitude": 41.7637122,
+        "longitude": 1.2602228
+    },
+    {
+        "id": "252304",
+        "description": "Torregrossa",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.5803917,
+        "longitude": 0.8292647
+    },
+    {
+        "id": "252311",
+        "description": "Torrelameu",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7043576,
+        "longitude": 0.7039987
+    },
+    {
+        "id": "082877",
+        "description": "Torrelavit",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.4464841,
+        "longitude": 1.7300146
+    },
+    {
+        "id": "082883",
+        "description": "Torrelles de Foix",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.40055,
+        "longitude": 1.5693045
+    },
+    {
+        "id": "082896",
+        "description": "Torrelles de Llobregat",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3554261,
+        "longitude": 1.9793518
+    },
+    {
+        "id": "171978",
+        "description": "Torrent",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.9514115,
+        "longitude": 3.1328011
+    },
+    {
+        "id": "252326",
+        "description": "Torres de Segre",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.5340778,
+        "longitude": 0.5141739
+    },
+    {
+        "id": "171984",
+        "description": "Torroella de Fluvià",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.175442,
+        "longitude": 3.0397816
+    },
+    {
+        "id": "171997",
+        "description": "Torroella de Montgrí",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0419133,
+        "longitude": 3.1265315
+    },
+    {
+        "id": "431541",
+        "description": "Torroja del Priorat",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2133495,
+        "longitude": 0.810952
+    },
+    {
+        "id": "172001",
+        "description": "Tortellà",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2338828,
+        "longitude": 2.6319543
+    },
+    {
+        "id": "431554",
+        "description": "Tortosa",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.8125777,
+        "longitude": 0.5214423
+    },
+    {
+        "id": "172018",
+        "description": "Toses",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3266073,
+        "longitude": 2.037116
+    },
+    {
+        "id": "172023",
+        "description": "Tossa de Mar",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7224989,
+        "longitude": 2.9303675
+    },
+    {
+        "id": "252347",
+        "description": "Tremp",
+        "description_2": null,
+        "type": "25",
+        "latitude": 42.1669147,
+        "longitude": 0.8949296
+    },
+    {
+        "id": "172044",
+        "description": "Ullà",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0504415,
+        "longitude": 3.1083544
+    },
+    {
+        "id": "082900",
+        "description": "Ullastrell",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.52955170000001,
+        "longitude": 1.9636914
+    },
+    {
+        "id": "172057",
+        "description": "Ullastret",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0008093,
+        "longitude": 3.0682635
+    },
+    {
+        "id": "431567",
+        "description": "Ulldecona",
+        "description_2": null,
+        "type": "22",
+        "latitude": 40.5970153,
+        "longitude": 0.4443409
+    },
+    {
+        "id": "431573",
+        "description": "Ulldemolins",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.3208099,
+        "longitude": 0.8764514
+    },
+    {
+        "id": "172039",
+        "description": "Ultramort",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.037577,
+        "longitude": 3.0344627
+    },
+    {
+        "id": "172060",
+        "description": "Urús",
+        "description_2": null,
+        "type": "15",
+        "latitude": 42.3512458,
+        "longitude": 1.8531725
+    },
+    {
+        "id": "082917",
+        "description": "Vacarisses",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5951917,
+        "longitude": 1.9196949
+    },
+    {
+        "id": "170144",
+        "description": "Vajol, la",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.40368340000001,
+        "longitude": 2.8000802
+    },
+    {
+        "id": "172076",
+        "description": "Vall d'en Bas, la",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.1116405,
+        "longitude": 2.4406387
+    },
+    {
+        "id": "172082",
+        "description": "Vall de Bianya, la",
+        "description_2": null,
+        "type": "19",
+        "latitude": 42.2110492,
+        "longitude": 2.453826
+    },
+    {
+        "id": "250432",
+        "description": "Vall de Boí, la",
+        "description_2": null,
+        "type": "5",
+        "latitude": 42.5282162,
+        "longitude": 0.8484524
+    },
+    {
+        "id": "259010",
+        "description": "Vall de Cardós",
+        "description_2": null,
+        "type": "26",
+        "latitude": 42.5624409,
+        "longitude": 1.2260973
+    },
+    {
+        "id": "172095",
+        "description": "Vall-llobrega",
+        "description_2": null,
+        "type": "10",
+        "latitude": 41.8808312,
+        "longitude": 3.1289693
+    },
+    {
+        "id": "082922",
+        "description": "Vallbona d'Anoia",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.5183109,
+        "longitude": 1.7075563
+    },
+    {
+        "id": "252385",
+        "description": "Vallbona de les Monges",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.5251965,
+        "longitude": 1.0888526
+    },
+    {
+        "id": "082938",
+        "description": "Vallcebre",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.2122649,
+        "longitude": 1.8025852
+    },
+    {
+        "id": "431589",
+        "description": "Vallclara",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.37668240000001,
+        "longitude": 0.9805731999999998
+    },
+    {
+        "id": "252402",
+        "description": "Vallfogona de Balaguer",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.7515378,
+        "longitude": 0.8163071000000001
+    },
+    {
+        "id": "171707",
+        "description": "Vallfogona de Ripollès",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.1971711,
+        "longitude": 2.3050257
+    },
+    {
+        "id": "431592",
+        "description": "Vallfogona de Riucorb",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.559616,
+        "longitude": 1.2361706
+    },
+    {
+        "id": "082943",
+        "description": "Vallgorguina",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.6477384,
+        "longitude": 2.5102008
+    },
+    {
+        "id": "082956",
+        "description": "Vallirana",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.3848607,
+        "longitude": 1.9317305
+    },
+    {
+        "id": "431606",
+        "description": "Vallmoll",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2489359,
+        "longitude": 1.2554112
+    },
+    {
+        "id": "082969",
+        "description": "Vallromanes",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5233876,
+        "longitude": 2.2975183
+    },
+    {
+        "id": "431613",
+        "description": "Valls",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2854449,
+        "longitude": 1.2494589
+    },
+    {
+        "id": "259062",
+        "description": "Valls d'Aguilar, les",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.28880950000001,
+        "longitude": 1.2313618
+    },
+    {
+        "id": "252398",
+        "description": "Valls de Valira, les",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.4042042,
+        "longitude": 1.4628042
+    },
+    {
+        "id": "431628",
+        "description": "Vandellòs i l'Hospitalet de l'Infant",
+        "description_2": null,
+        "type": "8",
+        "latitude": 40.9908991,
+        "longitude": 0.9236691
+    },
+    {
+        "id": "259097",
+        "description": "Vansa i Fórnols, la",
+        "description_2": null,
+        "type": "4",
+        "latitude": 42.2461755,
+        "longitude": 1.5015009
+    },
+    {
+        "id": "082975",
+        "description": "Veciana",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.6613587,
+        "longitude": 1.4918235
+    },
+    {
+        "id": "431634",
+        "description": "Vendrell, el",
+        "description_2": null,
+        "type": "12",
+        "latitude": 41.2196699,
+        "longitude": 1.534307
+    },
+    {
+        "id": "172109",
+        "description": "Ventalló",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.148948,
+        "longitude": 3.0269546
+    },
+    {
+        "id": "252424",
+        "description": "Verdú",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.6092595,
+        "longitude": 1.1412993
+    },
+    {
+        "id": "172116",
+        "description": "Verges",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.0620046,
+        "longitude": 3.045727
+    },
+    {
+        "id": "431649",
+        "description": "Vespella de Gaià",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.203398,
+        "longitude": 1.3599568
+    },
+    {
+        "id": "082981",
+        "description": "Vic",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9304373,
+        "longitude": 2.2544335
+    },
+    {
+        "id": "172121",
+        "description": "Vidrà",
+        "description_2": null,
+        "type": "24",
+        "latitude": 42.1239055,
+        "longitude": 2.3101467
+    },
+    {
+        "id": "172137",
+        "description": "Vidreres",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.7902198,
+        "longitude": 2.7776036
+    },
+    {
+        "id": "252430",
+        "description": "Vielha e Mijaran",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.7245643,
+        "longitude": 0.7722973999999999
+    },
+    {
+        "id": "431704",
+        "description": "Vila-rodona",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.31102449999999,
+        "longitude": 1.3580958
+    },
+    {
+        "id": "172305",
+        "description": "Vila-sacra",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2654013,
+        "longitude": 3.0182054
+    },
+    {
+        "id": "252521",
+        "description": "Vila-sana",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6633202,
+        "longitude": 0.9282788999999999
+    },
+    {
+        "id": "431711",
+        "description": "Vila-seca",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.1089174,
+        "longitude": 1.1457729
+    },
+    {
+        "id": "431652",
+        "description": "Vilabella",
+        "description_2": null,
+        "type": "1",
+        "latitude": 41.2480007,
+        "longitude": 1.3314874
+    },
+    {
+        "id": "172142",
+        "description": "Vilabertran",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2826274,
+        "longitude": 2.9813058
+    },
+    {
+        "id": "172155",
+        "description": "Vilablareix",
+        "description_2": null,
+        "type": "20",
+        "latitude": 41.9525583,
+        "longitude": 2.7953351
+    },
+    {
+        "id": "082994",
+        "description": "Vilada",
+        "description_2": null,
+        "type": "14",
+        "latitude": 42.1367098,
+        "longitude": 1.9337446
+    },
+    {
+        "id": "172174",
+        "description": "Viladamat",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.132877,
+        "longitude": 3.0745255
+    },
+    {
+        "id": "172168",
+        "description": "Viladasens",
+        "description_2": null,
+        "type": "20",
+        "latitude": 42.0955967,
+        "longitude": 2.9297688
+    },
+    {
+        "id": "083015",
+        "description": "Viladecans",
+        "description_2": null,
+        "type": "11",
+        "latitude": 41.315296,
+        "longitude": 2.0133208
+    },
+    {
+        "id": "083008",
+        "description": "Viladecavalls",
+        "description_2": null,
+        "type": "40",
+        "latitude": 41.5546052,
+        "longitude": 1.9588007
+    },
+    {
+        "id": "172180",
+        "description": "Vilademuls",
+        "description_2": null,
+        "type": "28",
+        "latitude": 42.1386367,
+        "longitude": 2.8879555
+    },
+    {
+        "id": "172207",
+        "description": "Viladrau",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.84777649999999,
+        "longitude": 2.3904096
+    },
+    {
+        "id": "172214",
+        "description": "Vilafant",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.2486443,
+        "longitude": 2.9381984
+    },
+    {
+        "id": "083054",
+        "description": "Vilafranca del Penedès",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3461265,
+        "longitude": 1.6979398
+    },
+    {
+        "id": "252445",
+        "description": "Vilagrassa",
+        "description_2": null,
+        "type": "38",
+        "latitude": 41.64888,
+        "longitude": 1.105928
+    },
+    {
+        "id": "172235",
+        "description": "Vilajuïga",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.32580730000001,
+        "longitude": 3.0933164
+    },
+    {
+        "id": "431750",
+        "description": "Vilalba dels Arcs",
+        "description_2": null,
+        "type": "37",
+        "latitude": 41.1199068,
+        "longitude": 0.4095728
+    },
+    {
+        "id": "083067",
+        "description": "Vilalba Sasserra",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.63723359999999,
+        "longitude": 2.4628871
+    },
+    {
+        "id": "252458",
+        "description": "Vilaller",
+        "description_2": null,
+        "type": "5",
+        "latitude": 42.4769739,
+        "longitude": 0.7170556
+    },
+    {
+        "id": "172240",
+        "description": "Vilallonga de Ter",
+        "description_2": null,
+        "type": "31",
+        "latitude": 42.3309462,
+        "longitude": 2.311995
+    },
+    {
+        "id": "431665",
+        "description": "Vilallonga del Camp",
+        "description_2": null,
+        "type": "36",
+        "latitude": 41.2093608,
+        "longitude": 1.1977158
+    },
+    {
+        "id": "172253",
+        "description": "Vilamacolum",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1950906,
+        "longitude": 3.0544899
+    },
+    {
+        "id": "172266",
+        "description": "Vilamalla",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.217008,
+        "longitude": 2.9706816
+    },
+    {
+        "id": "172272",
+        "description": "Vilamaniscle",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.3753663,
+        "longitude": 3.0673242
+    },
+    {
+        "id": "252477",
+        "description": "Vilamòs",
+        "description_2": null,
+        "type": "39",
+        "latitude": 42.7476961,
+        "longitude": 0.7263609
+    },
+    {
+        "id": "172288",
+        "description": "Vilanant",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.25512,
+        "longitude": 2.8892031
+    },
+    {
+        "id": "431671",
+        "description": "Vilanova d'Escornalbou",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1130584,
+        "longitude": 0.9372813
+    },
+    {
+        "id": "252483",
+        "description": "Vilanova de Bellpuig",
+        "description_2": null,
+        "type": "27",
+        "latitude": 41.6133903,
+        "longitude": 0.961758
+    },
+    {
+        "id": "252496",
+        "description": "Vilanova de l'Aguda",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9100546,
+        "longitude": 1.2521036
+    },
+    {
+        "id": "252542",
+        "description": "Vilanova de la Barca",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.6898845,
+        "longitude": 0.7283354
+    },
+    {
+        "id": "252509",
+        "description": "Vilanova de Meià",
+        "description_2": null,
+        "type": "23",
+        "latitude": 41.9938401,
+        "longitude": 1.0197244
+    },
+    {
+        "id": "431687",
+        "description": "Vilanova de Prades",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.3474337,
+        "longitude": 0.9572794
+    },
+    {
+        "id": "083036",
+        "description": "Vilanova de Sau",
+        "description_2": null,
+        "type": "24",
+        "latitude": 41.9467382,
+        "longitude": 2.384139
+    },
+    {
+        "id": "252516",
+        "description": "Vilanova de Segrià",
+        "description_2": null,
+        "type": "33",
+        "latitude": 41.7123804,
+        "longitude": 0.6167922
+    },
+    {
+        "id": "083020",
+        "description": "Vilanova del Camí",
+        "description_2": null,
+        "type": "6",
+        "latitude": 41.57027830000001,
+        "longitude": 1.6391874
+    },
+    {
+        "id": "089024",
+        "description": "Vilanova del Vallès",
+        "description_2": null,
+        "type": "41",
+        "latitude": 41.5531532,
+        "longitude": 2.3073743
+    },
+    {
+        "id": "083073",
+        "description": "Vilanova i la Geltrú",
+        "description_2": null,
+        "type": "17",
+        "latitude": 41.2151504,
+        "longitude": 1.727446
+    },
+    {
+        "id": "431690",
+        "description": "Vilaplana",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.2288429,
+        "longitude": 1.0337801
+    },
+    {
+        "id": "082140",
+        "description": "Vilassar de Dalt",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5132248,
+        "longitude": 2.3622582
+    },
+    {
+        "id": "082191",
+        "description": "Vilassar de Mar",
+        "description_2": null,
+        "type": "21",
+        "latitude": 41.5041512,
+        "longitude": 2.3838304
+    },
+    {
+        "id": "172229",
+        "description": "Vilaür",
+        "description_2": null,
+        "type": "2",
+        "latitude": 42.1366243,
+        "longitude": 2.9550619
+    },
+    {
+        "id": "431726",
+        "description": "Vilaverd",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.3356934,
+        "longitude": 1.1767007
+    },
+    {
+        "id": "431732",
+        "description": "Vilella Alta, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.225176,
+        "longitude": 0.7809170999999999
+    },
+    {
+        "id": "431747",
+        "description": "Vilella Baixa, la",
+        "description_2": null,
+        "type": "29",
+        "latitude": 41.2202707,
+        "longitude": 0.7630852
+    },
+    {
+        "id": "172333",
+        "description": "Vilobí d'Onyar",
+        "description_2": null,
+        "type": "34",
+        "latitude": 41.8888976,
+        "longitude": 2.7412765
+    },
+    {
+        "id": "083041",
+        "description": "Vilobí del Penedès",
+        "description_2": null,
+        "type": "3",
+        "latitude": 41.3842357,
+        "longitude": 1.6614947
+    },
+    {
+        "id": "172327",
+        "description": "Vilopriu",
+        "description_2": null,
+        "type": "10",
+        "latitude": 42.1056905,
+        "longitude": 2.9934954
+    },
+    {
+        "id": "252537",
+        "description": "Vilosell, el",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.3825979,
+        "longitude": 0.9471299
+    },
+    {
+        "id": "431763",
+        "description": "Vimbodí i Poblet",
+        "description_2": null,
+        "type": "16",
+        "latitude": 41.4015493,
+        "longitude": 1.0531193
+    },
+    {
+        "id": "252555",
+        "description": "Vinaixa",
+        "description_2": null,
+        "type": "18",
+        "latitude": 41.4290072,
+        "longitude": 0.9743004999999999
+    },
+    {
+        "id": "431779",
+        "description": "Vinebre",
+        "description_2": null,
+        "type": "30",
+        "latitude": 41.1848524,
+        "longitude": 0.5881565
+    },
+    {
+        "id": "431785",
+        "description": "Vinyols i els Arcs",
+        "description_2": null,
+        "type": "8",
+        "latitude": 41.1136522,
+        "longitude": 1.0406382
+    },
+    {
+        "id": "083089",
+        "description": "Viver i Serrateix",
+        "description_2": null,
+        "type": "14",
+        "latitude": 41.9551382,
+        "longitude": 1.8025852
+    },
+    {
+        "id": "430521",
+        "description": "Xerta",
+        "description_2": null,
+        "type": "9",
+        "latitude": 40.9084128,
+        "longitude": 0.489172
+    }
+]
