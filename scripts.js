@@ -462,6 +462,19 @@ function collapseAllContent1() {
     });
 }
 
+function selectAllContent() {	
+    const checkboxes = filterContainers[currentFilter].querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = true;
+    });
+}
+
+function unselectAllContent() {
+	const checkboxes = filterContainers[currentFilter].querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = false;
+    });
+}
 
 function filterByMunicipality() {
   filterContainer = filterContainers[0];
@@ -926,6 +939,15 @@ document.getElementById('btCA').addEventListener('click', function() {
         // Call function for mode one
         collapseAllContent1();
     }
+});
+// Event listener for the "Select All" button
+document.getElementById('btSA').addEventListener('click', function() {
+    selectAllContent();
+});
+
+// Event listener for the "Unselect All" button
+document.getElementById('btUA').addEventListener('click', function() {
+    unselectAllContent();
 });
 
 // Event listener for the "Municipalities" button
