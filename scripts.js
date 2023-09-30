@@ -140,7 +140,7 @@ function uncheckAllCheckboxes() {
 }
 
 function filterCheckboxes() {
-    var checkboxes = filterContainers[currentFilter].querySelectorAll('input[type="checkbox"]');
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
     var filteredCheckboxes = {
         'municipality': [],
         'region': [],
@@ -270,7 +270,12 @@ function filterAndFindMu(checkboxesResult, matchingIds) {
                         break;
                     }
                 }
-            }
+            }else{
+				for (var j = 0; j < entry['municipality'].length; j++) {
+                    var entryMu = entry['municipality'][j];
+                    filteredIds.add(entryMu);                
+                }				
+			}
             // If a matching municipality is found, add entry ID to filteredIds
             
         }
