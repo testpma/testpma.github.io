@@ -1,2 +1,3 @@
 
 fetchData();
+fetchAllData();

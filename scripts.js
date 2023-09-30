@@ -1,7 +1,12 @@
 const markersById = {};
 let markersData, modeEC, currentFilter;
-let chronologies, regions, types;
+let chronologies, regions, types, db;
 const filterContainers = document.querySelectorAll('.filter-container');
+const updateBar = document.getElementById('update-bar');
+const styles = window.getComputedStyle(updateBar);
+const width = parseFloat(styles.getPropertyValue('width'));
+const updateBarWidth = width; // Maximum width of the update bar in pixels
+
 
 // Create the Leaflet map
 var map = L.map('map').setView([41.8719, 1.8349], 8); // Adjust the initial map view
@@ -10,11 +15,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 async function fetchData() {
-	const updateBar = document.getElementById('update-bar');
-	const styles = window.getComputedStyle(updateBar);
-	const width = parseFloat(styles.getPropertyValue('width'));
-    const updateBarWidth = width; // Maximum width of the update bar in pixels
-
     try {
         const response = await fetch('markers.json');
         if (!response.ok) {
@@ -33,32 +33,38 @@ async function fetchData() {
 
 		filterByMunicipality();
 		// Update the update-bar as the first set of data is loaded
-        perc = 30; // 50% progress for the first set of data
+        perc = 40; // 50% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
+		document.getElementById('btMu').click();
 
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
+}
+
+async function fetchAllData() {    
 	try {
-        const [chronologiesResponse, regionsResponse, typesResponse] = await Promise.all([
+        const [chronologiesResponse, regionsResponse, typesResponse, dbResponse] = await Promise.all([
             fetch('chronologies.json'),
             fetch('regions.json'),
-            fetch('types.json')
+            fetch('types.json'),
+            fetch('dbf.json')
         ]);
 
-        [chronologies, regions, types] = await Promise.all([
+        [chronologies, regions, types, db] = await Promise.all([
             chronologiesResponse.json(),
             regionsResponse.json(),
-            typesResponse.json()
+            typesResponse.json(),
+            dbResponse.json()
         ]);		
 		filterByRegion();
 		// Update the update-bar as the first set of data is loaded
-        perc = 80; // 50% progress for the first set of data
+        perc = 70; // 50% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
 
 		filterByType();
 		// Update the update-bar as the first set of data is loaded
-        perc = 90; // 50% progress for the first set of data
+        perc = 80; // 50% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
 
 		filterByChronology();
@@ -71,7 +77,6 @@ async function fetchData() {
 
 		// Wait for 5 seconds (5000 milliseconds) and then hide the update bar
 		setTimeout(hideUpdateBar, 2500);
-		document.getElementById('btMu').click();
 
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -92,6 +97,198 @@ function addMarkersFromJSON(map) {
 	// Store the marker reference in the markersById object using the id as the key
 	markersById[id] = newMarker;
   });
+}
+
+function addMarkersByIdList(map, ids) {
+	removeMarkersFromMap()
+    // Loop through the provided list of IDs and add markers to the map
+    ids.forEach(id => {
+        // Find marker data in markersData based on the ID
+        const markerData = markersData.find(data => data.id === id);
+        
+        // If marker data is found, create a marker and add it to the map
+        if (markerData) {
+            const { latitude, longitude, description } = markerData;
+
+            // Create a marker and store it in the markersById object
+            const newMarker = L.marker([latitude, longitude])
+                .addTo(map)
+                .bindPopup(description);
+
+            // Store the marker reference in the markersById object using the id as the key
+            markersById[id] = newMarker;
+        }
+    });
+}
+
+function removeMarkersFromMap() {
+    // Loop through the markersById object and remove each marker from the map
+    for (const id in markersById) {
+        const marker = markersById[id];
+        map.removeLayer(marker);
+    }
+}
+
+
+function uncheckAllCheckboxes() {
+	removeMarkersFromMap();
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.checked = false;
+    });
+	addMarkersFromJSON(map);
+}
+
+function filterCheckboxes() {
+    var checkboxes = filterContainers[currentFilter].querySelectorAll('input[type="checkbox"]');
+    var filteredCheckboxes = {
+        'municipality': [],
+        'region': [],
+        'chronology': [],
+        'type': []
+    };
+
+    checkboxes.forEach(function(checkbox) {
+        if (checkbox.name === 'municipality' && checkbox.checked) {
+            filteredCheckboxes['municipality'].push(checkbox);
+        } else if (checkbox.name === 'region' && checkbox.checked) {
+            filteredCheckboxes['region'].push(checkbox);
+        } else if (checkbox.name === 'chronology' && checkbox.checked) {
+            filteredCheckboxes['chronology'].push(checkbox);
+        } else if (checkbox.name === 'type' && checkbox.checked) {
+            filteredCheckboxes['type'].push(checkbox);
+        }
+    });
+
+    return filteredCheckboxes;
+}
+
+function filterAndFindIds(filteredCheckboxes) {
+    // Get selected municipality values from filteredCheckboxes
+	
+    var selectedMu = filteredCheckboxes['municipality'] || [];
+    var selectedRe = filteredCheckboxes['region'] || [];
+    var selectedTy = filteredCheckboxes['type'] || [];
+    var selectedCh = filteredCheckboxes['chronology'] || [];
+    // Array to store matching entry IDs
+    var matchingIds = [];
+    // Loop through entries and check for matching municipalities
+    for (var i = 0; i < db.length; i++) {
+        var entry = db[i];
+		
+		var lengthTy = entry['type'] || [];
+		var lengthRe = entry['region'] || [];
+		var lengthCh = entry['chronology'] || [];  
+		
+        var hasMatchingRe = !selectedRe.length;
+        var hasMatchingTy = !selectedTy.length;
+        var hasMatchingCh = !selectedCh.length;
+        // Check if selectedRe is defined and has elements
+        if (selectedRe && selectedRe.length > 0) {
+            for (var j = 0; j < lengthRe.length; j++) {
+                var entryRe = entry['region'][j];
+                for (var k = 0; k < selectedRe.length; k++) {
+                    var selectedReValue = selectedRe[k].value;
+                    if (entryRe === selectedReValue) {
+                        hasMatchingRe = true;
+                        break;
+                    }
+                }
+                if (hasMatchingRe) {
+                    break;
+                }
+            }
+        }
+        // Check if selectedTy is defined and has elements
+        if (selectedTy && selectedTy.length > 0) {
+            for (var j = 0; j < lengthTy.length; j++) {
+                var entryTy = entry['type'][j];
+                for (var k = 0; k < selectedTy.length; k++) {
+                    var selectedTyValue = selectedTy[k].value;
+                    if (entryTy.startsWith(selectedTyValue)) {
+                        hasMatchingTy = true;
+                        break;
+                    }
+                }
+                if (hasMatchingTy) {
+                    break;
+                }
+            }
+        }
+        // Check if selectedCh is defined and has elements
+        if (selectedCh && selectedCh.length > 0) {          
+			for (var j = 0; j < lengthCh.length; j++) {
+                var entryCh = entry['chronology'][j];
+                for (var k = 0; k < selectedCh.length; k++) {
+                    var selectedChValue = selectedCh[k].value;
+                    if (entryCh.startsWith(selectedChValue)) {
+                        hasMatchingCh = true;
+                        break;
+                    }
+                }
+                if (hasMatchingCh) {
+                    break;
+                }
+            }
+        }
+        // If all matching criteria are found, add entry ID to matchingIds
+        if (hasMatchingRe && hasMatchingTy && hasMatchingCh) {
+            matchingIds.push(entry['id']);
+        }
+    }
+
+    return matchingIds;
+}
+
+function filterAndFindMu(checkboxesResult, matchingIds) {
+    // Get selected municipality values from checkboxesResult
+    var selectedMu = checkboxesResult['municipality'] || [];    
+    // Array to store matching entry IDs
+    var filteredIds = new Set();
+    // Loop through matching IDs and check for matching municipalities
+    for (var i = 0; i < matchingIds.length; i++) {
+        var entryId = matchingIds[i];        
+        // Find the entry with the current ID from the database
+        var entry = db.find(function(entry) {
+            return entry.id === entryId;
+        });
+        if (entry) {
+            var hasMatchingMu = !selectedMu.length;
+            // Check if selectedMu is defined and has elements
+            if (selectedMu && selectedMu.length > 0) {
+                for (var j = 0; j < entry['municipality'].length; j++) {
+                    var entryMu = entry['municipality'][j];
+                    for (var k = 0; k < selectedMu.length; k++) {
+                        var selectedMuValue = selectedMu[k].value;
+                        if (entryMu === selectedMuValue) {
+                            hasMatchingMu = true;
+							filteredIdsSet.add(entryMu);
+                            break;
+                        }
+                    }
+                    if (hasMatchingMu) {
+                        break;
+                    }
+                }
+            }
+            // If a matching municipality is found, add entry ID to filteredIds
+            
+        }
+    }
+    return filteredIds;
+}
+
+function findMunicipalityValuesByIds(ids) {
+    // Parse the input IDs as integers for comparison with entry IDs
+    const parsedIds = ids.map(id => parseInt(id));
+
+    // Find entries with matching IDs
+    const matchingEntries = db.filter(entry => parsedIds.includes(entry.id));
+
+    // Extract unique municipality values from matching entries
+    const uniqueMunicipalities = Array.from(new Set(matchingEntries.flatMap(entry => entry.municipality)));
+
+    return uniqueMunicipalities;
 }
 
 function enableFilters(disabledButtonId) {
@@ -135,6 +332,7 @@ function showFilterContainer(indexToShow) {
     }
 }
 
+
 function expandMuRe(filterContainer) {
     // Find the content div within the filterContainer
     const content = filterContainer.nextElementSibling.children; // Assuming the content div is the second child
@@ -165,6 +363,7 @@ function collapseMuRe(filterContainer) {
 	}
 }
 
+
 function removeToggleButtonIfNotUnique(checkbox) {
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');
     const currentValue = checkbox.value;
@@ -187,6 +386,7 @@ function removeToggleButtonIfNotUnique(checkbox) {
         parentDiv.removeChild(toggleButton);
     }
 }
+
 
 function expandAllContent() {	
     const groups = filterContainers[currentFilter].querySelectorAll('div[data-isec="true"]');
@@ -256,6 +456,7 @@ function collapseAllContent1() {
         }
     });
 }
+
 
 function filterByMunicipality() {
   filterContainer = filterContainers[0];
@@ -373,7 +574,7 @@ function filterByMunicipality() {
   });
 }
 
-async function filterByRegion() {
+function filterByRegion() {
   filterContainer = filterContainers[1];
   //const regionsResponse = await fetch('regions.json'); // Assuming your JSON file is named regions.json
   //const regions = await regionsResponse.json();
@@ -474,7 +675,7 @@ async function filterByRegion() {
   });
 }
 
-async function filterByType() {
+function filterByType() {
     filterContainer = filterContainers[2];
     //const typesResponse = await fetch('types.json'); // Assuming your JSON file is named Types.json
     //const types = await typesResponse.json();
@@ -580,7 +781,7 @@ async function filterByType() {
     createFilterTree(types);
 }
 
-async function filterByChronology() {
+function filterByChronology() {
   filterContainer = filterContainers[3];
   //const chronologiesResponse = await fetch('chronologies.json'); // Assuming your JSON file is named chronologies.json
   //const chronologies = await chronologiesResponse.json();
@@ -758,11 +959,19 @@ document.getElementById('btCh').addEventListener('click', function() {
     enableFilters('btCh');
 });
 
+// Event listener for the "Search" button
+document.getElementById('btFilter').addEventListener('click', function() {
+	var checkboxesResult = filterCheckboxes(); // Assuming you have a function named filterCheckboxes that returns the filtered checkboxes object
+	console.log(checkboxesResult);
+	var matchingIds = filterAndFindIds(checkboxesResult);	
+	console.log(matchingIds);
+	var matchingMu = filterAndFindMu(checkboxesResult, matchingIds);
+	console.log(matchingMu);
+	addMarkersByIdList(map, matchingMu)
+	
 
-
-
-
-
-
-
-
+});
+// Event listener for the "Clear" button
+document.getElementById('btClear').addEventListener('click', function() {
+	uncheckAllCheckboxes();
+});
