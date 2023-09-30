@@ -262,7 +262,7 @@ function filterAndFindMu(checkboxesResult, matchingIds) {
                         var selectedMuValue = selectedMu[k].value;
                         if (entryMu === selectedMuValue) {
                             hasMatchingMu = true;
-							filteredIdsSet.add(entryMu);
+							filteredIds.add(entryMu);
                             break;
                         }
                     }
