@@ -25,8 +25,6 @@ async function fetchData() {
         let perc = 5; // 25% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
 
-		// Call the function to add markers once data is fetched successfully
-        addMarkersFromJSON(map);
 		// Update the update-bar as the first set of data is loaded
         perc = 20; // 50% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
@@ -36,7 +34,6 @@ async function fetchData() {
         perc = 40; // 50% progress for the first set of data
         updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
 		document.getElementById('btMu').click();
-
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
@@ -57,6 +54,8 @@ async function fetchAllData() {
             typesResponse.json(),
             dbResponse.json()
         ]);		
+				
+		document.getElementById('btClear').click();
 		filterByRegion();
 		// Update the update-bar as the first set of data is loaded
         perc = 70; // 50% progress for the first set of data
@@ -82,21 +81,6 @@ async function fetchAllData() {
         console.error('Error fetching data:', error);
         // Handle errors here, such as displaying an error message to the user
     }
-}
-
-function addMarkersFromJSON(map) {
-  // Loop through the JSON data and add markers to the map
-  markersData.forEach(markerData => {
-	const { id, latitude, longitude, description } = markerData;
-
-	// Create a marker and store it in the markersById object
-	const newMarker = L.marker([latitude, longitude])
-	  .addTo(map)
-	  .bindPopup(description);
-
-	// Store the marker reference in the markersById object using the id as the key
-	markersById[id] = newMarker;
-  });
 }
 
 function addMarkersByIdList(map, ids) {
@@ -130,13 +114,14 @@ function removeMarkersFromMap() {
 }
 
 
-function uncheckAllCheckboxes() {
+function clearFilter() {
 	removeMarkersFromMap();
-    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+	const checkboxes = document.querySelectorAll('input[type="checkbox"]');
     checkboxes.forEach(function(checkbox) {
         checkbox.checked = false;
     });
-	addMarkersFromJSON(map);
+	filteredCheckboxes = filterCheckboxes();
+	addMarkersByIdList(map, filterAndFindMu(filteredCheckboxes, filterAndFindIds(filteredCheckboxes)));
 }
 
 function filterCheckboxes() {
@@ -1000,5 +985,5 @@ document.getElementById('btFilter').addEventListener('click', function() {
 });
 // Event listener for the "Clear" button
 document.getElementById('btClear').addEventListener('click', function() {
-	uncheckAllCheckboxes();
+	clearFilter();
 });
