@@ -15,17 +15,57 @@
             overflow: hidden; /* Prevent the entire page from scrolling */
         }
         #map {
-            height: 100vh;
-            width: 75%; /* 75% of the viewport width */
-        }
+			height: 100vh;
+			width: 100%; /* 100% width */
+			float: left; /* Float the map to the left */
+			z-index: 0;
+		}
+		#btSP {
+			width: 30px; /* Width of the icon */
+			height: 30px; /* Height of the icon */
+			
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			display: flex;
+			font-size: 16px;
+			cursor: pointer;
+			z-index: 2;
+			position: fixed;
+			bottom: 10px; /* Adjust this value to position the button as per your preference */
+			right: 0; /* Center the button horizontally */
+			transform: translateX(-50%); /* Center the button horizontally */
+		}		
+		#btCP {
+		
+			width: 30px; /* Width of the icon */
+			height: 30px; /* Height of the icon */
+			
+			display: none;
+			background-color: #ff3333;
+			border: none;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			display: flex;
+			font-size: 16px;
+			cursor: pointer;
+		}
         #panel {
-            width: 25%; /* 25% of the viewport width */
             height: 100vh;
-            display: flex;
-            flex-direction: column;
-            background-color: #f0f0f0;
-            padding: 10px;
-        }
+			display: none;
+			flex-direction: column;
+			background-color: #f0f0f0;
+			padding: 10px;
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 25%; /* 25% of the viewport width */
+			z-index: 1;
+			overflow: hidden; /* Hide any content that overflows the panel */
+		}
         #page-buttons {
             /* Styles for the buttons row */
             display: flex;
@@ -85,9 +125,11 @@
             padding: 10px;
         }
 		#update-bar {
-		  display: flex;
-		  padding: 10px;
-          align-items: center;
+			display: flex;
+			padding: 10px;
+			align-items: center;
+			background-color: green;
+			width: 90%;
 		}
 		.update-bar {
 			background-color: green;
@@ -99,6 +141,10 @@
 		  justify-content: space-between;
 		  padding: 10px;
           align-items: center;
+		  position: fixed;
+		  background-color: #f0f0f0;
+		  bottom: 0; /* Position the clear filter buttons at the bottom */
+		  z-index: 3; 
 		}
 		#page-clearfilter button {
 		  flex-grow: 1;
@@ -109,27 +155,27 @@
 <body>
     <!-- Map Container -->
     <div id="map"></div>
-
-    <!-- Panel -->
-    <div id="panel">
-        <!-- Page Buttons -->
-        <div id="page-buttons">
-            <button id="btMu">Municipalities</button>
-            <button id="btRe">Regions</button>
-            <button id="btCh">Chronologies</button>
-            <button id="btTy">Types</button>
-        </div>
-        <div id="expcont-buttons">
-            <button id="btCA">Collapse All</button>
-            <button id="btEA">Expand All</button>
-            <button id="btUA">Unselect All</button>
-            <button id="btSA">Select All</button>
-        </div>
+	<button id="btSP">\\\</button>
+<!-- Panel -->
+	<div id="panel">
+		<!-- Page Buttons -->
+		<div id="page-buttons">
+			<button id="btMu">Municipalities</button>
+			<button id="btRe">Regions</button>
+			<button id="btCh">Chronologies</button>
+			<button id="btTy">Types</button>
+		</div>
+		<div id="expcont-buttons">
+			<button id="btCA">Collapse All</button>
+			<button id="btEA">Expand All</button>
+			<button id="btUA">Unselect All</button>
+			<button id="btSA">Select All</button>
+		</div>
 		<div id="page-index">
 			<label id="index">Index</label>
-        </div>
-        <!-- Filter Container -->
-        <div id="filter-container-0" class="filter-container">
+		</div>
+		<!-- Filter Container -->
+		<div id="filter-container-0" class="filter-container">
 			<!-- Content for filter container 1 -->
 		</div>
 		<div id="filter-container-1" class="filter-container">
@@ -144,12 +190,13 @@
 		<div id="update-bar" class="update-bar">
 			<!-- update bar -->
 		</div>		
-        <!-- Search Button -->
-        <div id="page-clearfilter">
+		<!-- Search Button -->
+		<div id="page-clearfilter">	
+			<button id="btCP">///</button>
 			<button id="btClear">Clear Filter</button>
-            <button id="btFilter">Search</button>
-        </div>
-    </div>
+			<button id="btFilter">Search</button>
+		</div>
+	</div>
 
 	<script src="scripts.js"></script>
     <script src="main.js"></script>

@@ -2,6 +2,10 @@ const markersById = {};
 let markersData, modeEC, currentFilter;
 let chronologies, regions, types, db;
 const filterContainers = document.querySelectorAll('.filter-container');
+var closePanelButton = document.getElementById("btCP");
+var panel = document.getElementById("panel");
+var btSP = document.getElementById("btSP");
+var btCP = document.getElementById("btCP");
 const updateBar = document.getElementById('update-bar');
 const styles = window.getComputedStyle(updateBar);
 const width = parseFloat(styles.getPropertyValue('width'));
@@ -112,6 +116,7 @@ function removeMarkersFromMap() {
         map.removeLayer(marker);
     }
 }
+
 
 
 function clearFilter() {
@@ -377,6 +382,17 @@ function removeToggleButtonIfNotUnique(checkbox) {
     }
 }
 
+function hidePanel() {
+    panel.style.display = "none";
+    btSP.style.display = "block";
+    btCP.style.display = "none";
+}
+
+function showPanel() {
+    panel.style.display = "block";
+    btSP.style.display = "none";
+    btCP.style.display = "inline-block";
+}
 
 function expandAllContent() {	
     const groups = filterContainers[currentFilter].querySelectorAll('div[data-isec="true"]');
@@ -987,3 +1003,9 @@ document.getElementById('btFilter').addEventListener('click', function() {
 document.getElementById('btClear').addEventListener('click', function() {
 	clearFilter();
 });
+
+// Initial state: panel is hidden, btSP is visible
+hidePanel();
+
+btSP.addEventListener("click", showPanel);
+btCP.addEventListener("click", hidePanel);
