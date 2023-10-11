@@ -6,10 +6,6 @@ var closePanelButton = document.getElementById("btCP");
 var panel = document.getElementById("panel");
 var btSP = document.getElementById("btSP");
 var btCP = document.getElementById("btCP");
-const updateBar = document.getElementById('update-bar');
-const styles = window.getComputedStyle(updateBar);
-const width = parseFloat(styles.getPropertyValue('width'));
-const updateBarWidth = width; // Maximum width of the update bar in pixels
 
 
 // Create the Leaflet map
@@ -24,67 +20,75 @@ async function fetchData() {
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
-        markersData = await response.json();
-		// Update the update-bar as the first set of data is loaded
-        let perc = 5; // 25% progress for the first set of data
-        updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
-
-		// Update the update-bar as the first set of data is loaded
-        perc = 20; // 50% progress for the first set of data
-        updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
-
-		filterByMunicipality();
-		// Update the update-bar as the first set of data is loaded
-        perc = 40; // 50% progress for the first set of data
-        updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
-		document.getElementById('btMu').click();
+        markersData = await response.json();	
+		filterByMunicipality();	
+		document.getElementById('btMu').click();	
+		const dbResponse = await fetch('dbf.json');
+        if (!dbResponse.ok) {
+            throw new Error('Network response was not ok');
+        }
+        db = await dbResponse.json();		
+		document.getElementById('btClear').click();
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
 }
 
-async function fetchAllData() {    
-	try {
-        const [chronologiesResponse, regionsResponse, typesResponse, dbResponse] = await Promise.all([
-            fetch('chronologies.json'),
-            fetch('regions.json'),
-            fetch('types.json'),
-            fetch('dbf.json')
-        ]);
+function fetchChronologies() {
+    return fetch('chronologies.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        });
+}
+function fetchRegions() {
+    return fetch('regions.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        });
+}
+function fetchTypes() {
+    return fetch('types.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        });
+}
+function initializeFilters() {
+	fetchChronologies()
+		.then(chronologies => {
+			// Handle chronologies data here
+			filterByChronology(chronologies);
+		})
+		.catch(error => {
+			console.error('Error fetching chronologies:', error);
+		});
 
-        [chronologies, regions, types, db] = await Promise.all([
-            chronologiesResponse.json(),
-            regionsResponse.json(),
-            typesResponse.json(),
-            dbResponse.json()
-        ]);		
-				
-		document.getElementById('btClear').click();
-		filterByRegion();
-		// Update the update-bar as the first set of data is loaded
-        perc = 70; // 50% progress for the first set of data
-        updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
+	fetchRegions()
+		.then(regions => {
+			// Handle regions data here
+			filterByRegion(regions);
+		})
+		.catch(error => {
+			console.error('Error fetching regions:', error);
+		});
 
-		filterByType();
-		// Update the update-bar as the first set of data is loaded
-        perc = 80; // 50% progress for the first set of data
-        updateBar.style.width = `${(perc / 100) * updateBarWidth}px`;
+	fetchTypes()
+		.then(types => {
+			// Handle types data here
+			filterByType(types);
+		})
+		.catch(error => {
+			console.error('Error fetching types:', error);
+		});
 
-		filterByChronology();
-		// Update the update-bar as the first set of data is loaded
-        updateBar.style.width = `${updateBarWidth}px`;
-		updateBar.innerText = 'Map loaded successfully';
-		function hideUpdateBar() {
-			updateBar.style.display = "none";
-		}
-
-		// Wait for 5 seconds (5000 milliseconds) and then hide the update bar
-		setTimeout(hideUpdateBar, 2500);
-
-    } catch (error) {
-        console.error('Error fetching data:', error);
-        // Handle errors here, such as displaying an error message to the user
-    }
 }
 
 function addMarkersByIdList(map, ids) {
@@ -116,8 +120,6 @@ function removeMarkersFromMap() {
         map.removeLayer(marker);
     }
 }
-
-
 
 function clearFilter() {
 	removeMarkersFromMap();
@@ -593,7 +595,8 @@ function filterByMunicipality() {
   });
 }
 
-function filterByRegion() {
+function filterByRegion(re) {
+  regions = re;
   filterContainer = filterContainers[1];
   //const regionsResponse = await fetch('regions.json'); // Assuming your JSON file is named regions.json
   //const regions = await regionsResponse.json();
@@ -694,7 +697,8 @@ function filterByRegion() {
   });
 }
 
-function filterByType() {
+function filterByType(ty) {
+	types = ty;
     filterContainer = filterContainers[2];
     //const typesResponse = await fetch('types.json'); // Assuming your JSON file is named Types.json
     //const types = await typesResponse.json();
@@ -800,7 +804,8 @@ function filterByType() {
     createFilterTree(types);
 }
 
-function filterByChronology() {
+function filterByChronology(ch) {
+  chronologies = ch;
   filterContainer = filterContainers[3];
   //const chronologiesResponse = await fetch('chronologies.json'); // Assuming your JSON file is named chronologies.json
   //const chronologies = await chronologiesResponse.json();

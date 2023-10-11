@@ -1,3 +1,5 @@
 
 fetchData();
-fetchAllData();
+initializeFilters();
+
+

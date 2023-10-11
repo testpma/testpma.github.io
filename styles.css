@@ -20,7 +20,7 @@ body {
 	position: fixed;
 	top: 0;
 	right: 0;
-	width: 500px; 
+	width: 400px; 
 	z-index: 1;
 	overflow: hidden; /* Hide any content that overflows the panel */
 }
@@ -52,7 +52,8 @@ body {
 #header {
     /* Styles for the label with ID header */
     /* Add your label styles here */
-	padding: 10px; /* Add padding */      
+	padding: 10px; /* Add padding */  
+	font-family: sans-serif;
 }
 #btCP {
 
@@ -74,6 +75,10 @@ body {
 	display: flex;
 	justify-content: space-between; /* Space buttons evenly */
 	align-items: center;
+}
+#index{
+	padding: 10px; /* Add padding */  
+	font-family: sans-serif;
 }
 #page-buttons {
 	/* Styles for the buttons row */
@@ -103,6 +108,7 @@ body {
 	overflow-y: auto; /* Enable scroll for the filter content */
 	padding: 10px;
     margin-bottom: 50px;
+	font-family: sans-serif;	
 }
 #filter-container-1 {
 	/* Styles for the filter container */
@@ -113,6 +119,7 @@ body {
 	overflow-y: auto; /* Enable scroll for the filter content */
 	padding: 10px;
     margin-bottom: 50px;
+	font-family: sans-serif;
 }
 #filter-container-2 {
 	/* Styles for the filter container */
@@ -123,6 +130,7 @@ body {
 	overflow-y: auto; /* Enable scroll for the filter content */
 	padding: 10px;
     margin-bottom: 50px;
+	font-family: sans-serif;
 }
 #filter-container-3 {
 	/* Styles for the filter container */
@@ -133,6 +141,7 @@ body {
 	overflow-y: auto; /* Enable scroll for the filter content */
 	padding: 10px;
     margin-bottom: 50px;
+	font-family: sans-serif;
 }
 #page-clearfilter {
     display: flex;
