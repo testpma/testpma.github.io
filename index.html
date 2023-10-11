@@ -3,154 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalonia Map</title>
+    <title>HistoMap - Catalunya</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <style>
-        /* Styling for the map and panel */
-        body {
-            display: flex;
-            justify-content: space-between;
-            margin: 0;
-            overflow: hidden; /* Prevent the entire page from scrolling */
-        }
-        #map {
-			height: 100vh;
-			width: 100%; /* 100% width */
-			float: left; /* Float the map to the left */
-			z-index: 0;
-		}
-		#btSP {
-			width: 30px; /* Width of the icon */
-			height: 30px; /* Height of the icon */
-			
-			background-color: #4CAF50;
-			border: none;
-			color: white;
-			text-align: center;
-			text-decoration: none;
-			display: flex;
-			font-size: 16px;
-			cursor: pointer;
-			z-index: 2;
-			position: fixed;
-			bottom: 10px; /* Adjust this value to position the button as per your preference */
-			right: 0; /* Center the button horizontally */
-			transform: translateX(-50%); /* Center the button horizontally */
-		}		
-		#btCP {
-		
-			width: 30px; /* Width of the icon */
-			height: 30px; /* Height of the icon */
-			
-			display: none;
-			background-color: #ff3333;
-			border: none;
-			color: white;
-			text-align: center;
-			text-decoration: none;
-			display: flex;
-			font-size: 16px;
-			cursor: pointer;
-		}
-        #panel {
-            height: 100vh;
-			display: none;
-			flex-direction: column;
-			background-color: #f0f0f0;
-			padding: 10px;
-			position: fixed;
-			top: 0;
-			right: 0;
-			width: 25%; /* 25% of the viewport width */
-			z-index: 1;
-			overflow: hidden; /* Hide any content that overflows the panel */
-		}
-        #page-buttons {
-            /* Styles for the buttons row */
-            display: flex;
-            justify-content: space-around; /* Space buttons evenly */
-            align-items: center;
-        }
-		#page-index {
-            /* Styles for the buttons row */
-            display: flex;
-            justify-content: space-around; /* Space buttons evenly */
-            align-items: center;
-        }
-		#expcont-buttons {
-		  display: flex;
-		  justify-content: space-between;
-          align-items: center;
-		}
-		#expcont-buttons button {
-		  flex-grow: 1;
-		  margin: 5px; /* Add margin for spacing between buttons */
-          padding: 10px;
-		}
-        #filter-container-0 {
-            /* Styles for the filter container */
-            height: calc(100% - 60px); /* Adjust the height as needed */
-            display: none;
-            flex-direction: column;
-            align-items: left;
-            overflow-y: auto; /* Enable scroll for the filter content */
-            padding: 10px;
-        }
-		#filter-container-1 {
-            /* Styles for the filter container */
-            height: calc(100% - 60px); /* Adjust the height as needed */
-            display: none;
-            flex-direction: column;
-            align-items: left;
-            overflow-y: auto; /* Enable scroll for the filter content */
-            padding: 10px;
-        }
-		#filter-container-2 {
-            /* Styles for the filter container */
-            height: calc(100% - 60px); /* Adjust the height as needed */
-            display: none;
-            flex-direction: column;
-            align-items: left;
-            overflow-y: auto; /* Enable scroll for the filter content */
-            padding: 10px;
-        }
-		#filter-container-3 {
-            /* Styles for the filter container */
-            height: calc(100% - 60px); /* Adjust the height as needed */
-            display: none;
-            flex-direction: column;
-            align-items: left;
-            overflow-y: auto; /* Enable scroll for the filter content */
-            padding: 10px;
-        }
-		#update-bar {
-			display: flex;
-			padding: 10px;
-			align-items: center;
-			background-color: green;
-			width: 90%;
-		}
-		.update-bar {
-			background-color: green;
-			width: 90%;
-		}
-
-		#page-clearfilter {
-		  display: flex;
-		  justify-content: space-between;
-		  padding: 10px;
-          align-items: center;
-		  position: fixed;
-		  background-color: #f0f0f0;
-		  bottom: 0; /* Position the clear filter buttons at the bottom */
-		  z-index: 3; 
-		}
-		#page-clearfilter button {
-		  flex-grow: 1;
-		  margin: 5px; /* Add margin for spacing between buttons */
-		}
-    </style>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <!-- Map Container -->
@@ -158,6 +14,10 @@
 	<button id="btSP">\\\</button>
 <!-- Panel -->
 	<div id="panel">
+		<div id="page-header">
+			<button id="btCP">///</button>
+			<label id="header">HistoMap - Catalunya</label>
+		</div>
 		<!-- Page Buttons -->
 		<div id="page-buttons">
 			<button id="btMu">Municipis</button>
@@ -165,15 +25,20 @@
 			<button id="btCh">Cronologies</button>
 			<button id="btTy">Tipus</button>
 		</div>
+		
+		<!-- Expand Contract Button -->
 		<div id="expcont-buttons">
-			<button id="btCA">Collapse</button>
-			<button id="btEA">Expand</button>
-			<button id="btUA">Unselect</button>
-			<button id="btSA">Select</button>
+			<button id="btCA">Col·lapsar tot</button>
+			<button id="btEA">Ampliar tot</button>
+			<button id="btSA">Marcar tot</button>
+			<button id="btUA">Desmarcar tot</button>
 		</div>
+		
+		<!-- Label Index -->
 		<div id="page-index">
 			<label id="index">Index</label>
 		</div>
+		
 		<!-- Filter Container -->
 		<div id="filter-container-0" class="filter-container">
 			<!-- Content for filter container 1 -->
@@ -186,14 +51,11 @@
 		</div>
 		<div id="filter-container-3" class="filter-container">
 			<!-- Content for filter container 4 -->
-		</div>   
-		<div id="update-bar" class="update-bar">
-			<!-- update bar -->
-		</div>		
+		</div> 	
+		
 		<!-- Search Button -->
 		<div id="page-clearfilter">	
-			<button id="btCP">///</button>
-			<button id="btClear">Reestablir filtre</button>
+			<button id="btClear">Restablir filtre</button>
 			<button id="btFilter">Buscar coincidents</button>
 		</div>
 	</div>

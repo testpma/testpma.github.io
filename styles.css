@@ -1,0 +1,149 @@
+/* Styling for the map and panel */
+body {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	overflow: hidden; /* Prevent the entire page from scrolling */
+}
+#map {
+	height: 100vh;
+	width: 100%; /* 100% width */
+	float: left; /* Float the map to the left */
+	z-index: 0;
+}
+#panel {
+	height: 100vh;
+	display: none;
+	flex-direction: column;
+	background-color: #f0f0f0;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 500px; 
+	z-index: 1;
+	overflow: hidden; /* Hide any content that overflows the panel */
+}
+
+#btSP {
+	width: 30px; /* Width of the icon */
+	height: 30px; /* Height of the icon */
+	
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	font-size: 16px;
+	cursor: pointer;
+	
+	z-index: 2;
+	position: fixed;
+	top: 10px; /* Adjust this value to position the button as per your preference */
+	right: 0; /* Center the button horizontally */
+	transform: translateX(-50%); /* Center the button horizontally */
+}	
+#page-header {
+	/* Styles for the buttons row */
+	display: flex;
+	justify-content: left; /* Space buttons evenly */
+}	
+#header {
+    /* Styles for the label with ID header */
+    /* Add your label styles here */
+	padding: 10px; /* Add padding */      
+}
+#btCP {
+
+	width: 30px; /* Width of the icon */
+	height: 30px; /* Height of the icon */
+	
+	display: none;
+	background-color: #ff3333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	font-size: 16px;
+	cursor: pointer;
+}
+#page-index {
+	/* Styles for the buttons row */
+	display: flex;
+	justify-content: space-between; /* Space buttons evenly */
+	align-items: center;
+}
+#page-buttons {
+	/* Styles for the buttons row */
+	display: flex;
+	justify-content: space-between; /* Space buttons evenly */
+}
+#page-buttons button {
+    width: 48%; /* Set a specific width for the buttons */
+    margin: 5px; /* Add margin for spacing between buttons */
+    padding: 10px;
+}
+#expcont-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+#expcont-buttons button {
+    width: 48%; /* Set a specific width for the buttons */
+    margin: 5px; /* Add margin for spacing between buttons */
+    padding: 1px;
+}
+#filter-container-0 {
+	/* Styles for the filter container */
+	height: calc(100% - 250px); /* Adjust the height as needed */
+	display: none;
+	flex-direction: column;
+	align-items: left;
+	overflow-y: auto; /* Enable scroll for the filter content */
+	padding: 10px;
+    margin-bottom: 50px;
+}
+#filter-container-1 {
+	/* Styles for the filter container */
+	height: calc(100% - 250px); /* Adjust the height as needed */
+	display: none;
+	flex-direction: column;
+	align-items: left;
+	overflow-y: auto; /* Enable scroll for the filter content */
+	padding: 10px;
+    margin-bottom: 50px;
+}
+#filter-container-2 {
+	/* Styles for the filter container */
+	height: calc(100% - 250px); /* Adjust the height as needed */
+	display: none;
+	flex-direction: column;
+	align-items: left;
+	overflow-y: auto; /* Enable scroll for the filter content */
+	padding: 10px;
+    margin-bottom: 50px;
+}
+#filter-container-3 {
+	/* Styles for the filter container */
+	height: calc(100% - 250px); /* Adjust the height as needed */
+	display: none;
+	flex-direction: column;
+	align-items: left;
+	overflow-y: auto; /* Enable scroll for the filter content */
+	padding: 10px;
+    margin-bottom: 50px;
+}
+#page-clearfilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;	
+    width: 97%; /* Occupy full width of the panel */
+	bottom: 30px;
+}
+#page-clearfilter button {
+    width: 48%; /* Set a specific width for the buttons */
+    margin: 5px; /* Add margin for spacing between buttons */
+    padding: 10px;
+}
