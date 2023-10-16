@@ -1,5 +1,0 @@
-getIdentificationBySiteId
-
-getInterventionBySiteId
-getSourcesAndDocumentation
-getImagesBySiteId
