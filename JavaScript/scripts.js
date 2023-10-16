@@ -16,14 +16,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 async function fetchData() {
     try {
-        const response = await fetch('markers.json');
+        const response = await fetch('JSON/markers.json');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
         markersData = await response.json();	
 		filterByMunicipality();	
 		document.getElementById('btMu').click();	
-		const dbResponse = await fetch('dbf.json');
+		const dbResponse = await fetch('JSON/dbf.json');
         if (!dbResponse.ok) {
             throw new Error('Network response was not ok');
         }
@@ -35,7 +35,7 @@ async function fetchData() {
 }
 
 function fetchChronologies() {
-    return fetch('chronologies.json')
+    return fetch('JSON/chronologies.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -44,7 +44,7 @@ function fetchChronologies() {
         });
 }
 function fetchRegions() {
-    return fetch('regions.json')
+    return fetch('JSON/regions.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -53,7 +53,7 @@ function fetchRegions() {
         });
 }
 function fetchTypes() {
-    return fetch('types.json')
+    return fetch('JSON/types.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

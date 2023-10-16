@@ -23,6 +23,11 @@ body {
 	width: 400px; 
 	z-index: 1;
 	overflow: hidden; /* Hide any content that overflows the panel */
+	
+	/* Adjust width for mobile phones (less than or equal to 767px wide) */
+    @media (max-width: 401px) {
+        width: 100%;
+    }
 }
 
 #btSP {
