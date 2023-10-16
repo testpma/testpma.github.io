@@ -1,0 +1,260 @@
+[
+    {
+        "id": "1",
+        "description": "Alt Camp",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "2",
+        "description": "Alt Empordà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "3",
+        "description": "Alt Penedès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "4",
+        "description": "Alt Urgell",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "5",
+        "description": "Alta Ribagorça",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "6",
+        "description": "Anoia",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "39",
+        "description": "Aran",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "7",
+        "description": "Bages",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "8",
+        "description": "Baix Camp",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "9",
+        "description": "Baix Ebre",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "10",
+        "description": "Baix Empordà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "11",
+        "description": "Baix Llobregat",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "12",
+        "description": "Baix Penedès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "13",
+        "description": "Barcelonès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "14",
+        "description": "Berguedà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "15",
+        "description": "Cerdanya",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "16",
+        "description": "Conca de Barberà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "17",
+        "description": "Garraf",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "18",
+        "description": "Garrigues",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "19",
+        "description": "Garrotxa",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "20",
+        "description": "Gironès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "43",
+        "description": "Lluçanès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "21",
+        "description": "Maresme",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "42",
+        "description": "Moianès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "22",
+        "description": "Montsià",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "23",
+        "description": "Noguera",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "24",
+        "description": "Osona",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "25",
+        "description": "Pallars Jussà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "26",
+        "description": "Pallars Sobirà",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "27",
+        "description": "Pla d'Urgell",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "28",
+        "description": "Pla de l'Estany",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "29",
+        "description": "Priorat",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "30",
+        "description": "Ribera d'Ebre",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "31",
+        "description": "Ripollès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "32",
+        "description": "Segarra",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "33",
+        "description": "Segrià",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "34",
+        "description": "Selva",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "35",
+        "description": "Solsonès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "36",
+        "description": "Tarragonès",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "37",
+        "description": "Terra Alta",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "38",
+        "description": "Urgell",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "40",
+        "description": "Vallès Occidental",
+        "description_2": null,
+        "type": null
+    },
+    {
+        "id": "41",
+        "description": "Vallès Oriental",
+        "description_2": null,
+        "type": null
+    }
+]

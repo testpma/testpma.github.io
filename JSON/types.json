@@ -1,0 +1,3429 @@
+[
+    {
+        "node": {
+            "key": "01.",
+            "value": "A l'aire lliure"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "01.01.",
+                    "value": "Lloc d'habitació"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.01.01.",
+                            "value": "Lloc d'habitació sense estructures"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.01.02.",
+                            "value": "Lloc d'habitació amb estructures"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.01.02.01.",
+                                    "value": "Lloc d'habitació amb estructures peribles"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.01.01.",
+                                            "value": "Lloc d'habitació amb estructures peribles fons de cabana"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.01.02.",
+                                            "value": "Lloc d'habitació amb estructures peribles poblat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.01.03.",
+                                            "value": "Lloc d'habitació amb estructures peribles altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.01.02.02.",
+                                    "value": "Lloc d'habitació amb estructures conservades"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.02.01.",
+                                            "value": "Lloc d'habitació amb estructures conservades casa"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.02.02.",
+                                            "value": "Lloc d'habitació amb estructures conservades vil·la"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.02.03.",
+                                            "value": "Lloc d'habitació amb estructures conservades poblat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.02.04.",
+                                            "value": "Lloc d'habitació amb estructures conservades ciutat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.01.02.02.05.",
+                                            "value": "Lloc d'habitació amb estructures conservades altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.02.",
+                    "value": "Lloc d'enterrament"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.02.01.",
+                            "value": "Lloc d'enterrament Inhumació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.02.01.01.",
+                                    "value": "Lloc d'enterrament Inhumació aïllat"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.01.01.",
+                                            "value": "Lloc d'enterrament Inhumació aïllat mausoleu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.02.01.02.",
+                                    "value": "Lloc d'enterrament Inhumació col·lectiu"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.01.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu necròpolis"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.02.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu dolmen"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.03.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu tomba en blocs"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.04.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu cista"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.05.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu túmul"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.01.02.06.",
+                                            "value": "Lloc d'enterrament Inhumació col·lectiu altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.02.02.",
+                            "value": "Lloc d'enterrament Incineració"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.02.02.01.",
+                                    "value": "Lloc d'enterrament Incineració aïllat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.02.02.02.",
+                                    "value": "Lloc d'enterrament Incineració col·lectiu"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "01.02.02.02.01.",
+                                            "value": "Lloc d'enterrament Incineració col·lectiu necròpolis"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.02.02.02.",
+                                            "value": "Lloc d'enterrament Incineració col·lectiu dolmen"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.02.02.03.",
+                                            "value": "Lloc d'enterrament Incineració col·lectiu necròpolis tumulària"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "01.02.02.02.04.",
+                                            "value": "Lloc d'enterrament Incineració col·lectiu altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.02.03.",
+                            "value": "Lloc d'enterrament Complements"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.02.03.01.",
+                                    "value": "Lloc d'enterrament Complements menhir"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.02.03.02.",
+                                    "value": "Lloc d'enterrament Complements estela"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.02.03.03.",
+                                    "value": "Lloc d'enterrament Complements monument sepulcral"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.02.03.04.",
+                                    "value": "Lloc d'enterrament Complements altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.03.",
+                    "value": "Lloc amb representació gràfica sobre pedra"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.03.01.",
+                            "value": "Lloc amb representació gràfica sobre pedra pintura"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.03.02.",
+                            "value": "Lloc amb representació gràfica sobre pedra gravat"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.03.03.",
+                            "value": "Lloc amb representació gràfica sobre pedra altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.04.",
+                    "value": "Lloc o centre de producció i explotació"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.04.01.",
+                            "value": "Lloc o centre de producció i explotació taller de sílex"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.02.",
+                            "value": "Lloc o centre de producció i explotació mineria"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.03.",
+                            "value": "Lloc o centre de producció i explotació metal·lúrgia"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.04.",
+                            "value": "Lloc o centre de producció i explotació ceramista"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.05.",
+                            "value": "Lloc o centre de producció i explotació agrícola"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.04.05.01.",
+                                    "value": "Lloc o centre de producció i explotació agrícola camp de sitges"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.04.05.02.",
+                                    "value": "Lloc o centre de producció i explotació agrícola molí"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.04.05.03.",
+                                    "value": "Lloc o centre de producció i explotació agrícola premsa d'oli"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.04.05.04.",
+                                    "value": "Lloc o centre de producció i explotació agrícola premsa de vi"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.04.05.05.",
+                                    "value": "Lloc o centre de producció i explotació agrícola altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.06.",
+                            "value": "Lloc o centre de producció i explotació factoria"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.07.",
+                            "value": "Lloc o centre de producció i explotació altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.08.",
+                            "value": "Lloc o centre de producció i explotació. Pesca"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.04.08.01.",
+                                    "value": "Lloc o centre de producció i explotació. Pesca. Almadrava"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.05.",
+                    "value": "Assentament comercial"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.06.",
+                    "value": "Assentament militar"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.06.01.",
+                            "value": "Assentament militar campament"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.06.02.",
+                            "value": "Assentament militar fortí"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.06.03.",
+                            "value": "Assentament militar muralla"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.06.04.",
+                            "value": "Assentament militar torre"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.06.05.",
+                            "value": "Assentament militar castell"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.06.06.",
+                            "value": "Assentament militar altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.07.",
+                    "value": "Edifici religiós"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.07.01.",
+                            "value": "Edifici religiós santuari"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.07.02.",
+                            "value": "Edifici religiós temple"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.07.03.",
+                            "value": "Edifici religiós església"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.07.04.",
+                            "value": "Edifici religiós monestir"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.07.05.",
+                            "value": "Edifici religiós baptisteri"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.07.06.",
+                            "value": "Edifici religiós altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.08.",
+                    "value": "Edifici públic"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.08.01.",
+                            "value": "Edifici públic fòrum"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.08.01.01.",
+                                    "value": "Edifici públic fòrum basílica"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.08.01.02.",
+                                    "value": "Edifici públic fòrum cúria"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "01.08.01.03.",
+                                    "value": "Edifici públic fòrum altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.02.",
+                            "value": "Edifici públic termes"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.03.",
+                            "value": "Edifici públic pòrtic"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.04.",
+                            "value": "Edifici públic mercat"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.05.",
+                            "value": "Edifici públic teatre"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.06.",
+                            "value": "Edifici públic amfiteatre"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.07.",
+                            "value": "Edifici públic circ"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.08.",
+                            "value": "Edifici públic estadi"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.09.",
+                            "value": "Edifici públic palestra"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.08.10.",
+                            "value": "Edifici públic altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.09.",
+                    "value": "Obra pública"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.09.01.",
+                            "value": "Obra pública via"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.02.",
+                            "value": "Obra pública pont"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.03.",
+                            "value": "Obra pública aqüeducte"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.04.",
+                            "value": "Obra pública port"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "01.09.04.01.",
+                                    "value": "Obra pública port. Fondejador"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.05.",
+                            "value": "Obra pública font"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.06.",
+                            "value": "Obra pública arc"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.09.07.",
+                            "value": "Obra pública altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.10.",
+                    "value": "Varis"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.10.01.",
+                            "value": "Varis amagatalls (tresors,...)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.10.02.",
+                            "value": "Varis dipòsits (de bronze,...)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.10.03.",
+                            "value": "Varis sitja isolada"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.10.04.",
+                            "value": "Varis desconegut"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.10.05.",
+                            "value": "Varis altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "02.",
+            "value": "Cova o estructures subterrànies"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "02.01.",
+                    "value": "Cova natural"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "02.01.01.",
+                            "value": "Cova natural d'habitació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.01.01.01.",
+                                    "value": "Cova natural d'habitació sense estructures"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.01.01.02.",
+                                    "value": "Cova natural d'habitació amb estructures"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.01.01.02.01.",
+                                            "value": "Cova natural d'habitació amb estructures peribles"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.01.01.02.02.",
+                                            "value": "Cova natural d'habitació amb estructures conservades"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.01.02.",
+                            "value": "Cova natural d'enterrament"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.01.02.01.",
+                                    "value": "Cova natural d'enterrament Inhumació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.01.02.01.01.",
+                                            "value": "Cova natural d'enterrament Inhumació aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.01.02.01.02.",
+                                            "value": "Cova natural d'enterrament Inhumació col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.01.02.02.",
+                                    "value": "Cova natural d'enterrament Incineració"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.01.02.02.01.",
+                                            "value": "Cova natural d'enterrament Incineració aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.01.02.02.02.",
+                                            "value": "Cova natural d'enterrament Incineració col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.01.03.",
+                            "value": "Cova natural amb representació gràfica"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.01.03.01.",
+                                    "value": "Cova natural amb representació gràfica pintura"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.01.03.02.",
+                                    "value": "Cova natural amb representació gràfica gravat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.01.03.03.",
+                                    "value": "Cova natural amb representació gràfica altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "02.02.",
+                    "value": "Abrics i similars"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "02.02.01.",
+                            "value": "Abrics i similars d'habitació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.02.01.01.",
+                                    "value": "Abrics i similars d'habitació sense estructures"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.02.01.02.",
+                                    "value": "Abrics i similars d'habitació amb estructures"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.02.01.02.01.",
+                                            "value": "Abrics i similars d'habitació amb estructures peribles"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.02.01.02.02.",
+                                            "value": "Abrics i similars d'habitació amb estructures conservades"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.02.02.",
+                            "value": "Abrics i similars d'enterrament"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.02.02.01.",
+                                    "value": "Abrics i similars d'enterrament Inhumació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.02.02.01.01.",
+                                            "value": "Abrics i similars d'enterrament Inhumació aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.02.02.01.02.",
+                                            "value": "Abrics i similars d'enterrament Inhumació col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.02.02.02.",
+                                    "value": "Abrics i similars d'enterrament Incineració"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.02.02.02.01.",
+                                            "value": "Abrics i similars d'enterrament Incineració aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.02.02.02.02.",
+                                            "value": "Abrics i similars d'enterrament Incineració col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.02.03.",
+                            "value": "Abrics i similars amb representació gràfica"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.02.03.01.",
+                                    "value": "Abrics i similars amb representació gràfica pintura"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.02.03.02.",
+                                    "value": "Abrics i similars amb representació gràfica gravat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.02.03.03.",
+                                    "value": "Abrics i similars amb representació gràfica altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "02.03.",
+                    "value": "Cova artificial"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "02.03.01.",
+                            "value": "Cova artificial d'habitació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.03.01.01.",
+                                    "value": "Cova artificial d'habitació sense estructures"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.03.01.02.",
+                                    "value": "Cova artificial d'habitació amb estructures"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.03.01.02.01.",
+                                            "value": "Cova artificial d'habitació amb estructures peribles"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.03.01.02.02.",
+                                            "value": "Cova artificial d'habitació amb estructures conservades"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.03.02.",
+                            "value": "Cova artificial d'enterrament"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.03.02.01.",
+                                    "value": "Cova artificial d'enterrament Inhumació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.03.02.01.01.",
+                                            "value": "Cova artificial d'enterrament Inhumació aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.03.02.01.02.",
+                                            "value": "Cova artificial d'enterrament Inhumació col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.03.02.02.",
+                                    "value": "Cova artificial d'enterrament Incineració"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.03.02.02.01.",
+                                            "value": "Cova artificial d'enterrament Incineració aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.03.02.02.02.",
+                                            "value": "Cova artificial d'enterrament Incineració col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.03.03.",
+                            "value": "Cova artificial amb representació gràfica"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.03.03.01.",
+                                    "value": "Cova artificial amb representació gràfica pintura"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.03.03.02.",
+                                    "value": "Cova artificial amb representació gràfica gravat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.03.03.03.",
+                                    "value": "Cova artificial amb representació gràfica altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.03.04.",
+                            "value": "Cova artificial hipogeu"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.03.05.",
+                            "value": "Cova artificial tomba de blocs"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.03.06.",
+                            "value": "Cova artificial altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "02.04.",
+                    "value": "Galeries"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "02.04.01.",
+                            "value": "Galeries explotació minera"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.04.02.",
+                            "value": "Galeries reaprofitament"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "02.04.02.01.",
+                                    "value": "Galeries reaprofitament d'enterrament"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "02.04.02.01.01.",
+                                            "value": "Galeries reaprofitament d'enterrament aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "02.04.02.01.02.",
+                                            "value": "Galeries reaprofitament d'enterrament col·lectiu"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "02.04.02.02.",
+                                    "value": "Galeries reaprofitament altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "02.04.03.",
+                            "value": "Galeries altres"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "03.",
+            "value": "Jaciment subaquàtic"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "03.01.",
+                    "value": "Subaquàtic. A l'aire lliure"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "03.01.01.",
+                            "value": "Subaquàtic. Lloc d'habitació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.01.01.",
+                                    "value": "Subaquàtic. Lloc d'habitació sense estructures"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.01.02.",
+                                    "value": "Subaquàtic. Lloc d'habitació amb estructures"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.01.02.01.",
+                                            "value": "Subaquàtic. Lloc d'habitació amb estructures peribles"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.01.01.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures peribles fons de cabana"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.01.02.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures peribles poblat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.01.03.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures peribles altres"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.01.02.02.",
+                                            "value": "Subaquàtic. Lloc d'habitació amb estructures conservades"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.02.01.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures conservades casa"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.02.02.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures conservades vil·la"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.02.03.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures conservades poblat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.02.04.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures conservades ciutat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.01.02.02.05.",
+                                                    "value": "Subaquàtic. Lloc d'habitació amb estructures conservades altres"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.02.",
+                            "value": "Subaquàtic. Lloc d'enterrament"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.02.01.",
+                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.01.01.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Inhumació aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.01.02.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.01.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu necròpolis"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.02.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu dolmen"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.03.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu tomba en blocs"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.04.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu cista"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.05.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu túmul"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.01.02.06.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Inhumació col·lectiu altres"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.02.02.",
+                                    "value": "Subaquàtic. Lloc d'enterrament Incineració"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.02.01.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Incineració aïllat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.02.02.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Incineració col·lectiu"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.02.02.01.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Incineració col·lectiu necròpolis"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.02.02.02.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Incineració col·lectiu dolmen"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.02.02.03.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Incineració col·lectiu necròpolis tumulària"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.01.02.02.02.04.",
+                                                    "value": "Subaquàtic. Lloc d'enterrament Incineració col·lectiu altres"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.02.03.",
+                                    "value": "Subaquàtic. Lloc d'enterrament Complements"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.03.01.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Complements menhir"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.03.02.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Complements estela"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.03.03.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Complements monument sepulcral"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.02.03.04.",
+                                            "value": "Subaquàtic. Lloc d'enterrament Complements altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.03.",
+                            "value": "Subaquàtic. Lloc amb representació gràfica sobre pedra"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.03.01.",
+                                    "value": "Subaquàtic. Lloc amb representació gràfica sobre pedra pintura"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.03.02.",
+                                    "value": "Subaquàtic. Lloc amb representació gràfica sobre pedra gravat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.03.03.",
+                                    "value": "Subaquàtic. Lloc amb representació gràfica sobre pedra altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.04.",
+                            "value": "Subaquàtic. Lloc o centre de producció i explotació"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.04.01.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació taller de sílex"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.02.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació mineria"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.03.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació metal·lúrgia"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.04.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació ceramista"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.05.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.05.01.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola c.sitges"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.05.02.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola molí"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.05.03.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola p. oli"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.05.04.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola p. vi"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.05.05.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explotació agrícola altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.06.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació factoria"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.07.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.04.08.",
+                                    "value": "Subaquàtic. Lloc o centre de producció i explotació. Pesca"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.04.08.01.",
+                                            "value": "Subaquàtic. Lloc o centre de producció i explot. Pesca. Almadrava"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.05.",
+                            "value": "Subaquàtic. Assentament comercial"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.06.",
+                            "value": "Subaquàtic. Assentament militar"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.06.01.",
+                                    "value": "Subaquàtic. Assentament militar campament"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.06.02.",
+                                    "value": "Subaquàtic. Assentament militar fortí"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.06.03.",
+                                    "value": "Subaquàtic. Assentament militar muralla"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.06.04.",
+                                    "value": "Subaquàtic. Assentament militar torre"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.06.05.",
+                                    "value": "Subaquàtic. Assentament militar castell"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.06.06.",
+                                    "value": "Subaquàtic. Assentament militar altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.07.",
+                            "value": "Subaquàtic. Edifici religiós"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.07.01.",
+                                    "value": "Subaquàtic. Edifici religiós santuari"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.07.02.",
+                                    "value": "Subaquàtic. Edifici religiós temple"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.07.03.",
+                                    "value": "Subaquàtic. Edifici religiós església"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.07.04.",
+                                    "value": "Subaquàtic. Edifici religiós monestir"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.07.05.",
+                                    "value": "Subaquàtic. Edifici religiós baptisteri"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.07.06.",
+                                    "value": "Subaquàtic. Edifici religiós altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.08.",
+                            "value": "Subaquàtic. Edifici públic"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.08.01.",
+                                    "value": "Subaquàtic. Edifici públic fòrum"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.08.01.01.",
+                                            "value": "Subaquàtic. Edifici públic fòrum basílica"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.08.01.02.",
+                                            "value": "Subaquàtic. Edifici públic fòrum cúria"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.01.08.01.03.",
+                                            "value": "Subaquàtic. Edifici públic fòrum altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.02.",
+                                    "value": "Subaquàtic. Edifici públic termes"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.03.",
+                                    "value": "Subaquàtic. Edifici públic pòrtic"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.04.",
+                                    "value": "Subaquàtic. Edifici públic mercat"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.05.",
+                                    "value": "Subaquàtic. Edifici públic teatre"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.06.",
+                                    "value": "Subaquàtic. Edifici públic amfiteatre"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.07.",
+                                    "value": "Subaquàtic. Edifici públic circ"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.08.",
+                                    "value": "Subaquàtic. Edifici públic estadi"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.09.",
+                                    "value": "Subaquàtic. Edifici públic palestra"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.08.10.",
+                                    "value": "Subaquàtic. Edifici públic altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.09.",
+                            "value": "Subaquàtic. Obra pública"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.09.01.",
+                                    "value": "Subaquàtic. Obra pública via"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.02.",
+                                    "value": "Subaquàtic. Obra pública pont"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.03.",
+                                    "value": "Subaquàtic. Obra pública aqüeducte"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.04.",
+                                    "value": "Subaquàtic. Obra pública port"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.01.09.04.01.",
+                                            "value": "Subaquàtic. Obra pública port. Fondejador"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.05.",
+                                    "value": "Subaquàtic. Obra pública font"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.06.",
+                                    "value": "Subaquàtic. Obra pública arc"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.09.07.",
+                                    "value": "Subaquàtic. Obra pública altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.01.10.",
+                            "value": "Subaquàtic. Varis"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.01.10.01.",
+                                    "value": "Subaquàtic. Varis amagatalls (tresors,...)"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.10.02.",
+                                    "value": "Subaquàtic. Varis dipòsits (de bronze,...)"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.10.03.",
+                                    "value": "Subaquàtic. Varis sitja isolada"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.10.04.",
+                                    "value": "Subaquàtic. Varis desconegut"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.01.10.05.",
+                                    "value": "Subaquàtic. Varis altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "03.02.",
+                    "value": "Subaquàtic. Cova o estructures subterrànies"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "03.02.01.",
+                            "value": "Subaquàtic. Cova natural"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.02.01.01.",
+                                    "value": "Subaquàtic. Cova natural d'habitació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.01.01.",
+                                            "value": "Subaquàtic. Cova natural d'habitació sense estructures"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.01.02.",
+                                            "value": "Subaquàtic. Cova natural d'habitació amb estructures"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.01.02.01.",
+                                                    "value": "Subaquàtic. Cova natural d'habitació amb estructures peribles"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.01.02.02.",
+                                                    "value": "Subaquàtic. Cova natural d'habitació amb estructures conservades"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.01.02.",
+                                    "value": "Subaquàtic. Cova natural d'enterrament"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.02.01.",
+                                            "value": "Subaquàtic. Cova natural d'enterrament Inhumació"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.02.01.01.",
+                                                    "value": "Subaquàtic. Cova natural d'enterrament Inhumació aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.02.01.02.",
+                                                    "value": "Subaquàtic. Cova natural d'enterrament Inhumació col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.02.02.",
+                                            "value": "Subaquàtic. Cova natural d'enterrament Incineració"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.02.02.01.",
+                                                    "value": "Subaquàtic. Cova natural d'enterrament Incineració aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.01.02.02.02.",
+                                                    "value": "Subaquàtic. Cova natural d'enterrament Incineració col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.01.03.",
+                                    "value": "Subaquàtic. Cova natural amb representació gràfica"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.03.01.",
+                                            "value": "Subaquàtic. Cova natural amb representació gràfica pintura"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.03.02.",
+                                            "value": "Subaquàtic. Cova natural amb representació gràfica gravat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.01.03.03.",
+                                            "value": "Subaquàtic. Cova natural amb representació gràfica altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.02.02.",
+                            "value": "Subaquàtic. Abrics i similars"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.02.02.01.",
+                                    "value": "Subaquàtic. Abrics i similars d'habitació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.01.01.",
+                                            "value": "Subaquàtic. Abrics i similars d'habitació sense estructures"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.01.02.",
+                                            "value": "Subaquàtic. Abrics i similars d'habitació amb estructures"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.01.02.01.",
+                                                    "value": "Subaquàtic. Abrics i similars d'habitació amb estructures peribles"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.01.02.02.",
+                                                    "value": "Subaquàtic. Abrics i similars d'habitació amb estructures conservades"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.02.02.",
+                                    "value": "Subaquàtic. Abrics i similars d'enterrament"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.02.01.",
+                                            "value": "Subaquàtic. Abrics i similars d'enterrament Inhumació"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.02.01.01.",
+                                                    "value": "Subaquàtic. Abrics i similars d'enterrament Inhumació aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.02.01.02.",
+                                                    "value": "Subaquàtic. Abrics i similars d'enterrament Inhumació col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.02.02.",
+                                            "value": "Subaquàtic. Abrics i similars d'enterrament Incineració"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.02.02.01.",
+                                                    "value": "Subaquàtic. Abrics i similars d'enterrament Incineració aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.02.02.02.02.",
+                                                    "value": "Subaquàtic. Abrics i similars d'enterrament Incineració col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.02.03.",
+                                    "value": "Subaquàtic. Abrics i similars amb representació gràfica"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.03.01.",
+                                            "value": "Subaquàtic. Abrics i similars amb representació gràfica pintura"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.03.02.",
+                                            "value": "Subaquàtic. Abrics i similars amb representació gràfica gravat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.02.03.03.",
+                                            "value": "Subaquàtic. Abrics i similars amb representació gràfica altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.02.03.",
+                            "value": "Subaquàtic. Cova artificial"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.02.03.01.",
+                                    "value": "Subaquàtic. Cova artificial d'habitació"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.01.01.",
+                                            "value": "Subaquàtic. Cova artificial d'habitació sense estructures"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.01.02.",
+                                            "value": "Subaquàtic. Cova artificial d'habitació amb estructures"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.01.02.01.",
+                                                    "value": "Subaquàtic. Cova artificial d'habitació amb estructures peribles"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.01.02.02.",
+                                                    "value": "Subaquàtic. Cova artificial d'habitació amb estructures conservades"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.03.02.",
+                                    "value": "Subaquàtic. Cova artificial d'enterrament"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.02.01.",
+                                            "value": "Subaquàtic. Cova artificial d'enterrament Inhumació"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.02.01.01.",
+                                                    "value": "Subaquàtic. Cova artificial d'enterrament Inhumació aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.02.01.02.",
+                                                    "value": "Subaquàtic. Cova artificial d'enterrament Inhumació col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.02.02.",
+                                            "value": "Subaquàtic. Cova artificial d'enterrament Incineració"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.02.02.01.",
+                                                    "value": "Subaquàtic. Cova artificial d'enterrament Incineració aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.03.02.02.02.",
+                                                    "value": "Subaquàtic. Cova artificial d'enterrament Incineració col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.03.03.",
+                                    "value": "Subaquàtic. Cova artificial amb representació gràfica"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.03.01.",
+                                            "value": "Subaquàtic. Cova artificial amb representació gràfica pintura"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.03.02.",
+                                            "value": "Subaquàtic. Cova artificial amb representació gràfica gravat"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.03.03.03.",
+                                            "value": "Subaquàtic. Cova artificial amb representació gràfica altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.03.04.",
+                                    "value": "Subaquàtic. Cova artificial hipogeu"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.03.05.",
+                                    "value": "Subaquàtic. Cova artificial tomba de blocs"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.03.06.",
+                                    "value": "Subaquàtic. Cova artificial altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.02.04.",
+                            "value": "Subaquàtic. Galeries"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "03.02.04.01.",
+                                    "value": "Subaquàtic. Galeries explotació minera"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.04.02.",
+                                    "value": "Subaquàtic. Galeries reaprofitament"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "key": "03.02.04.02.01.",
+                                            "value": "Subaquàtic. Galeries reaprofitament d'enterrament"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "key": "03.02.04.02.01.01.",
+                                                    "value": "Subaquàtic. Galeries reaprofitament d'enterrament aïllat"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            },
+                                            {
+                                                "node": {
+                                                    "key": "03.02.04.02.01.02.",
+                                                    "value": "Subaquàtic. Galeries reaprofitament d'enterrament col·lectiu"
+                                                },
+                                                "children": [],
+                                                "hasChildren": false,
+                                                "isHit": false,
+                                                "level": 6
+                                            }
+                                        ],
+                                        "hasChildren": true,
+                                        "isHit": false,
+                                        "level": 5
+                                    },
+                                    {
+                                        "node": {
+                                            "key": "03.02.04.02.02.",
+                                            "value": "Subaquàtic. Galeries reaprofitament altres"
+                                        },
+                                        "children": [],
+                                        "hasChildren": false,
+                                        "isHit": false,
+                                        "level": 5
+                                    }
+                                ],
+                                "hasChildren": true,
+                                "isHit": false,
+                                "level": 4
+                            },
+                            {
+                                "node": {
+                                    "key": "03.02.04.03.",
+                                    "value": "Subaquàtic. Galeries altres"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 4
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "03.03.",
+                    "value": "Subaquàtic. Derelictes"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "03.04.",
+                    "value": "Altres"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "03.04.01.",
+                            "value": "Subaquàtic. Altres. Avió"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.04.02.",
+                            "value": "Subaquàtic. Altres. Submarí"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.04.03.",
+                            "value": "Subaquàtic. Altres. Fustes"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.04.04.",
+                            "value": "Subaquàtic. Altres. Àncora"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "03.04.05.",
+                            "value": "Subaquàtic. Altres. Element aïllat"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    }
+]

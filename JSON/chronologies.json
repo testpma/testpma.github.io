@@ -1,0 +1,1079 @@
+[
+    {
+        "node": {
+            "key": "01.",
+            "value": "Paleolític (Any inici: -3000000 Any final: -9000)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "01.?",
+                    "value": "Paleolític ? (Any inici: -3000000 Any final: -9000)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "01.01.",
+                    "value": "Paleolític Inferior (Any inici: -3000000 Any final: )"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.01.01.",
+                            "value": "Paleolític Inferior Arcaic (Any inici: -3000000 Any final: -600000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.01.02.",
+                            "value": "Paleolític Inferior Arcaic amb peces més evolucionades (Any inici: -600000 Any final: -120000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.02.",
+                    "value": "Paleolític Inferior Mig-Indiferenciat (Any inici: -120000 Any final: -50000)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.03.",
+                    "value": "Paleolític Mig (Any inici: -90000 Any final: -33000)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.03.01.",
+                            "value": "Paleolític Mig (Any inici: -90000 Any final: -50000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.03.02.",
+                            "value": "Paleolític Mig (Any inici: -50000 Any final: -33000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "01.04.",
+                    "value": "Paleolític Superior (Any inici: -33000 Any final: -9000)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "01.04.01.",
+                            "value": "Paleolític Superior (Any inici: -33000 Any final: -24000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.02.",
+                            "value": "Paleolític Superior (Any inici: -24000 Any final: -18000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.03.",
+                            "value": "Paleolític Superior (Any inici: -18000 Any final: -15000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "01.04.04.",
+                            "value": "Paleolític Superior (Any inici: -15000 Any final: -9000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "02.",
+            "value": "Paleolític Sup. Final-Epipaleolític Antic (Indiferenciat) (Any inici: -11000 Any final: -7000)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "02.?",
+                    "value": "Paleolític Sup. Final-Epipaleolític Antic (Indiferenciat) ? (Any inici: -11000 Any final: -7000)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "03.",
+            "value": "Epipaleolític (Any inici: -9000 Any final: -5000)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "03.?",
+                    "value": "Epipaleolític ? (Any inici: -9000 Any final: -5000)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "04.",
+            "value": "Leptolític (Indiferenciat) (Any inici: -33000 Any final: -5500)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "04.?",
+                    "value": "Leptolític (Indiferenciat) ? (Any inici: -33000 Any final: -5500)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "05.",
+            "value": "Neolític (Any inici: -5500 Any final: -2200)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "05.?",
+                    "value": "Neolític ? (Any inici: -5500 Any final: -2200)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "05.01.",
+                    "value": "Neolític Antic (Any inici: -5500 Any final: -3500)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "05.01.01.",
+                            "value": "Neolític Antic Cardial (Any inici: -5500 Any final: -4000)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "05.01.02.",
+                            "value": "Neolític Antic Postcardial (Any inici: -4000 Any final: -3500)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "05.02.",
+                    "value": "Neolític Mig-Recent (Any inici: -3500 Any final: -2500)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "05.03.",
+                    "value": "Neolític Final (Any inici: -2500 Any final: -2200)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "06.",
+            "value": "Calcolític (Any inici: -2200 Any final: -1800)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "06.?",
+                    "value": "Calcolític ? (Any inici: -2200 Any final: -1800)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "07.",
+            "value": "Bronze (Any inici: -1800 Any final: -650)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "07.?",
+                    "value": "Bronze ? (Any inici: -1800 Any final: -650)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "07.01.",
+                    "value": "Bronze Antic (Any inici: -1800 Any final: -1500)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "07.02.",
+                    "value": "Bronze Mig (Any inici: -1500 Any final: -1200)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "07.03.",
+                    "value": "Bronze Final (Any inici: -1200 Any final: -650)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "07.03.01.",
+                            "value": "Bronze Final I (Any inici: -1200 Any final: -1150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "07.03.02.",
+                            "value": "Bronze Final II (Any inici: -1150 Any final: -900)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "07.03.03.",
+                            "value": "Bronze Final III (Any inici: -900 Any final: -650)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "08.",
+            "value": "Ferro-Ibèric (Any inici: -650 Any final: -50)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "08.?",
+                    "value": "Ferro-Ibèric ? (Any inici: -650 Any final: -50)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "08.01.",
+                    "value": "Ferro-Ibèric Antic (Any inici: -650 Any final: -450)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "08.01.01.",
+                            "value": "Ferro-Ibèric Antic (Any inici: -650 Any final: -600)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.01.02.",
+                            "value": "Ferro-Ibèric Antic (Any inici: -600 Any final: -550)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.01.03.",
+                            "value": "Ferro-Ibèric Antic (Any inici: -550 Any final: -500)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.01.04.",
+                            "value": "Ferro-Ibèric Antic (Any inici: -500 Any final: -450)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "08.02.",
+                    "value": "Ferro-Ibèric Ple (Any inici: -450 Any final: -200)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "08.02.01.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -450 Any final: -450)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.02.02.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -450 Any final: -400)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.02.03.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -400 Any final: -350)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.02.04.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -350 Any final: -300)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.02.05.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -300 Any final: -250)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.02.06.",
+                            "value": "Ferro-Ibèric Ple (Any inici: -250 Any final: -200)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "08.03.",
+                    "value": "Ferro-Ibèric Final (Any inici: -200 Any final: -50)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "08.03.01.",
+                            "value": "Ferro-Ibèric Final (Any inici: -200 Any final: -200)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.03.02.",
+                            "value": "Ferro-Ibèric Final (Any inici: -200 Any final: -150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.03.03.",
+                            "value": "Ferro-Ibèric Final (Any inici: -150 Any final: -100)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "08.03.04.",
+                            "value": "Ferro-Ibèric Final (Any inici: -100 Any final: -50)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "09.",
+            "value": "Romà (Any inici: -218 Any final: 476)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "09.?",
+                    "value": "Romà ? (Any inici: -218 Any final: 476)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "09.01.",
+                    "value": "Romà República (Any inici: -218 Any final: -50)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "09.01.01.",
+                            "value": "Romà República (Any inici: -218 Any final: -218)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.01.02.",
+                            "value": "Romà República (Any inici: -218 Any final: -200)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.01.03.",
+                            "value": "Romà República (Any inici: -200 Any final: -150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.01.04.",
+                            "value": "Romà República (Any inici: -150 Any final: -100)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.01.05.",
+                            "value": "Romà República (Any inici: -100 Any final: -50)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "09.02.",
+                    "value": "Romà August (Any inici: -27 Any final: 14)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "09.03.",
+                    "value": "Romà Alt Imperi (Any inici: 14 Any final: 192)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "09.03.01.",
+                            "value": "Romà Alt Imperi (Any inici: 14 Any final: 14)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.03.02.",
+                            "value": "Romà Alt Imperi (Any inici: 14 Any final: 50)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.03.03.",
+                            "value": "Romà Alt Imperi (Any inici: 50 Any final: 100)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.03.04.",
+                            "value": "Romà Alt Imperi (Any inici: 100 Any final: 150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.03.05.",
+                            "value": "Romà Alt Imperi (Any inici: 150 Any final: 192)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "09.04.",
+                    "value": "Romà Segle III (Any inici: 192 Any final: 284)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "09.04.01.",
+                            "value": "Romà Segle III (Any inici: 192 Any final: 192)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.04.02.",
+                            "value": "Romà Segle III (Any inici: 192 Any final: 250)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.04.03.",
+                            "value": "Romà Segle III (Any inici: 250 Any final: 284)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "09.05.",
+                    "value": "Romà Baix Imperi (Any inici: 284 Any final: 476)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "09.05.01.",
+                            "value": "Romà Baix Imperi (Any inici: 284 Any final: 284)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.05.02.",
+                            "value": "Romà Baix Imperi (Any inici: 284 Any final: 300)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.05.03.",
+                            "value": "Romà Baix Imperi (Any inici: 300 Any final: 350)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.05.04.",
+                            "value": "Romà Baix Imperi (Any inici: 350 Any final: 400)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.05.05.",
+                            "value": "Romà Baix Imperi (Any inici: 400 Any final: 450)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "09.05.06.",
+                            "value": "Romà Baix Imperi (Any inici: 450 Any final: 476)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "10.",
+            "value": "Medieval (Any inici: 400 Any final: 1492)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "10.?",
+                    "value": "Medieval ? (Any inici: 400 Any final: 1492)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            },
+            {
+                "node": {
+                    "key": "10.01.",
+                    "value": "Medieval Domini visigòtic (Any inici: 401 Any final: 715)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "10.02.",
+                    "value": "Medieval Ocupació i domini musulmà (Any inici: 715 Any final: 799)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "10.03.",
+                    "value": "Medieval (Any inici: 800 Any final: 1150)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "10.03.01.",
+                            "value": "Medieval Catalunya vella sotmesa als Carolingis (Any inici: 800 Any final: 988)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "10.03.02.",
+                            "value": "Medieval Comtes de Barcelona (Any inici: 988 Any final: 1150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "10.04.",
+                    "value": "Medieval (Any inici: 1150 Any final: 1492)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "10.04.01.",
+                            "value": "Medieval Consolidació Corona d'Aragó (Any inici: 1150 Any final: 1230)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "10.04.02.",
+                            "value": "Medieval Baixa Edat Mitjana (Any inici: 1230 Any final: 1492)"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "key": "10.04.02.01",
+                                    "value": "Medieval Baixa Edat Mitjana (Any inici: 1230 Any final: 1299)"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 3
+                            },
+                            {
+                                "node": {
+                                    "key": "10.04.02.02",
+                                    "value": "Medieval Baixa Edat Mitjana (Any inici: 1300 Any final: 1399)"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 3
+                            },
+                            {
+                                "node": {
+                                    "key": "10.04.02.03",
+                                    "value": "Medieval Baixa Edat Mitjana (Any inici: 1400 Any final: 1492)"
+                                },
+                                "children": [],
+                                "hasChildren": false,
+                                "isHit": false,
+                                "level": 3
+                            }
+                        ],
+                        "hasChildren": true,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            },
+            {
+                "node": {
+                    "key": "10.05.",
+                    "value": "Medieval Món Islàmic (Any inici: 800 Any final: 1150)"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "key": "10.05.01.",
+                            "value": "Medieval Món Islàmic Emirat (Any inici: 800 Any final: 899)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "10.05.02.",
+                            "value": "Medieval Món Islàmic Califat (Any inici: 900 Any final: 1015)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    },
+                    {
+                        "node": {
+                            "key": "10.05.03.",
+                            "value": "Medieval Món Islàmic Taifes (Any inici: 1016 Any final: 1150)"
+                        },
+                        "children": [],
+                        "hasChildren": false,
+                        "isHit": false,
+                        "level": 3
+                    }
+                ],
+                "hasChildren": true,
+                "isHit": false,
+                "level": 2
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "11.",
+            "value": "Modern (Any inici: 1453 Any final: 1789)"
+        },
+        "children": [
+            {
+                "node": {
+                    "key": "11.?",
+                    "value": "Modern ? (Any inici: 1453 Any final: 1789)"
+                },
+                "children": [],
+                "hasChildren": false,
+                "isHit": false,
+                "level": 1
+            }
+        ],
+        "hasChildren": true,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "12.",
+            "value": "Segles XVIII-XX (Any inici: 1790 Any final: 1999)"
+        },
+        "children": [],
+        "hasChildren": false,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "13.",
+            "value": "Fenici (Any inici:  Any final: )"
+        },
+        "children": [],
+        "hasChildren": false,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "14.",
+            "value": "Hel·lenístic (Any inici:  Any final: )"
+        },
+        "children": [],
+        "hasChildren": false,
+        "isHit": false,
+        "level": 1
+    },
+    {
+        "node": {
+            "key": "99.",
+            "value": "Desconeguda (Any inici:  Any final: )"
+        },
+        "children": [],
+        "hasChildren": false,
+        "isHit": false,
+        "level": 1
+    }
+]
