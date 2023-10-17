@@ -1,6 +1,0 @@
-
-hidePanel();
-fetchData();
-initializeFilters();
-
-
