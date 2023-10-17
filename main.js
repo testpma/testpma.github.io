@@ -1,0 +1,6 @@
+
+hidePanel();
+fetchData();
+initializeFilters();
+
+

@@ -11,7 +11,7 @@
 	<link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
 	<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
 	<link rel="icon" href="images/favicon-48x48.png" sizes="48x48" type="image/png">
-	<link rel="icon" href="images /favicon-64x64.png" sizes="64x64" type="image/png">
+	<link rel="icon" href="images/favicon-64x64.png" sizes="64x64" type="image/png">
 </head>
 <body>
     <!-- Map Container -->
@@ -20,7 +20,7 @@
 <!-- Panel -->
 	<div id="panel">
 		<div id="page-header">
-			<button id="btCP">///</button>
+			<button id="btCP">X</button>
 			<label id="header">HistoMap - Catalunya</label>
 		</div>
 		<!-- Page Buttons -->
@@ -56,15 +56,28 @@
 		</div>
 		<div id="filter-container-3" class="filter-container">
 			<!-- Content for filter container 4 -->
-		</div> 	
-		
+		</div> 		
 		<!-- Search Button -->
 		<div id="page-clearfilter">	
 			<button id="btClear">Restablir filtre</button>
-			<button id="btFilter">Buscar coincidències</button>
+			<button id="btFilter">Cercar coincidències</button>
 		</div>
 	</div>
-
+	
+	<div id="card-panel">
+		<div id="cardpage-header">
+			<label id="header">Resultats de la cerca</label>
+			<button id="btCCP">X</button>
+		</div>
+		<div id="municipi-display">
+			Municipi: <span id="municipi-name"></span>
+		</div>
+		<!-- Cards Container -->
+		<div id="card-container" class="card-container">
+			<!-- Content for filter container 1 -->
+		</div>
+	</div>
+	
 	<script src="JavaScript/scripts.js"></script>
     <script src="JavaScript/main.js"></script>
     
