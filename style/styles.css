@@ -30,10 +30,58 @@ body {
     }
 }
 
-#btSP {
-	width: 30px; /* Width of the icon */
-	height: 30px; /* Height of the icon */
+#card-panel {
+	height: 100vh;
+	display: none;
+	flex-direction: column;
+	background-color: #f0f0f0;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 400px; 
+	z-index: 2;
+	overflow: hidden; /* Hide any content that overflows the panel */
+	font-family: sans-serif;
 	
+	/* Adjust width for mobile phones (less than or equal to 767px wide) */
+    @media (max-width: 401px) {
+        width: 100%;
+    }
+}
+
+#card-container {
+	/* Styles for the filter container */
+	height: calc(100% - 50px); /* Adjust the height as needed */
+	flex-direction: column;
+	align-items: left;
+	overflow-y: auto; /* Enable scroll for the filter content */
+	padding: 10px;
+    margin-bottom: 50px;
+}
+
+#cardpage-header {
+	/* Styles for the buttons row */
+	display: flex;
+	justify-content: right; /* Space buttons evenly */
+}	
+#btCCP {
+	width: 21px; /* Width of the icon */
+	height: 21px; /* Height of the icon */	
+	display: none;
+	background-color: #ff3333;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#btSP {
+	width: 25px; /* Width of the icon */
+	height: 25px; /* Height of the icon */	
 	background-color: #4CAF50;
 	border: none;
 	color: white;
@@ -43,7 +91,7 @@ body {
 	font-size: 16px;
 	cursor: pointer;
 	
-	z-index: 2;
+	z-index: 1;
 	position: fixed;
 	top: 10px; /* Adjust this value to position the button as per your preference */
 	right: 0; /* Center the button horizontally */
@@ -62,9 +110,8 @@ body {
 }
 #btCP {
 
-	width: 30px; /* Width of the icon */
-	height: 30px; /* Height of the icon */
-	
+	width: 21px; /* Width of the icon */
+	height: 21px; /* Height of the icon */	
 	display: none;
 	background-color: #ff3333;
 	border: none;
