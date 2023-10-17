@@ -105,11 +105,13 @@ function addMarkersByIdList(map, ids) {
         // If marker data is found, create a marker and add it to the map
         if (markerData) {
             const { latitude, longitude, description, id } = markerData;
+			var desc = description.replace(/'/g, "\\'");
+
 
             // Create a marker and store it in the markersById object
             const newMarker = L.marker([latitude, longitude])
                 .addTo(map)
-				.bindPopup(`<a href="#" onclick="showCPanel('${id}')">${description}</a>`);
+				.bindPopup(`<a href="#" onclick="showCPanel('${id}', '${desc}')">${description}</a>`);
 
             // Store the marker reference in the markersById object using the id as the key
             markersById[id] = newMarker;
@@ -407,17 +409,17 @@ function hideCPanel() {
     cardPanel.style.display = "none";
 }
 
-function showCPanel(description) {
-	initializeCPanel(description);
+function showCPanel(idMu, description) {
+	initializeCPanel(idMu, description);
     cardPanel.style.display = "block";
 }
 
-function initializeCPanel(description) {
+function initializeCPanel(idMu, description) {
     const municipiNameElement = document.getElementById("municipi-name");
-    municipiNameElement.textContent = getMuNameById(description);
+    municipiNameElement.textContent = description;
     const cardContainer = document.getElementById("card-container");
 	// Get the corresponding IDs array based on the description
-    const ids = filteredIds[description];
+    const ids = filteredIds[idMu];
 	// Clear previous content
     cardContainer.innerHTML = "";
 
@@ -429,6 +431,14 @@ function initializeCPanel(description) {
         const nameDiv = document.createElement("div");
         nameDiv.textContent = `Name: ${getNameById(id)}`; // Assuming you have a function to get names based on IDs
 
+		// Add a click event listener to nameDiv
+		nameDiv.addEventListener("click", function() {
+			// Construct the URL with the id parameter
+			const newUrl = `https://histomap.cat/card?id=${id}`;
+			// Open the new URL in a new tab or window
+			window.open(newUrl, '_blank');
+		});
+		
         // Append ID and Name pairs to the card container
         cardContainer.appendChild(idDiv);
         cardContainer.appendChild(nameDiv);
