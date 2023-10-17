@@ -1,11 +1,15 @@
 const markersById = {};
+var filteredIds
 let markersData, modeEC, currentFilter;
 let chronologies, regions, types, db;
 const filterContainers = document.querySelectorAll('.filter-container');
 var closePanelButton = document.getElementById("btCP");
 var panel = document.getElementById("panel");
+const cardPanel = document.getElementById('card-panel');
+var btCCP = document.getElementById("btCCP");
 var btSP = document.getElementById("btSP");
 var btCP = document.getElementById("btCP");
+
 
 
 // Create the Leaflet map
@@ -100,16 +104,16 @@ function addMarkersByIdList(map, ids) {
         
         // If marker data is found, create a marker and add it to the map
         if (markerData) {
-            const { latitude, longitude, description } = markerData;
+            const { latitude, longitude, description, id } = markerData;
 
             // Create a marker and store it in the markersById object
             const newMarker = L.marker([latitude, longitude])
                 .addTo(map)
-                .bindPopup(description);
+				.bindPopup(`<a href="#" onclick="showCPanel('${id}')">${description}</a>`);
 
             // Store the marker reference in the markersById object using the id as the key
             markersById[id] = newMarker;
-        }
+	   }
     });
 }
 
@@ -127,8 +131,10 @@ function clearFilter() {
     checkboxes.forEach(function(checkbox) {
         checkbox.checked = false;
     });
-	filteredCheckboxes = filterCheckboxes();
-	addMarkersByIdList(map, filterAndFindMu(filteredCheckboxes, filterAndFindIds(filteredCheckboxes)));
+	var checkboxesResult = filterCheckboxes();
+	var matchingIds = filterAndFindIds(checkboxesResult);
+	var matchingMu = filterAndFindMu(checkboxesResult, matchingIds);
+	addMarkersByIdList(map, Object.keys(matchingMu));
 }
 
 function filterCheckboxes() {
@@ -236,7 +242,7 @@ function filterAndFindMu(checkboxesResult, matchingIds) {
     // Get selected municipality values from checkboxesResult
     var selectedMu = checkboxesResult['municipality'] || [];    
     // Array to store matching entry IDs
-    var filteredIds = new Set();
+    filteredIds = {};	 
     // Loop through matching IDs and check for matching municipalities
     for (var i = 0; i < matchingIds.length; i++) {
         var entryId = matchingIds[i];        
@@ -252,9 +258,13 @@ function filterAndFindMu(checkboxesResult, matchingIds) {
                     var entryMu = entry['municipality'][j];
                     for (var k = 0; k < selectedMu.length; k++) {
                         var selectedMuValue = selectedMu[k].value;
-                        if (entryMu === selectedMuValue) {
+                       if (entryMu === selectedMuValue) {
                             hasMatchingMu = true;
-							filteredIds.add(entryMu);
+                            // Store entry ID within filteredIds object using the matching municipality as key
+                            if (!filteredIds[entryMu]) {
+                                filteredIds[entryMu] = [];
+                            }
+                            filteredIds[entryMu].push(entry.id);
                             break;
                         }
                     }
@@ -265,27 +275,24 @@ function filterAndFindMu(checkboxesResult, matchingIds) {
             }else{
 				for (var j = 0; j < entry['municipality'].length; j++) {
                     var entryMu = entry['municipality'][j];
-                    filteredIds.add(entryMu);                
+                    if (!filteredIds[entryMu]) {
+                        filteredIds[entryMu] = [];
+                    }
+                    filteredIds[entryMu].push(entry.id);                
                 }				
-			}
-            // If a matching municipality is found, add entry ID to filteredIds
-            
+			}            
         }
     }
     return filteredIds;
 }
 
-function findMunicipalityValuesByIds(ids) {
-    // Parse the input IDs as integers for comparison with entry IDs
-    const parsedIds = ids.map(id => parseInt(id));
-
-    // Find entries with matching IDs
-    const matchingEntries = db.filter(entry => parsedIds.includes(entry.id));
-
-    // Extract unique municipality values from matching entries
-    const uniqueMunicipalities = Array.from(new Set(matchingEntries.flatMap(entry => entry.municipality)));
-
-    return uniqueMunicipalities;
+function getNameById(id) {
+    const entry = db.find(item => item.id === id);
+    return entry ? entry.name : null;
+}
+function getMuNameById(id) {
+    const entry = markersData.find(item => item.id === id);
+    return entry ? entry.name : null;
 }
 
 function enableFilters(disabledButtonId) {
@@ -394,6 +401,39 @@ function showPanel() {
     panel.style.display = "block";
     btSP.style.display = "none";
     btCP.style.display = "inline-block";
+}
+
+function hideCPanel() {
+    cardPanel.style.display = "none";
+}
+
+function showCPanel(description) {
+	initializeCPanel(description);
+    cardPanel.style.display = "block";
+}
+
+function initializeCPanel(description) {
+    const municipiNameElement = document.getElementById("municipi-name");
+    municipiNameElement.textContent = getMuNameById(description);
+    const cardContainer = document.getElementById("card-container");
+	// Get the corresponding IDs array based on the description
+    const ids = filteredIds[description];
+	// Clear previous content
+    cardContainer.innerHTML = "";
+
+    // Iterate through the IDs array and populate the card container with ID and Name pairs
+    for (const id of ids) {
+        const idDiv = document.createElement("div");
+        idDiv.textContent = `ID: ${id}`;
+
+        const nameDiv = document.createElement("div");
+        nameDiv.textContent = `Name: ${getNameById(id)}`; // Assuming you have a function to get names based on IDs
+
+        // Append ID and Name pairs to the card container
+        cardContainer.appendChild(idDiv);
+        cardContainer.appendChild(nameDiv);
+    }
+	
 }
 
 function expandAllContent() {	
@@ -581,9 +621,8 @@ function filterByMunicipality() {
 	// Add an event listener to the label to toggle the checkbox when clicked
 	label.addEventListener('click', function() {
 		checkbox.checked = !checkbox.checked; // Toggle the checkbox state
-		console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
 	});
-	checkbox.addEventListener('change', function() {
+	/*checkbox.addEventListener('change', function() {
 		if (this.checked) {
 			console.log('Selected municipality:', this.value);
 			// Handle selection logic
@@ -591,7 +630,7 @@ function filterByMunicipality() {
 			console.log('Deselected municipality:', this.value);
 			// Handle deselection logic
 		}
-	});
+	});*/
   });
 }
 
@@ -683,9 +722,9 @@ function filterByRegion(re) {
     // Add an event listener to the label to toggle the checkbox when clicked
     label.addEventListener('click', function() {
       checkbox.checked = !checkbox.checked; // Toggle the checkbox state
-      console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
+      //console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
     });
-    checkbox.addEventListener('change', function() {
+    /*checkbox.addEventListener('change', function() {
       if (this.checked) {
         console.log('Selected region:', this.value);
         // Handle selection logic
@@ -693,7 +732,7 @@ function filterByRegion(re) {
         console.log('Deselected region:', this.value);
         // Handle deselection logic
       }
-    });
+    });*/
   });
 }
 
@@ -722,7 +761,7 @@ function filterByType(ty) {
 		label.style.fontSize = 'smaller'; // Set smaller font size for the label text		
 		label.addEventListener('click', function() {
 			checkbox.checked = !checkbox.checked; // Toggle the checkbox state
-			console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
+			//console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
 		});
 		
 		function collapseTy(clickedValue) {
@@ -777,7 +816,7 @@ function filterByType(ty) {
 
         filterContainer.appendChild(checkboxLabelContainer);
 
-        checkbox.addEventListener('change', function() {
+        /*checkbox.addEventListener('change', function() {
             if (this.checked) {
                 console.log('Selected type:', this.value);
                 // Handle selection logic
@@ -785,7 +824,7 @@ function filterByType(ty) {
                 console.log('Deselected type:', this.value);
                 // Handle deselection logic
             }
-        });
+        });*/
     }
 
     function createFilterTree(nodes) {
@@ -835,7 +874,7 @@ function filterByChronology(ch) {
     label.style.fontSize = 'smaller'; // Set smaller font size for the label text
 	label.addEventListener('click', function() {
 		checkbox.checked = !checkbox.checked; // Toggle the checkbox state
-		console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
+		//console.log('Checkbox state:', checkbox.checked); // Log the checkbox state (optional)
 	});
     
 	function collapseCh(clickedValue) {
@@ -895,7 +934,7 @@ function filterByChronology(ch) {
 		filterContainer.appendChild(checkboxLabelContainer); // Append the div container to the filter container
 	}
     // Add event listeners for checkbox interactions
-    checkbox.addEventListener('change', function() {
+    /*checkbox.addEventListener('change', function() {
         if (this.checked) {
             console.log('Selected chronology:', this.value);
             // Handle selection logic
@@ -903,7 +942,7 @@ function filterByChronology(ch) {
             console.log('Deselected chronology:', this.value);
             // Handle deselection logic
         }
-    });
+    });*/
 }
 
 
@@ -946,6 +985,7 @@ document.getElementById('btCA').addEventListener('click', function() {
         collapseAllContent1();
     }
 });
+
 // Event listener for the "Select All" button
 document.getElementById('btSA').addEventListener('click', function() {
     selectAllContent();
@@ -994,23 +1034,19 @@ document.getElementById('btCh').addEventListener('click', function() {
 
 // Event listener for the "Search" button
 document.getElementById('btFilter').addEventListener('click', function() {
-	var checkboxesResult = filterCheckboxes(); // Assuming you have a function named filterCheckboxes that returns the filtered checkboxes object
-	console.log(checkboxesResult);
-	var matchingIds = filterAndFindIds(checkboxesResult);	
-	console.log(matchingIds);
+	var checkboxesResult = filterCheckboxes();
+	var matchingIds = filterAndFindIds(checkboxesResult);
 	var matchingMu = filterAndFindMu(checkboxesResult, matchingIds);
-	console.log(matchingMu);
-	addMarkersByIdList(map, matchingMu)
-	
-
+	addMarkersByIdList(map, Object.keys(matchingMu));
 });
+
 // Event listener for the "Clear" button
 document.getElementById('btClear').addEventListener('click', function() {
 	clearFilter();
 });
 
-// Initial state: panel is hidden, btSP is visible
-hidePanel();
-
 btSP.addEventListener("click", showPanel);
 btCP.addEventListener("click", hidePanel);
+
+
+btCCP.addEventListener("click", hideCPanel);

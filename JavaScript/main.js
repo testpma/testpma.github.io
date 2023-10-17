@@ -1,4 +1,5 @@
 
+hidePanel();
 fetchData();
 initializeFilters();
 
