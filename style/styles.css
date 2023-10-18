@@ -52,7 +52,7 @@ body {
 
 #card-container {
 	/* Styles for the filter container */
-	height: calc(100% - 250px); /* Adjust the height as needed */
+	height: calc(100% - 150px); /* Adjust the height as needed */
 	flex-direction: column;
 	align-items: left;
 	overflow-y: auto; /* Enable scroll for the filter content */
