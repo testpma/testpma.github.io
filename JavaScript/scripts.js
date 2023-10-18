@@ -111,7 +111,7 @@ function addMarkersByIdList(map, ids) {
             // Create a marker and store it in the markersById object
             const newMarker = L.marker([latitude, longitude])
                 .addTo(map)
-				.bindPopup(`<a href="#" onclick="showCPanel('${id}', '${desc}')">${description}</a>`);
+				.bindPopup(`<a href="javascript:void(0)" onclick="showCPanel('${id}', '${desc}')">${description}</a>`);
 
             // Store the marker reference in the markersById object using the id as the key
             markersById[id] = newMarker;
@@ -415,6 +415,7 @@ function showCPanel(idMu, description) {
 }
 
 function initializeCPanel(idMu, description) {
+
     const municipiNameElement = document.getElementById("municipi-name");
     municipiNameElement.textContent = description;
     const cardContainer = document.getElementById("card-container");
@@ -433,8 +434,11 @@ function initializeCPanel(idMu, description) {
 
 		// Add a click event listener to nameDiv
 		nameDiv.addEventListener("click", function() {
+			
+			localStorage.setItem('histoMapID', id);
 			// Construct the URL with the id parameter
-			const newUrl = `https://histomap.cat/card?id=${id}`;
+			//const newUrl = `https://invarque.cultura.gencat.cat/card/${id}`;
+			const newUrl = `./card`;
 			// Open the new URL in a new tab or window
 			window.open(newUrl, '_blank');
 		});
