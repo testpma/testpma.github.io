@@ -18,6 +18,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
 }).addTo(map);
 
+var markerIcon = new L.Icon({
+  iconUrl: 'images/marker-icon-gold.png',
+  shadowUrl: 'images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
 async function fetchData() {
     try {
         const response = await fetch('JSON/markers.json');
@@ -106,12 +115,15 @@ function addMarkersByIdList(map, ids) {
         if (markerData) {
             const { latitude, longitude, description, id } = markerData;
 			var desc = description.replace(/'/g, "\\'");
+			
 
 
             // Create a marker and store it in the markersById object
-            const newMarker = L.marker([latitude, longitude])
+            const newMarker = L.marker([latitude, longitude], {icon: markerIcon})
                 .addTo(map)
 				.bindPopup(`<a href="javascript:void(0)" onclick="showCPanel('${id}', '${desc}')">${description}</a>`);
+				
+				
 
             // Store the marker reference in the markersById object using the id as the key
             markersById[id] = newMarker;
@@ -426,27 +438,37 @@ function initializeCPanel(idMu, description) {
 
     // Iterate through the IDs array and populate the card container with ID and Name pairs
     for (const id of ids) {
-        const idDiv = document.createElement("div");
-        idDiv.textContent = `ID: ${id}`;
+        /*const idDiv = document.createElement("div");
+		idDiv.style.fontSize = 'smaller'; // Set smaller font size for the label text	
+        idDiv.textContent = `ID: ${id} `;		
+		idDiv.style.display = "inline"; // Display inline
+		idDiv.style.marginRight = "10px"; // Add right margin for spacing
+		*/
 
         const nameDiv = document.createElement("div");
-        nameDiv.textContent = `Name: ${getNameById(id)}`; // Assuming you have a function to get names based on IDs
-
+        nameDiv.textContent = `${getNameById(id)}`; // Assuming you have a function to get names based on IDs
+		nameDiv.style.cursor = "pointer"; // Change cursor to pointer on hover	
+		nameDiv.style.fontSize = 'x-small'; // Set smaller font size for the label text		
+		nameDiv.style.color = "blue"; // Set text color to blue
+		nameDiv.style.textDecoration = "underline"; // Add underline style
 		// Add a click event listener to nameDiv
 		nameDiv.addEventListener("click", function() {
 			
 			localStorage.setItem('histoMapID', id);
 			// Construct the URL with the id parameter
 			//const newUrl = `https://invarque.cultura.gencat.cat/card/${id}`;
-			const newUrl = `./card`;
+			//const newUrl = `./card`;
+			const newUrl = `./card?id=${id}`;
 			// Open the new URL in a new tab or window
 			window.open(newUrl, '_blank');
 		});
 		
         // Append ID and Name pairs to the card container
-        cardContainer.appendChild(idDiv);
+        //cardContainer.appendChild(idDiv);
         cardContainer.appendChild(nameDiv);
-    }
+		// Add a line break after each pair
+		cardContainer.appendChild(document.createElement("br"));
+	}
 	
 }
 

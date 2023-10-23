@@ -1,0 +1,31 @@
+/* Styling for the map and panel */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh; /* Ensure body takes full height of the viewport */
+}
+
+#top-bar {
+    display: flex;
+    align-items: center; /* Align items horizontally with space between them */
+    background-color: #303030;
+    color: white;
+    height: 30px;
+    padding: 0 5px;
+}
+
+#bar-icon {
+    width: 20px; /* Set the width of the favicon */
+    height: 20px; /* Set the height of the favicon */
+    background: url('../images/favicon-newbar.png') no-repeat center center;  /* Set the favicon image */
+    background-size: contain;
+    margin-right: 10px; /* Add margin between favicon and title */
+	
+}
+
+#bar-title {
+    font-size: 18px; /* Set the font size of the title */
+	font-family: sans-serif;
+}
