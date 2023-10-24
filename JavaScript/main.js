@@ -1,4 +1,4 @@
-
+initializeSP();
 hidePanel();
 fetchData();
 initializeFilters();

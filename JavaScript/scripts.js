@@ -15,11 +15,12 @@ var btCP = document.getElementById("btCP");
 // Create the Leaflet map
 var map = L.map('map').setView([41.8719, 1.8349], 8); // Adjust the initial map view
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+    minZoom: 8,
+	maxZoom: 16,
 }).addTo(map);
 
 var markerIcon = new L.Icon({
-  iconUrl: 'images/marker-icon-gold.png',
+  iconUrl: 'images/marker-orange.png',
   shadowUrl: 'images/marker-shadow.png',
   iconSize: [25, 41],
   iconAnchor: [12, 41],
@@ -413,7 +414,7 @@ function hidePanel() {
 
 function showPanel() {
     panel.style.display = "block";
-    btSP.style.display = "none";
+    //btSP.style.display = "none";
     btCP.style.display = "inline-block";
 }
 
@@ -425,7 +426,12 @@ function showCPanel(idMu, description) {
 	initializeCPanel(idMu, description);
     cardPanel.style.display = "block";
 }
-
+function initializeSP(){
+  var img = document.createElement('img');
+  img.src = 'images/search_img.png';
+  btSP.appendChild(img);
+	
+}
 function initializeCPanel(idMu, description) {
 
     const municipiNameElement = document.getElementById("municipi-name");

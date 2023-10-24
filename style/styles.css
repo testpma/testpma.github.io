@@ -41,6 +41,10 @@ body {
     background-color: #303030;
 	color: #fdae13;
 }
+#btSP img {
+      max-width: 10px;
+      max-height: 10px;
+    }
 
 #map {
 	height: 100vh;
@@ -96,7 +100,7 @@ body {
 
 #card-container {
 	/* Styles for the filter container */
-	height: calc(100% - 150px); /* Adjust the height as needed */
+	height: calc(100% - 180px); /* Adjust the height as needed */
 	flex-direction: column;
 	align-items: left;
 	overflow-y: auto; /* Enable scroll for the filter content*/
@@ -126,9 +130,9 @@ body {
 	cursor: pointer;
 }
 
-#btSP {
-	width: 25px; /* Width of the icon */
-	height: 25px; /* Height of the icon */	
+/*#btSP {
+	width: 25px;
+	height: 25px; 
 	background-color: #FEAD13;
 	border: none;
 	color: white;
@@ -140,10 +144,10 @@ body {
 	
 	z-index: 2;
 	position: fixed;
-	top: 40px; /* Adjust this value to position the button as per your preference */
-	right: 0; /* Center the button horizontally */
-	transform: translateX(-50%); /* Center the button horizontally */
-}	
+	top: 40px;  Adjust this value to position the button as per your preference 
+	right: 0;
+	transform: translateX(-50%);
+}	*/
 #page-header {
 	/* Styles for the buttons row */
 	display: flex;
@@ -200,7 +204,7 @@ body {
 }
 #filter-container-0 {
 	/* Styles for the filter container */
-	height: calc(100% - 250px); /* Adjust the height as needed */
+	height: calc(100% - 280px); /* Adjust the height as needed */
 	display: none;
 	flex-direction: column;
 	align-items: left;
@@ -211,7 +215,7 @@ body {
 }
 #filter-container-1 {
 	/* Styles for the filter container */
-	height: calc(100% - 250px); /* Adjust the height as needed */
+	height: calc(100% - 280px); /* Adjust the height as needed */
 	display: none;
 	flex-direction: column;
 	align-items: left;
@@ -222,7 +226,7 @@ body {
 }
 #filter-container-2 {
 	/* Styles for the filter container */
-	height: calc(100% - 250px); /* Adjust the height as needed */
+	height: calc(100% - 280px); /* Adjust the height as needed */
 	display: none;
 	flex-direction: column;
 	align-items: left;
@@ -233,7 +237,7 @@ body {
 }
 #filter-container-3 {
 	/* Styles for the filter container */
-	height: calc(100% - 250px); /* Adjust the height as needed */
+	height: calc(100% - 280px); /* Adjust the height as needed */
 	display: none;
 	flex-direction: column;
 	align-items: left;
