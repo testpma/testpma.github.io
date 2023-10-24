@@ -60,7 +60,7 @@ body {
 	z-index: 1;
 }
 #panel {
-	height: 100vh;
+	height: 97%;
 	display: none;
 	flex-direction: column;
 	background-color: #F0F0F0;
